@@ -1,0 +1,3 @@
+Task: Plot a scatterplot of y vs x, colored by group.
+Mitigate overplotting (alpha or small markers). Include a legend for groups.
+Label axes with units if present.

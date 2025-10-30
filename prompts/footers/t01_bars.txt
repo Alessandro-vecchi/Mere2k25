@@ -1,0 +1,3 @@
+Task: Create a bar chart that ranks categories by value.
+Sort bars descending by value.
+The y-axis should include the unit found in the data (e.g., mg/L).

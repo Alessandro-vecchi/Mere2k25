@@ -1,0 +1,2 @@
+Task: Plot a histogram of the variable’s distribution.
+Choose reasonable binning; label x with variable + unit; y as 'count' or 'density' accordingly.

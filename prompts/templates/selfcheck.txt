@@ -1,0 +1,16 @@
+Return only Python code in a single fenced block. Use matplotlib, read "data.csv", and save as "chart.png"
+(dpi=150, bbox_inches='tight'). No prose.
+
+Task: {INTENT}.
+{TASK_HINTS}
+{UNITS_HINT}
+
+Before finalizing, verify this checklist and revise if any item fails:
+- Appropriate encoding for the task.
+- Title, x/y labels, and units (if applicable) present.
+- Legend present when using color/shape for categories.
+- Readable contrast (text ≥ 4.5:1; non-text ≥ 3:1).
+- Bars (if used) start at zero or the title/annotation explicitly justifies otherwise.
+- No dual y-axes unless explicitly justified by an annotation.
+
+Output only the final corrected code.
