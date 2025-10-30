@@ -1,0 +1,11 @@
+{
+  "trial_id": "t01_bars__A__perplexitypro__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/A/perplexitypro/selfcheck/s1",
+  "timestamp": "2025-10-31T00:26:58",
+  "duration_sec": 1.485,
+  "returncode": 1,
+  "code_sha256": "782bf25337a7c28a2f161c685d34e07b54cbdc24e10e919fc44662e0dc3c6abf",
+  "image_exists": false,
+  "image_sha256": null,
+  "image_size_px": null
+}
