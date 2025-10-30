@@ -1,0 +1,14 @@
+{
+  "trial_id": "t01_bars__A__perplexitypro__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/A/perplexitypro/standards/s1",
+  "timestamp": "2025-10-31T00:27:11",
+  "duration_sec": 1.965,
+  "returncode": 0,
+  "code_sha256": "b3d327c2c36bfdca7187a20f807d1114ec4b2e96bb2013fd71a129b6c44bb622",
+  "image_exists": true,
+  "image_sha256": "dda15938f2f721b9d000eeb86ee5da2be4e47a2c16cc944ef90aaa28f807d545",
+  "image_size_px": {
+    "width": 1182,
+    "height": 730
+  }
+}

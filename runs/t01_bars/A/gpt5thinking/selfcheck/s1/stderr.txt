@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/A/gpt5thinking/selfcheck/s1/code.py", line 122, in <module>
+    ymax = max(plt.mlab.prctile(plot_df[value_col].values, 99), plot_df[value_col].max())
+               ^^^^^^^^^^^^^^^^
+AttributeError: module 'matplotlib.mlab' has no attribute 'prctile'
