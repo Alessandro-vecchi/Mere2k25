@@ -1,4 +1,4 @@
-# SOP — Web UI runs (ecological mode)
+# SOP — Web UI runs
 
 ## Quickstart
 
@@ -44,7 +44,7 @@ runs/t01_bars/A/gpt5thinking/baseline/s1/
 
 ## Per-trial procedure
 
-1. **Create the trial folder**
+1. **Create the trial folder** (if not already created)
 
    ```bash
    mkdir -p runs/t01_bars/A/gpt5thinking/baseline/s1
