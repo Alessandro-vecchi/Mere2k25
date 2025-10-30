@@ -1,0 +1,14 @@
+Return only Python code in a single fenced block. Use matplotlib, read "data.csv", and save as "chart.png"
+(dpi=150, bbox_inches='tight'). No prose.
+
+Task: {INTENT}.
+{TASK_HINTS}
+{UNITS_HINT}
+
+Follow these standards:
+- Use an appropriate encoding for the task.
+- Titles, x/y axis labels, and units (where applicable) are required.
+- Legends are required when color/shape encodes categories.
+- Ensure readable contrast (≈ WCAG: text ≥ 4.5:1; non-text ≥ 3:1).
+- Bars must start at zero (if bars are used) unless explicitly justified in the title/annotation.
+- Avoid dual y-axes; if unavoidable, add an explicit justification annotation.

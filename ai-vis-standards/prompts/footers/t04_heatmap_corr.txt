@@ -1,0 +1,2 @@
+Task: Plot a heatmap matrix.
+Include a colorbar with label; rotate tick labels for readability if needed.

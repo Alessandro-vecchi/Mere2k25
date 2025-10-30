@@ -1,0 +1,3 @@
+Task: Plot a line chart showing the monthly trend.
+Do not fabricate missing months; show gaps where data is absent.
+Use reasonable tick density (e.g., quarterly). Label y with the unit.

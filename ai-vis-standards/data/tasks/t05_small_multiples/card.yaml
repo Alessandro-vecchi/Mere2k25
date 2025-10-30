@@ -1,0 +1,14 @@
+name: t05_small_multiples
+intent: (fill)
+instances:
+  - id: A
+    file: instances/A.csv
+    rows: (fill)
+    seed: (fill)
+    standards_exercised: []
+  - id: B
+    file: instances/B.csv
+    rows: (fill)
+    seed: (fill)
+    stressors: []
+    standards_exercised: []

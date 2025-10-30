@@ -1,0 +1,2 @@
+Task: Plot small-multiple line charts by facet (e.g., region).
+Use shared/identical y-axis across facets; use a single, shared legend.

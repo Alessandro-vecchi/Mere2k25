@@ -1,0 +1,2 @@
+Task: Plot a stacked bar showing parts of a whole across categories.
+Use consistent category colors and include a legend; consider percentage scale if totals are comparable.

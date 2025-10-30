@@ -1,0 +1,3 @@
+Task: Plot two series with different units over time.
+Prefer alternatives to dual y-axes (e.g., two aligned panels). If you use dual y-axes,
+add an explicit justification annotation and make scales clearly labeled with units.
