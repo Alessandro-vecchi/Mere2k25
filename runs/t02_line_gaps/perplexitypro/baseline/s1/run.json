@@ -1,0 +1,11 @@
+{
+  "trial_id": "runs__t02_line_gaps__perplexitypro__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/perplexitypro/baseline/s1",
+  "timestamp": "2025-10-31T01:34:54",
+  "duration_sec": 1.602,
+  "returncode": 1,
+  "code_sha256": "329accd82074160ad99aca493293d390f39252a0ebf727c5e4ba1aba567151df",
+  "image_exists": false,
+  "image_sha256": null,
+  "image_size_px": null
+}

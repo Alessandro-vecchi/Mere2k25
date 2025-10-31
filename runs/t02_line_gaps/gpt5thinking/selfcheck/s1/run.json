@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t02_line_gaps__gpt5thinking__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/gpt5thinking/selfcheck/s1",
+  "timestamp": "2025-10-31T01:34:53",
+  "duration_sec": 2.177,
+  "returncode": 0,
+  "code_sha256": "8749dc2fbe6252d2f2f76a05ac25782878c3efeeb955e9563063a1cdcd5102fa",
+  "image_exists": true,
+  "image_sha256": "95730a07299945c3df1c6eefea945f9bab32f2685438f4d721c98441bc13362a",
+  "image_size_px": {
+    "width": 1484,
+    "height": 881
+  }
+}
