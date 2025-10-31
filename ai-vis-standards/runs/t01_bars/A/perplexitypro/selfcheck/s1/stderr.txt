@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/A/perplexitypro/selfcheck/s1/code.py", line 17, in <module>
-    df = df.sort_values(by='Concentration', ascending=False)
-  File "/Users/alessandrovecchi/Desktop/Mere2k25/.venv/lib/python3.13/site-packages/pandas/core/frame.py", line 7211, in sort_values
-    k = self._get_label_or_level_values(by[0], axis=axis)
-  File "/Users/alessandrovecchi/Desktop/Mere2k25/.venv/lib/python3.13/site-packages/pandas/core/generic.py", line 1914, in _get_label_or_level_values
-    raise KeyError(key)
-KeyError: 'Concentration'

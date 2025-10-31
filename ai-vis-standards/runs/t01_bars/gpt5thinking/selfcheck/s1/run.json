@@ -1,0 +1,11 @@
+{
+  "trial_id": "t01_bars__A__gpt5thinking__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/A/gpt5thinking/selfcheck/s1",
+  "timestamp": "2025-10-31T01:03:48",
+  "duration_sec": 2.536,
+  "returncode": 1,
+  "code_sha256": "5d468cedc90ff48d6576bf3a0339be38bfb6566bd43137729825a27c2167f7a3",
+  "image_exists": false,
+  "image_sha256": null,
+  "image_size_px": null
+}
