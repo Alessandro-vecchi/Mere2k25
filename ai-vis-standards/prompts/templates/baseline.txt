@@ -1,6 +1,7 @@
 Return only Python code in a single fenced block. Use matplotlib, read "data.csv" from the current directory,
 and save the figure as "chart.png" (dpi=150, bbox_inches='tight'). Don’t call plt.show(). No prose.
 
-Task: {INTENT}.
+Task: 
+{INTENT}
 {TASK_HINTS}
 {UNITS_HINT}

@@ -1,0 +1,23 @@
+python src/runner.py runs/t02_line_gaps/gemini25pro/baseline/s1
+python src/runner.py runs/t02_line_gaps/gemini25pro/standards/s1
+python src/runner.py runs/t02_line_gaps/gemini25pro/selfcheck/s1
+
+python src/runner.py runs/t02_line_gaps/gpt5thinking/baseline/s1
+python src/runner.py runs/t02_line_gaps/gpt5thinking/standards/s1
+python src/runner.py runs/t02_line_gaps/gpt5thinking/selfcheck/s1
+
+python src/runner.py runs/t02_line_gaps/perplexitypro/baseline/s1
+python src/runner.py runs/t02_line_gaps/perplexitypro/standards/s1
+python src/runner.py runs/t02_line_gaps/perplexitypro/selfcheck/s1
+
+cp data/tasks/t02_line_gaps/instances/A.csv runs/t02_line_gaps/gemini25pro/baseline/s1/data.csv
+cp data/tasks/t02_line_gaps/instances/A.csv runs/t02_line_gaps/gemini25pro/standards/s1/data.csv
+cp data/tasks/t02_line_gaps/instances/A.csv runs/t02_line_gaps/gemini25pro/selfcheck/s1/data.csv
+
+cp data/tasks/t02_line_gaps/instances/A.csv runs/t02_line_gaps/gpt5thinking/baseline/s1/data.csv
+cp data/tasks/t02_line_gaps/instances/A.csv runs/t02_line_gaps/gpt5thinking/standards/s1/data.csv
+cp data/tasks/t02_line_gaps/instances/A.csv runs/t02_line_gaps/gpt5thinking/selfcheck/s1/data.csv
+
+cp data/tasks/t02_line_gaps/instances/A.csv runs/t02_line_gaps/perplexitypro/baseline/s1/data.csv
+cp data/tasks/t02_line_gaps/instances/A.csv runs/t02_line_gaps/perplexitypro/standards/s1/data.csv
+cp data/tasks/t02_line_gaps/instances/A.csv runs/t02_line_gaps/perplexitypro/selfcheck/s1/data.csv

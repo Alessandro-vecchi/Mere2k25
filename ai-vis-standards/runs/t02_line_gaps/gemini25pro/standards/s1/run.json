@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t02_line_gaps__gemini25pro__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/gemini25pro/standards/s1",
+  "timestamp": "2025-10-31T01:34:45",
+  "duration_sec": 1.791,
+  "returncode": 0,
+  "code_sha256": "07ce85ba35ae74a694660d811bf8c72874db7459623d8d73bec09efeac5784a9",
+  "image_exists": true,
+  "image_sha256": "918108df7a0158e6672ad3d988d8a204eafe5f4ac5d60fe69637a463b96d5e0a",
+  "image_size_px": {
+    "width": 1782,
+    "height": 883
+  }
+}

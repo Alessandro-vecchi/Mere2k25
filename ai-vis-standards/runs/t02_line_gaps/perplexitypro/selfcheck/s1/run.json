@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t02_line_gaps__perplexitypro__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/perplexitypro/selfcheck/s1",
+  "timestamp": "2025-10-31T01:34:58",
+  "duration_sec": 1.92,
+  "returncode": 0,
+  "code_sha256": "a86b9818acdaccca2bed753b23288d5a49c75645517078d707548f3352696d77",
+  "image_exists": true,
+  "image_sha256": "857ad6bc01c2d1fc923dc87a11aaf726404bbe4977e28c98e6e987a0b2c5805e",
+  "image_size_px": {
+    "width": 1184,
+    "height": 582
+  }
+}
