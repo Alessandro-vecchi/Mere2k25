@@ -6,11 +6,11 @@ Task: {INTENT}.
 {UNITS_HINT}
 
 Before finalizing, verify this checklist and revise if any item fails:
-- Appropriate encoding for the task.
-- Title, x/y labels, and units (if applicable) present.
-- Legend present when using color/shape for categories.
-- Readable contrast (text ≥ 4.5:1; non-text ≥ 3:1).
-- Bars (if used) start at zero or the title/annotation explicitly justifies otherwise.
-- No dual y-axes unless explicitly justified by an annotation.
+- Use an appropriate encoding for the task.
+- Titles, x/y axis labels, and units (where applicable) are required.
+- Legends are required when color/shape encodes categories.
+- Ensure readable contrast (≈ WCAG: text ≥ 4.5:1; non-text ≥ 3:1).
+- Bars must start at zero (if bars are used) unless explicitly justified in the title/annotation.
+- Avoid dual y-axes; if unavoidable, add an explicit justification annotation.
 
 Output only the final corrected code.

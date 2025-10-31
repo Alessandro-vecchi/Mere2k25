@@ -1,0 +1,14 @@
+/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/A/perplexitypro/selfcheck/s1/code.py:5: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  df = pd.read_csv("data.csv", delim_whitespace=True, names=['Site', 'Concentration', 'Unit'], header=None, skiprows=1)
+Traceback (most recent call last):
+  File "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/A/perplexitypro/selfcheck/s1/code.py", line 20, in <module>
+    ax.set_ylim(0, df_sorted['Value'].max() * 1.08)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alessandrovecchi/Desktop/Mere2k25/.venv/lib/python3.13/site-packages/matplotlib/axes/_base.py", line 4062, in set_ylim
+    return self.yaxis._set_lim(bottom, top, emit=emit, auto=auto)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alessandrovecchi/Desktop/Mere2k25/.venv/lib/python3.13/site-packages/matplotlib/axis.py", line 1217, in _set_lim
+    v1 = self.axes._validate_converted_limits(v1, self.convert_units)
+  File "/Users/alessandrovecchi/Desktop/Mere2k25/.venv/lib/python3.13/site-packages/matplotlib/axes/_base.py", line 3749, in _validate_converted_limits
+    raise ValueError("Axis limits cannot be NaN or Inf")
+ValueError: Axis limits cannot be NaN or Inf

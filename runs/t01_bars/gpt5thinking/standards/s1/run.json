@@ -1,0 +1,11 @@
+{
+  "trial_id": "t01_bars__A__gpt5thinking__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/A/gpt5thinking/standards/s1",
+  "timestamp": "2025-10-31T01:01:37",
+  "duration_sec": 2.792,
+  "returncode": 1,
+  "code_sha256": "d28416f3f8fce466c6206d13ff5517cfd872e5796c0eb4de5074c5538d579832",
+  "image_exists": false,
+  "image_sha256": null,
+  "image_size_px": null
+}
