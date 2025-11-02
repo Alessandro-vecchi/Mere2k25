@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t03_scatter_group__gemini25pro__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t03_scatter_group/gemini25pro/standards/s1",
+  "timestamp": "2025-11-02T02:00:05",
+  "duration_sec": 2.059,
+  "returncode": 0,
+  "code_sha256": "ba080662bb3f0e768db9e15a637f056ce7e07f913178a8a1fa2902dd81041b3b",
+  "image_exists": true,
+  "image_sha256": "69238256c96d6890d5f2f9f7a0dd687ab4380aa0199d8354fce334ef4414d455",
+  "image_size_px": {
+    "width": 1482,
+    "height": 883
+  }
+}
