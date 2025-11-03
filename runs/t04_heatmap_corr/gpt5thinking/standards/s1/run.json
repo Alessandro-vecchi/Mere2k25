@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t04_heatmap_corr__gpt5thinking__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t04_heatmap_corr/gpt5thinking/standards/s1",
+  "timestamp": "2025-11-03T23:28:17",
+  "duration_sec": 5.433,
+  "returncode": 0,
+  "code_sha256": "3e693f8d48ec7d549c4a3004bf3d8175010c44605cd536f010cb240b3d236d75",
+  "image_exists": true,
+  "image_sha256": "b5bcd2482384f0c0d13817f318b2960be7b9424efc3bd5c2db8578791e8dfdd1",
+  "image_size_px": {
+    "width": 1638,
+    "height": 1181
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t04_heatmap_corr__grok__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t04_heatmap_corr/grok/standards/s1",
+  "timestamp": "2025-11-03T23:28:38",
+  "duration_sec": 5.493,
+  "returncode": 0,
+  "code_sha256": "168a2d2941c0a701684a8f8a6f775f9a5bdb1968083315f407e457911ca53edb",
+  "image_exists": true,
+  "image_sha256": "32bff9af153d355737487e2952c872c6ac33ee8d7e136d467e016984c5983efc",
+  "image_size_px": {
+    "width": 1711,
+    "height": 1485
+  }
+}
