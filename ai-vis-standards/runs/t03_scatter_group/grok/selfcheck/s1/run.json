@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t03_scatter_group__grok__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t03_scatter_group/grok/selfcheck/s1",
+  "timestamp": "2025-11-03T23:14:44",
+  "duration_sec": 6.623,
+  "returncode": 0,
+  "code_sha256": "887daba8690c7046b869ad92d08f4eefd1521c63fd46f3264bccc2d941dc1c6a",
+  "image_exists": true,
+  "image_sha256": "16c2ad8c74bc3913ea18bf8367387a6796ea7dd437ad26df829941944e47bbf1",
+  "image_size_px": {
+    "width": 1275,
+    "height": 817
+  }
+}

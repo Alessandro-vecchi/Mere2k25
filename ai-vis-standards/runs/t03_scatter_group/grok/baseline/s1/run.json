@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t03_scatter_group__grok__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t03_scatter_group/grok/baseline/s1",
+  "timestamp": "2025-11-03T23:14:30",
+  "duration_sec": 10.527,
+  "returncode": 0,
+  "code_sha256": "b9d28189db35924624f1939609a1280d97ab6e499ba9b0e7dcc435490426b11b",
+  "image_exists": true,
+  "image_sha256": "2f715a56be2a8928b26fd6fa81ff776bba12e02ae6c3598b3267c1f17eaee523",
+  "image_size_px": {
+    "width": 1275,
+    "height": 785
+  }
+}

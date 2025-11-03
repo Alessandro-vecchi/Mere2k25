@@ -1,0 +1,11 @@
+{
+  "trial_id": "runs__t04_heatmap_corr__gemini25pro__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t04_heatmap_corr/gemini25pro/standards/s1",
+  "timestamp": "2025-11-03T23:28:01",
+  "duration_sec": 3.843,
+  "returncode": 0,
+  "code_sha256": "bb6fe7584cb87487a822494bd0f2d8edbda8e3ad6c4f3f8fab0d14ee20f36be8",
+  "image_exists": false,
+  "image_sha256": null,
+  "image_size_px": null
+}
