@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t07_histogram__grok__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t07_histogram/grok/selfcheck/s1",
+  "timestamp": "2025-11-04T00:24:13",
+  "duration_sec": 4.607,
+  "returncode": 0,
+  "code_sha256": "421e84778e72cdfae95a1a9587b3e78d962e482e9d45318cfe0e9b9d02b3a0d4",
+  "image_exists": true,
+  "image_sha256": "8cda8804079d911ad2e86c52032e2eb0722bb00dff4295d09af2e00571c5c0cf",
+  "image_size_px": {
+    "width": 1484,
+    "height": 881
+  }
+}

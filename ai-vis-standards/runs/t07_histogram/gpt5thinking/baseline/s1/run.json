@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t07_histogram__gpt5thinking__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t07_histogram/gpt5thinking/baseline/s1",
+  "timestamp": "2025-11-04T00:23:40",
+  "duration_sec": 6.841,
+  "returncode": 0,
+  "code_sha256": "4b402ab2e32766fc7c051e338071a544ee79c2461b53e4d36ac3efdcd4ce57db",
+  "image_exists": true,
+  "image_sha256": "2de9b2d436ee8dec4956f8aca93313c37f30a2a3b552f233bd8414272acd6735",
+  "image_size_px": {
+    "width": 1184,
+    "height": 731
+  }
+}

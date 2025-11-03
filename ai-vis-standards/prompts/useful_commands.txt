@@ -1,23 +1,39 @@
-python src/runner.py runs/t06_dual_axis/gemini25pro/baseline/s1
-python src/runner.py runs/t06_dual_axis/gemini25pro/standards/s1
-python src/runner.py runs/t06_dual_axis/gemini25pro/selfcheck/s1
+python src/runner.py runs/t08_stacked_bars/gemini25pro/baseline/s1
+python src/runner.py runs/t08_stacked_bars/gemini25pro/standards/s1
+python src/runner.py runs/t08_stacked_bars/gemini25pro/selfcheck/s1
 
-python src/runner.py runs/t06_dual_axis/gpt5thinking/baseline/s1
-python src/runner.py runs/t06_dual_axis/gpt5thinking/standards/s1
-python src/runner.py runs/t06_dual_axis/gpt5thinking/selfcheck/s1
+python src/runner.py runs/t08_stacked_bars/gpt5thinking/baseline/s1
+python src/runner.py runs/t08_stacked_bars/gpt5thinking/standards/s1
+python src/runner.py runs/t08_stacked_bars/gpt5thinking/selfcheck/s1
 
-python src/runner.py runs/t06_dual_axis/grok/baseline/s1
-python src/runner.py runs/t06_dual_axis/grok/standards/s1
-python src/runner.py runs/t06_dual_axis/grok/selfcheck/s1
+python src/runner.py runs/t08_stacked_bars/grok/baseline/s1
+python src/runner.py runs/t08_stacked_bars/grok/standards/s1
+python src/runner.py runs/t08_stacked_bars/grok/selfcheck/s1
 
-cp data/tasks/t06_dual_axis/instances/A.csv runs/t06_dual_axis/gemini25pro/baseline/s1/data.csv
-cp data/tasks/t06_dual_axis/instances/A.csv runs/t06_dual_axis/gemini25pro/standards/s1/data.csv
-cp data/tasks/t06_dual_axis/instances/A.csv runs/t06_dual_axis/gemini25pro/selfcheck/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gemini25pro/baseline/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gemini25pro/standards/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gemini25pro/selfcheck/s1/data.csv
 
-cp data/tasks/t06_dual_axis/instances/A.csv runs/t06_dual_axis/gpt5thinking/baseline/s1/data.csv
-cp data/tasks/t06_dual_axis/instances/A.csv runs/t06_dual_axis/gpt5thinking/standards/s1/data.csv
-cp data/tasks/t06_dual_axis/instances/A.csv runs/t06_dual_axis/gpt5thinking/selfcheck/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gpt5thinking/baseline/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gpt5thinking/standards/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gpt5thinking/selfcheck/s1/data.csv
 
-cp data/tasks/t06_dual_axis/instances/A.csv runs/t06_dual_axis/grok/baseline/s1/data.csv
-cp data/tasks/t06_dual_axis/instances/A.csv runs/t06_dual_axis/grok/standards/s1/data.csv
-cp data/tasks/t06_dual_axis/instances/A.csv runs/t06_dual_axis/grok/selfcheck/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/grok/baseline/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/grok/standards/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/grok/selfcheck/s1/data.csv
+
+Return only Python code in a single fenced block. Use matplotlib, read "data.csv" from the current directory,
+and save the figure as "chart.png" (dpi=150, bbox_inches='tight'). Don’t call plt.show(). No prose.
+
+Task: Plot a stacked bar showing parts of a whole across categories.
+Use consistent category colors and include a legend; consider percentage scale if totals are comparable.
+
+Before finalizing, verify this checklist and revise if any item fails:
+- Use an appropriate encoding for the task.
+- Titles, x/y axis labels, and units (where applicable) are required.
+- Legends are required when color/shape encodes categories.
+- Ensure readable contrast (≈ WCAG: text ≥ 4.5:1; non-text ≥ 3:1).
+- Bars must start at zero (if bars are used) unless explicitly justified in the title/annotation.
+- Avoid dual y-axes; if unavoidable, add an explicit justification annotation.
+
+Output only the final corrected code.

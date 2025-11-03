@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t08_stacked_bars__grok__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t08_stacked_bars/grok/standards/s1",
+  "timestamp": "2025-11-04T00:33:51",
+  "duration_sec": 7.682,
+  "returncode": 0,
+  "code_sha256": "ce610d6f48d36acb2b3c04d41c0a1fb9ff50c17e76e0d084bcd9552495be5e75",
+  "image_exists": true,
+  "image_sha256": "6420aa3f2d7397d71a10811a582303e0501af258a3e6a4632ef29c94b85513f3",
+  "image_size_px": {
+    "width": 1479,
+    "height": 880
+  }
+}

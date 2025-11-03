@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t07_histogram__gemini25pro__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t07_histogram/gemini25pro/baseline/s1",
+  "timestamp": "2025-11-04T00:23:12",
+  "duration_sec": 6.41,
+  "returncode": 0,
+  "code_sha256": "7bd257a954b816cd203751f7364ec62f950de05e35762db422dfec49ab0ce93d",
+  "image_exists": true,
+  "image_sha256": "f2185c880bb7cc822c420ee2f20f80d9f02bd21a3735281dd5feace60fb02b01",
+  "image_size_px": {
+    "width": 1484,
+    "height": 881
+  }
+}
