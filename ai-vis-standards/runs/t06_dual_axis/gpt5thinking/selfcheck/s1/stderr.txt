@@ -1,0 +1,2 @@
+/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t06_dual_axis/gpt5thinking/selfcheck/s1/code.py:24: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  df[tcol] = pd.to_datetime(df[tcol], infer_datetime_format=True, errors="coerce")

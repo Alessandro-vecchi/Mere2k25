@@ -5,7 +5,7 @@ import numpy as np
 try:
     # Read the CSV file. Assuming the first column is the index.
     # Using "A.csv" as it's the file provided in context, despite the prompt mentioning "data.csv".
-    df = pd.read_csv("A.csv", index_col=0)
+    df = pd.read_csv("data.csv", index_col=0)
 
     # Ensure data is numeric, coercing errors just in case
     # (though a correlation matrix should already be numeric)

@@ -44,7 +44,7 @@ def get_text_color(bg_color):
 try:
     # Read the data, specifying the first column as the index
     # The user prompt mentioned "data.csv", but the uploaded file is "A.csv"
-    df = pd.read_csv("A.csv", index_col=0)
+    df = pd.read_csv("data.csv", index_col=0)
     
     # Get data matrix and column/index labels
     data = df.values

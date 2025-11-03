@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t06_dual_axis__grok__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t06_dual_axis/grok/baseline/s1",
+  "timestamp": "2025-11-04T00:13:14",
+  "duration_sec": 5.251,
+  "returncode": 0,
+  "code_sha256": "45e72952761f5f3529b5c00cfcc9fdd562508fea450c591b10351a9472e9be42",
+  "image_exists": true,
+  "image_sha256": "ab4ceac1399ac922649ae882f769d07fe1d9aaf54839c5feceabb6f4669616d1",
+  "image_size_px": {
+    "width": 1275,
+    "height": 865
+  }
+}

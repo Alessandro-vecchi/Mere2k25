@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t05_small_multiples/grok/baseline/s1/code.py", line 28, in <module>
+    fig.autofmty_xdate()
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Figure' object has no attribute 'autofmty_xdate'. Did you mean: 'autofmt_xdate'?

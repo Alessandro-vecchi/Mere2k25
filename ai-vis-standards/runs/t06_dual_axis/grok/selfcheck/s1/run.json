@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t06_dual_axis__grok__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t06_dual_axis/grok/selfcheck/s1",
+  "timestamp": "2025-11-04T00:13:25",
+  "duration_sec": 4.62,
+  "returncode": 0,
+  "code_sha256": "8f8e422e82cbad570d4e48113f947c807e71b0ece0adfb30a2e774b38b16517e",
+  "image_exists": true,
+  "image_sha256": "c7bb27a673b392c76acb0f2152453f2f1896a54671e85802400603d2bff82fc8",
+  "image_size_px": {
+    "width": 1778,
+    "height": 1180
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t05_small_multiples__gemini25pro__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t05_small_multiples/gemini25pro/selfcheck/s1",
+  "timestamp": "2025-11-03T23:48:56",
+  "duration_sec": 8.334,
+  "returncode": 0,
+  "code_sha256": "2022cbac81d84c60e8f5cbd659e34cde0389f1fd597f017d7f962fe5f1d298a5",
+  "image_exists": true,
+  "image_sha256": "6787f4c414209749fb2d70a94610c4ac8fdb9243d0ade77b4753b12b9deb37f0",
+  "image_size_px": {
+    "width": 1638,
+    "height": 3142
+  }
+}

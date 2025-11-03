@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t05_small_multiples__gpt5thinking__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t05_small_multiples/gpt5thinking/baseline/s1",
+  "timestamp": "2025-11-03T23:49:03",
+  "duration_sec": 6.624,
+  "returncode": 0,
+  "code_sha256": "cef8615e01ce4ebc96c879701b4c6fa4e79825855de59ab021dfb521580884f7",
+  "image_exists": true,
+  "image_sha256": "45508c5e896947e8f79c7bc4d2bb4b4cb1ca1a2fd9cf547ddd23b4414580b2a8",
+  "image_size_px": {
+    "width": 2212,
+    "height": 1667
+  }
+}

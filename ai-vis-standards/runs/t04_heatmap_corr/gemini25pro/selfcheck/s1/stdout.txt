@@ -1,1 +1,1 @@
-Error: 'A.csv' not found.
+An error occurred: module 'matplotlib.colors' has no attribute 'DivergingNorm'
