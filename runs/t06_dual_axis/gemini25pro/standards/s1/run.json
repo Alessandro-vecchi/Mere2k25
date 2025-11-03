@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t06_dual_axis__gemini25pro__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t06_dual_axis/gemini25pro/standards/s1",
+  "timestamp": "2025-11-04T00:12:46",
+  "duration_sec": 5.844,
+  "returncode": 0,
+  "code_sha256": "11eb224c715bfb0bfe39350e83fc916a6a3bb4056f3e38b695b685a206474c29",
+  "image_exists": true,
+  "image_sha256": "06148f46ea69132a1c17e8a90596352863b4c16bc8b11ea7606f8485c7c63ca4",
+  "image_size_px": {
+    "width": 1785,
+    "height": 1147
+  }
+}

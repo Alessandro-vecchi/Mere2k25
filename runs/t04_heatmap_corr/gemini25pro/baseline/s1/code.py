@@ -5,7 +5,7 @@ import numpy as np
 try:
     # Read the CSV file, assuming the first column is the index
     # Using "A.csv" as that is the file provided by the user.
-    df = pd.read_csv("A.csv", index_col=0)
+    df = pd.read_csv("data.csv", index_col=0)
 
     # Get data, column labels, and index labels
     data = df.values

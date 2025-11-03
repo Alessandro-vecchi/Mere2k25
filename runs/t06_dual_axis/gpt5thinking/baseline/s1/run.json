@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t06_dual_axis__gpt5thinking__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t06_dual_axis/gpt5thinking/baseline/s1",
+  "timestamp": "2025-11-04T00:12:58",
+  "duration_sec": 5.248,
+  "returncode": 0,
+  "code_sha256": "5e7b70b3098059d8b6bdfdb76468c1f44186333ba80f3f9a7883b14f3cc3d529",
+  "image_exists": true,
+  "image_sha256": "f31081782626b71cbd3b8396e0f86aa3966ff7ab5b682522e17196ea91b4a2f6",
+  "image_size_px": {
+    "width": 1517,
+    "height": 917
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t05_small_multiples__grok__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t05_small_multiples/grok/standards/s1",
+  "timestamp": "2025-11-03T23:49:23",
+  "duration_sec": 5.395,
+  "returncode": 0,
+  "code_sha256": "ead23d80afb9ca85e452d88388cc5c037efe9c4bc01100ab44de4a00c764c2ec",
+  "image_exists": true,
+  "image_sha256": "3d5416e5244c66af1d153943ceb675f94388f3a50c3493d1a7b16da86449aef6",
+  "image_size_px": {
+    "width": 1959,
+    "height": 1517
+  }
+}

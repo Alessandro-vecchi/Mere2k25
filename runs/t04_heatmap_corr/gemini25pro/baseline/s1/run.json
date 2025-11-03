@@ -1,11 +1,14 @@
 {
   "trial_id": "runs__t04_heatmap_corr__gemini25pro__baseline__s1",
   "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t04_heatmap_corr/gemini25pro/baseline/s1",
-  "timestamp": "2025-11-03T23:27:57",
-  "duration_sec": 5.129,
+  "timestamp": "2025-11-03T23:55:00",
+  "duration_sec": 4.425,
   "returncode": 0,
-  "code_sha256": "2f60c4de6bbcfefbe06fa3159bc501c37654d2227f760bca878d56bae674bd04",
-  "image_exists": false,
-  "image_sha256": null,
-  "image_size_px": null
+  "code_sha256": "1e2ed2c34dd4d1dd5a978dcdd821ceac9bd7351368282e5e86915762eb475173",
+  "image_exists": true,
+  "image_sha256": "bbe4f227edc131146148e40d17096f08cee3fea5c27fe04ccff7c7c3b45f907f",
+  "image_size_px": {
+    "width": 1639,
+    "height": 1409
+  }
 }

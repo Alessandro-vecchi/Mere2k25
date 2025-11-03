@@ -1,0 +1,11 @@
+{
+  "trial_id": "runs__t05_small_multiples__grok__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t05_small_multiples/grok/baseline/s1",
+  "timestamp": "2025-11-03T23:49:17",
+  "duration_sec": 3.308,
+  "returncode": 1,
+  "code_sha256": "abd30b2bae9fdd5c514c313c55a1d57d2286f358c2845ea5abe46c9614310830",
+  "image_exists": false,
+  "image_sha256": null,
+  "image_size_px": null
+}

@@ -1,0 +1,199 @@
+month,value,region
+January 2023,12.76,Northeast
+February 2023,13.43,Northeast
+March 2023,14.43,Northeast
+April 2023,14.49,Northeast
+May 2023,14.25,Northeast
+June 2023,12.94,Northeast
+August 2023,11.68,Northeast
+September 2023,9.75,Northeast
+November 2023,9.21,Northeast
+December 2023,10.01,Northeast
+January 2024,11.55,Northeast
+February 2024,13.24,Northeast
+March 2024,14.5,Northeast
+April 2024,14.78,Northeast
+May 2024,14.09,Northeast
+June 2024,13.49,Northeast
+July 2024,12.13,Northeast
+August 2024,10.99,Northeast
+September 2024,10.34,Northeast
+October 2024,9.05,Northeast
+November 2024,10.22,Northeast
+December 2024,10.67,Northeast
+January 2023,6.52,East North Central
+February 2023,7.5,East North Central
+March 2023,9.25,East North Central
+April 2023,10.22,East North Central
+May 2023,9.13,East North Central
+June 2023,8.56,East North Central
+July 2023,7.69,East North Central
+August 2023,5.73,East North Central
+September 2023,4.79,East North Central
+October 2023,4.78,East North Central
+November 2023,5.19,East North Central
+January 2024,7.09,East North Central
+February 2024,8.14,East North Central
+March 2024,8.63,East North Central
+May 2024,8.44,East North Central
+June 2024,7.39,East North Central
+July 2024,6.98,East North Central
+August 2024,6.2,East North Central
+September 2024,4.7,East North Central
+October 2024,4.07,East North Central
+November 2024,4.47,East North Central
+December 2024,6.02,East North Central
+January 2023,11.29,Central
+March 2023,13.35,Central
+April 2023,13.87,Central
+May 2023,12.98,Central
+June 2023,11.49,Central
+July 2023,10.89,Central
+August 2023,10.0,Central
+September 2023,8.27,Central
+October 2023,9.6,Central
+November 2023,9.26,Central
+December 2023,10.17,Central
+January 2024,11.75,Central
+February 2024,11.83,Central
+March 2024,13.22,Central
+April 2024,13.17,Central
+June 2024,11.76,Central
+July 2024,11.9,Central
+August 2024,9.79,Central
+September 2024,9.54,Central
+October 2024,7.96,Central
+November 2024,9.78,Central
+December 2024,10.51,Central
+January 2023,10.38,Southeast
+February 2023,11.22,Southeast
+April 2023,12.53,Southeast
+May 2023,11.88,Southeast
+June 2023,11.49,Southeast
+July 2023,10.07,Southeast
+September 2023,8.04,Southeast
+October 2023,7.62,Southeast
+November 2023,8.26,Southeast
+December 2023,9.39,Southeast
+January 2024,9.93,Southeast
+February 2024,11.59,Southeast
+March 2024,12.53,Southeast
+April 2024,11.95,Southeast
+May 2024,12.76,Southeast
+June 2024,12.42,Southeast
+July 2024,10.15,Southeast
+August 2024,8.91,Southeast
+September 2024,8.01,Southeast
+October 2024,8.11,Southeast
+November 2024,8.38,Southeast
+December 2024,8.2,Southeast
+January 2023,5.63,West North Central
+February 2023,7.57,West North Central
+March 2023,8.1,West North Central
+April 2023,8.23,West North Central
+May 2023,7.55,West North Central
+June 2023,6.09,West North Central
+July 2023,5.09,West North Central
+August 2023,4.18,West North Central
+October 2023,4.47,West North Central
+November 2023,4.74,West North Central
+December 2023,5.41,West North Central
+January 2024,5.79,West North Central
+February 2024,7.66,West North Central
+March 2024,7.38,West North Central
+April 2024,8.55,West North Central
+May 2024,7.01,West North Central
+June 2024,6.5,West North Central
+August 2024,4.91,West North Central
+September 2024,3.91,West North Central
+October 2024,4.53,West North Central
+November 2024,4.86,West North Central
+December 2024,4.8,West North Central
+February 2023,12.05,South
+March 2023,12.49,South
+April 2023,13.24,South
+May 2023,13.28,South
+June 2023,11.59,South
+July 2023,10.21,South
+September 2023,7.62,South
+October 2023,8.37,South
+November 2023,7.94,South
+December 2023,8.84,South
+January 2024,10.82,South
+February 2024,11.86,South
+March 2024,12.56,South
+April 2024,13.58,South
+May 2024,12.54,South
+June 2024,10.78,South
+July 2024,11.22,South
+August 2024,8.84,South
+September 2024,7.93,South
+October 2024,7.58,South
+November 2024,8.32,South
+December 2024,9.11,South
+January 2023,8.62,Southwest
+February 2023,8.48,Southwest
+March 2023,10.42,Southwest
+April 2023,11.05,Southwest
+May 2023,10.01,Southwest
+June 2023,8.39,Southwest
+July 2023,8.24,Southwest
+August 2023,7.47,Southwest
+September 2023,6.48,Southwest
+October 2023,5.67,Southwest
+November 2023,5.87,Southwest
+December 2023,6.82,Southwest
+January 2024,8.6,Southwest
+February 2024,9.53,Southwest
+March 2024,9.8,Southwest
+April 2024,10.1,Southwest
+May 2024,9.75,Southwest
+June 2024,8.61,Southwest
+August 2024,6.44,Southwest
+September 2024,6.24,Southwest
+October 2024,5.35,Southwest
+November 2024,5.75,Southwest
+February 2023,12.18,Northwest
+March 2023,12.73,Northwest
+April 2023,13.59,Northwest
+May 2023,13.09,Northwest
+June 2023,12.03,Northwest
+July 2023,11.41,Northwest
+August 2023,10.25,Northwest
+September 2023,8.42,Northwest
+October 2023,8.83,Northwest
+November 2023,9.59,Northwest
+December 2023,10.5,Northwest
+January 2024,11.28,Northwest
+February 2024,12.09,Northwest
+March 2024,13.24,Northwest
+April 2024,13.74,Northwest
+May 2024,13.09,Northwest
+June 2024,12.33,Northwest
+July 2024,10.97,Northwest
+August 2024,9.3,Northwest
+September 2024,9.06,Northwest
+October 2024,8.51,Northwest
+December 2024,10.69,Northwest
+January 2023,9.76,West
+February 2023,10.82,West
+March 2023,11.94,West
+April 2023,13.22,West
+May 2023,11.6,West
+July 2023,10.72,West
+August 2023,8.06,West
+September 2023,8.0,West
+October 2023,7.07,West
+November 2023,7.55,West
+December 2023,8.32,West
+January 2024,9.61,West
+February 2024,12.58,West
+March 2024,12.56,West
+April 2024,13.02,West
+May 2024,12.38,West
+July 2024,10.17,West
+August 2024,9.26,West
+September 2024,7.38,West
+October 2024,7.95,West
+November 2024,8.16,West
+December 2024,9.65,West

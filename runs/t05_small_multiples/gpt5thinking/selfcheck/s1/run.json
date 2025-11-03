@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t05_small_multiples__gpt5thinking__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t05_small_multiples/gpt5thinking/selfcheck/s1",
+  "timestamp": "2025-11-03T23:49:13",
+  "duration_sec": 6.199,
+  "returncode": 0,
+  "code_sha256": "7f420b33a12152ee4f46323f37322df4b94747ed7ab6110bd051015b873f48a5",
+  "image_exists": true,
+  "image_sha256": "c09d9003786caa2c2a8f2c800ad46f852d2a43eef084552047d102c919b3288a",
+  "image_size_px": {
+    "width": 1900,
+    "height": 1422
+  }
+}
