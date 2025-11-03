@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t08_stacked_bars__gpt5thinking__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t08_stacked_bars/gpt5thinking/selfcheck/s1",
+  "timestamp": "2025-11-04T00:33:35",
+  "duration_sec": 10.528,
+  "returncode": 0,
+  "code_sha256": "6d438101ca9d77544a4a9174addaa1031b95e424d0668e56f17a696e781b3b15",
+  "image_exists": true,
+  "image_sha256": "59b290ddb61d6c4103c54938e52ba0d7d01a8cb2ca323bc117dc5be9aef0e559",
+  "image_size_px": {
+    "width": 1485,
+    "height": 885
+  }
+}

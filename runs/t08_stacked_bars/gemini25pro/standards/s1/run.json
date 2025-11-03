@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t08_stacked_bars__gemini25pro__standards__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t08_stacked_bars/gemini25pro/standards/s1",
+  "timestamp": "2025-11-04T00:33:02",
+  "duration_sec": 6.277,
+  "returncode": 0,
+  "code_sha256": "d4c01e738b9a2654d19503c3e85269ab566a509c1bfa1470d09d04bd572add5f",
+  "image_exists": true,
+  "image_sha256": "d7d3e957416a502fb27116e57f88b69c32acedcbd907846eeec0c5726819bae4",
+  "image_size_px": {
+    "width": 1528,
+    "height": 879
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t07_histogram__grok__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t07_histogram/grok/baseline/s1",
+  "timestamp": "2025-11-04T00:24:03",
+  "duration_sec": 5.53,
+  "returncode": 0,
+  "code_sha256": "eba71a9ba4c24bd6d7985ccbd5a7bf06bef252284c8f7bc5b1597cd4d2f4d71a",
+  "image_exists": true,
+  "image_sha256": "92ee74f0ba5bfe684f9b96b44aaa5374ffce2d2f0c63ec66c2d80a687634e69d",
+  "image_size_px": {
+    "width": 856,
+    "height": 678
+  }
+}

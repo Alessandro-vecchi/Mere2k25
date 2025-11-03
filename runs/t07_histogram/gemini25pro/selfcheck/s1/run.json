@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t07_histogram__gemini25pro__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t07_histogram/gemini25pro/selfcheck/s1",
+  "timestamp": "2025-11-04T00:23:32",
+  "duration_sec": 11.548,
+  "returncode": 0,
+  "code_sha256": "f02790587b7599eba8b414a481a18969c3f5cdf85e095a30b13396fb1183c7b1",
+  "image_exists": true,
+  "image_sha256": "92563e2edcecfdb9de96703a1a3bce61107c09c0d72843e09a0f6b0f5d6459e6",
+  "image_size_px": {
+    "width": 1279,
+    "height": 828
+  }
+}
