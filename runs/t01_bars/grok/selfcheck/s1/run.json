@@ -1,11 +1,14 @@
 {
-  "trial_id": "t01_bars__A__perplexitypro__selfcheck__s1",
-  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/A/perplexitypro/selfcheck/s1",
-  "timestamp": "2025-10-31T01:06:42",
-  "duration_sec": 3.336,
-  "returncode": 1,
-  "code_sha256": "8c820f867b53c71578a101646b323de74c5477544574770b227a3e4a1dfc85cd",
-  "image_exists": false,
-  "image_sha256": null,
-  "image_size_px": null
+  "trial_id": "runs__t01_bars__grok__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/grok/selfcheck/s1",
+  "timestamp": "2025-11-04T00:41:53",
+  "duration_sec": 4.555,
+  "returncode": 0,
+  "code_sha256": "1e4ed5e05557cc75f956f7903cec1b3b7fa25e1e25f1468a9e28ac48f6be74e9",
+  "image_exists": true,
+  "image_sha256": "549131dd063e3fdde750f0d837cd9f2e05195b97ca907f9b2fb2d427d70f6718",
+  "image_size_px": {
+    "width": 1485,
+    "height": 885
+  }
 }

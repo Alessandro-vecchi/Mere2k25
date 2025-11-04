@@ -1,11 +1,14 @@
 {
-  "trial_id": "runs__t02_line_gaps__perplexitypro__baseline__s1",
-  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/perplexitypro/baseline/s1",
-  "timestamp": "2025-10-31T01:34:54",
-  "duration_sec": 1.602,
-  "returncode": 1,
-  "code_sha256": "329accd82074160ad99aca493293d390f39252a0ebf727c5e4ba1aba567151df",
-  "image_exists": false,
-  "image_sha256": null,
-  "image_size_px": null
+  "trial_id": "runs__t02_line_gaps__grok__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/grok/baseline/s1",
+  "timestamp": "2025-11-04T00:49:30",
+  "duration_sec": 4.844,
+  "returncode": 0,
+  "code_sha256": "ad3e0bcbebefe9e3a016f97f7d0ba445edadc660ccc231b89778f6b73f696f54",
+  "image_exists": true,
+  "image_sha256": "ddd4cc9dac9d9afe915415bb7d22f02d8da52718a3e1fa62062a1e04eb85a121",
+  "image_size_px": {
+    "width": 1261,
+    "height": 789
+  }
 }

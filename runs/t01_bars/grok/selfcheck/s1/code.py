@@ -1,32 +1,23 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Read data
-df = pd.read_csv("data.csv", delim_whitespace=True, names=['Site', 'Concentration', 'Unit'], header=None, skiprows=1)
-df['Value'] = pd.to_numeric(df['Concentration'], errors='coerce')
-df = df.dropna(subset=['Value'])
+df = pd.read_csv('data.csv')
+df = df.dropna(subset=['Concentration (milligrams per liter)'])
+df['Concentration (milligrams per liter)'] = pd.to_numeric(df['Concentration (milligrams per liter)'], errors='coerce')
+df = df.sort_values(by='Concentration (milligrams per liter)', ascending=False)
 
-# Sort descending by value
-df_sorted = df.sort_values('Value', ascending=False)
+plt.figure(figsize=(10, 6), dpi=150)
+bars = plt.bar(df['Site'], df['Concentration (milligrams per liter)'], color='#1f77b4')
+plt.xlabel('Site')
+plt.ylabel('Concentration (mg/L)')
+plt.title('River Sediment Concentration by Site')
+plt.xticks(rotation=45, ha='right')
+plt.ylim(0, df['Concentration (milligrams per liter)'].max() * 1.1)
 
-# Plot
-fig, ax = plt.subplots(figsize=(8, 5))
-bars = ax.bar(df_sorted['Site'], df_sorted['Value'], color='#2861ce', edgecolor='black')
+for bar in bars:
+    height = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2., height + 0.1,
+             f'{height:.2f}', ha='center', va='bottom', fontsize=9)
 
-# Titles and labels
-ax.set_title('River Sites Ranked by Concentration', fontsize=14)
-ax.set_xlabel('Site', fontsize=12)
-ax.set_ylabel('Concentration (milligrams per liter)', fontsize=12)
-ax.set_ylim(0, df_sorted['Value'].max() * 1.08)
-
-# Y-axis grid for readability
-ax.yaxis.grid(True, linestyle='--', alpha=0.7)
-
-# Rotate x ticks for readability
-plt.xticks(rotation=35, ha='right')
-
-# Improve layout
 plt.tight_layout()
-
-# Save figure
-plt.savefig("chart.png", dpi=150, bbox_inches='tight')
+plt.savefig('chart.png', dpi=150, bbox_inches='tight')

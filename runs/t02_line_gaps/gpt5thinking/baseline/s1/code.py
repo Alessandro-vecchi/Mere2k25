@@ -1,78 +1,87 @@
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import re
 
-# Read data
+# --- Load data ---
 df = pd.read_csv("data.csv")
 
-# Identify date-like column (most parseable to datetime)
+# --- Identify date column ---
 date_col = None
-max_nonnull = -1
 for col in df.columns:
-    parsed = pd.to_datetime(df[col], errors="coerce", infer_datetime_format=True)
-    nonnull = parsed.notna().sum()
-    if nonnull > max_nonnull:
-        max_nonnull = nonnull
+    try:
+        parsed = pd.to_datetime(df[col], errors="coerce", infer_datetime_format=True, dayfirst=False)
+    except Exception:
+        parsed = pd.Series([pd.NaT] * len(df))
+    if parsed.notna().sum() > len(df) * 0.5:
         date_col = col
-
-if date_col is None:
-    raise ValueError("No parseable date column found in data.csv.")
-
-# Identify numeric value column (first numeric that isn't the date column)
-value_col = None
-for col in df.columns:
-    if col == date_col:
-        continue
-    numeric = pd.to_numeric(df[col], errors="coerce")
-    if numeric.notna().sum() > 0:
-        value_col = col
-        df[col] = numeric
+        df[col] = parsed
         break
 
-if value_col is None:
-    raise ValueError("No numeric value column found in data.csv.")
+if date_col is None:
+    raise ValueError("No parseable date column found in data.csv")
 
-# Build a clean time series at month granularity (do NOT fabricate values)
-ts = pd.DataFrame({
-    "date": pd.to_datetime(df[date_col], errors="coerce"),
-    "value": pd.to_numeric(df[value_col], errors="coerce")
-}).dropna(subset=["date", "value"]).copy()
+# --- Identify numeric value column ---
+numeric_cols = df.select_dtypes(include=["number"]).columns.tolist()
+if not numeric_cols:
+    # Try coercing non-date, non-object-ish columns to numeric
+    candidate_cols = [c for c in df.columns if c != date_col]
+    for c in candidate_cols:
+        coerced = pd.to_numeric(df[c], errors="coerce")
+        if coerced.notna().sum() > len(df) * 0.5:
+            df[c] = coerced
+            numeric_cols = [c]
+            break
 
-# Map to month start; if duplicates in a month, average them
-ts["month"] = ts["date"].dt.to_period("M").dt.to_timestamp("MS")
-monthly = ts.groupby("month", as_index=True)["value"].mean().sort_index()
+if not numeric_cols:
+    raise ValueError("No numeric value column found in data.csv")
+value_col = numeric_cols[0]
 
-# Reindex to complete monthly range to create gaps (NaN) for missing months
-if not monthly.empty:
-    full_idx = pd.date_range(start=monthly.index.min(), end=monthly.index.max(), freq="MS")
-    monthly = monthly.reindex(full_idx)
-
-# Extract unit from value column header if present: (unit) or [unit]
+# --- Infer unit for y-axis label ---
 unit = ""
-m = re.search(r"\(([^)]+)\)", value_col)
-if not m:
-    m = re.search(r"\[([^\]]+)\]", value_col)
-if m:
-    unit = m.group(1).strip()
+if "unit" in df.columns:
+    u = df["unit"].astype(str).replace({"nan": np.nan}).dropna()
+    if not u.empty:
+        unit = u.iloc[0].strip()
 
-# Plot
-fig, ax = plt.subplots(figsize=(9, 5))
-ax.plot(monthly.index, monthly.values, linewidth=2)
+if not unit:
+    # Try to parse unit from value column name, e.g., "Concentration (mg/L)" or "Value [kWh]"
+    m = re.search(r"\(([^)]+)\)|\[(.+?)\]", value_col)
+    if m:
+        unit = (m.group(1) or m.group(2)).strip()
 
-# X-axis formatting: quarterly ticks
+# Cleaned label for value column (without unit decorations)
+value_label = re.sub(r"\s*[\(\[].*?[\)\]]\s*$", "", value_col).strip()
+
+# --- Prepare monthly series without fabricating data ---
+# Keep only rows with valid date and value
+df_valid = df[[date_col, value_col]].copy()
+df_valid = df_valid.dropna(subset=[date_col, value_col])
+
+# Set index and resample to monthly start; using mean for months with multiple entries.
+# Missing months will be NaN, which will create visible gaps in the line.
+s = df_valid.set_index(date_col)[value_col].sort_index()
+monthly = s.resample("MS").mean()
+
+# --- Plot ---
+plt.figure(figsize=(9, 5))
+plt.plot(monthly.index, monthly.values, linewidth=1.8, marker=None)
+
+# X-axis: quarterly ticks for reasonable density
+ax = plt.gca()
 ax.xaxis.set_major_locator(mdates.MonthLocator(interval=3))
-ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
-plt.setp(ax.get_xticklabels(), rotation=30, ha="right")
+ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
+plt.xticks(rotation=30, ha="right")
 
-# Labels
-y_label = f"Value ({unit})" if unit else "Value"
-ax.set_ylabel(y_label)
-ax.set_xlabel("Month")
+# Labels and title
+ylabel = f"{value_label} ({unit})" if unit else value_label
+plt.ylabel(ylabel)
+plt.xlabel("Month")
+plt.title(f"Monthly Trend of {value_label}")
 
 # Grid for readability
-ax.grid(True, which="major", linestyle="--", alpha=0.4)
+plt.grid(True, which="major", linestyle="--", linewidth=0.6, alpha=0.6)
 
-# Tight layout and save
-plt.tight_layout()
+# Tight layout handled by bbox_inches in savefig
 plt.savefig("chart.png", dpi=150, bbox_inches="tight")

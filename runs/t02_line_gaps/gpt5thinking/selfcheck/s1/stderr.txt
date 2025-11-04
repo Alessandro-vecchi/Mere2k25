@@ -1,4 +1,4 @@
-/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/gpt5thinking/selfcheck/s1/code.py:16: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
-  dt = pd.to_datetime(series, errors="coerce", infer_datetime_format=True)
-/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/gpt5thinking/selfcheck/s1/code.py:16: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
-  dt = pd.to_datetime(series, errors="coerce", infer_datetime_format=True)
+/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/gpt5thinking/selfcheck/s1/code.py:13: UserWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  parsed = pd.to_datetime(df[col], errors="coerce", infer_datetime_format=True)
+/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/gpt5thinking/selfcheck/s1/code.py:13: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  parsed = pd.to_datetime(df[col], errors="coerce", infer_datetime_format=True)

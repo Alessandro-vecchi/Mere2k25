@@ -1,105 +1,89 @@
 import re
-from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
-# --- Load data ---
-csv_path = Path("data.csv")
-df = pd.read_csv(csv_path)
+# Read data
+df = pd.read_csv("data.csv")
 
-# --- Identify date column ---
-date_col_candidates = [c for c in df.columns if str(c).strip().lower() in {"date", "month", "period"}]
+# Detect date-like column
 date_col = None
-
-def try_parse_date(series):
-    dt = pd.to_datetime(series, errors="coerce", infer_datetime_format=True)
-    return dt if dt.notna().mean() >= 0.7 else None
-
-for c in ([date_col_candidates[0]] if date_col_candidates else []) + list(df.columns):
-    if date_col is not None:
-        break
-    parsed = try_parse_date(df[c])
-    if parsed is not None:
-        date_col = c
-        df["_dt"] = parsed.dt.to_period("M").dt.to_timestamp()
-        break
-
+for col in df.columns:
+    try:
+        parsed = pd.to_datetime(df[col], errors="coerce", infer_datetime_format=True)
+        if parsed.notna().sum() >= max(1, len(df) * 0.5):
+            date_col = col
+            df[col] = parsed
+            break
+    except Exception:
+        continue
 if date_col is None:
-    raise ValueError("No parseable date/month column found in data.csv.")
+    raise ValueError("No parseable date column found.")
 
-# --- Identify category and value columns ---
-lower_cols = {str(c).strip().lower(): c for c in df.columns}
-category_col = next((lower_cols[k] for k in ["category", "cat", "group", "series", "name"] if k in lower_cols), None)
+# Detect value column (first numeric column that's not the date)
+value_col = None
+for col in df.columns:
+    if col == date_col:
+        continue
+    if pd.api.types.is_numeric_dtype(df[col]):
+        value_col = col
+        break
+if value_col is None:
+    # try coercing non-numeric to numeric
+    for col in df.columns:
+        if col == date_col:
+            continue
+        coerced = pd.to_numeric(df[col], errors="coerce")
+        if coerced.notna().any():
+            df[col] = coerced
+            value_col = col
+            break
+if value_col is None:
+    raise ValueError("No numeric value column found.")
 
-# Numeric columns excluding helpers/date/category
-numeric_cols = [c for c in df.select_dtypes(include="number").columns if c not in {"_dt"}]
-value_col = lower_cols["value"] if "value" in lower_cols else (numeric_cols[0] if len(numeric_cols) == 1 else None)
-
-# --- Prepare monthly dataframe with gaps (NaNs) for missing months ---
-if category_col and value_col:
-    # Wide format: one line per category
-    wide = (
-        df[[ "_dt", category_col, value_col ]]
-        .groupby(["_dt", category_col], as_index=False)[value_col].mean()
-        .pivot(index="_dt", columns=category_col, values=value_col)
-        .sort_index()
-    )
-    # Reindex to full monthly range to show gaps
-    full_idx = pd.period_range(wide.index.min(), wide.index.max(), freq="M").to_timestamp()
-    plot_df = wide.reindex(full_idx)
-    y_label_source = value_col
-    legend_labels = list(plot_df.columns.astype(str))
+# Extract unit from column name or a 'unit/units' column if present
+unit = ""
+m = re.search(r"\(([^)]+)\)", str(value_col))
+if m:
+    unit = m.group(1)
 else:
-    # Single/multiple numeric series without explicit category
-    if value_col:
-        series = df[["_dt", value_col]].groupby("_dt", as_index=True)[value_col].mean().sort_index()
-        full_idx = pd.period_range(series.index.min(), series.index.max(), freq="M").to_timestamp()
-        plot_df = series.reindex(full_idx).to_frame(name=value_col)
-        legend_labels = None  # single line -> no legend
-        y_label_source = value_col
-    else:
-        # Plot all numeric columns as separate lines
-        data = df[["_dt"] + numeric_cols].groupby("_dt", as_index=True).mean().sort_index()
-        full_idx = pd.period_range(data.index.min(), data.index.max(), freq="M").to_timestamp()
-        plot_df = data.reindex(full_idx)
-        legend_labels = list(plot_df.columns.astype(str))
-        y_label_source = " / ".join(legend_labels)
+    for ucol in ["unit", "units", "Unit", "Units"]:
+        if ucol in df.columns and df[ucol].notna().any():
+            unit = str(df[ucol].dropna().iloc[0])
+            break
 
-# --- Extract unit from column name if present, e.g., "Value (mg/L)" -> "mg/L" ---
-def extract_unit(name: str) -> str:
-    m = re.search(r"\(([^)]+)\)", str(name))
-    return m.group(1).strip() if m else ""
+# Prepare monthly index without fabricating values for missing months
+s = (
+    df[[date_col, value_col]]
+    .dropna(subset=[date_col])
+    .sort_values(by=date_col)
+    .set_index(date_col)[value_col]
+)
 
-unit = extract_unit(y_label_source)
-y_label = f"Value ({unit})" if unit else "Value"
+# Collapse to month level (in case of multiple rows per month) then reindex to full month range
+s_month = s.resample("MS").mean()
+full_idx = pd.date_range(s_month.index.min(), s_month.index.max(), freq="MS")
+s_full = s_month.reindex(full_idx)  # NaNs create visible gaps in the line
 
-# --- Plot ---
-plt.figure(figsize=(10, 6))
+# Plot
+plt.figure(figsize=(9, 5.5))
 ax = plt.gca()
+ax.plot(s_full.index, s_full.values, marker="o", linewidth=1.8)
 
-# Plot each column
-if plot_df.shape[1] == 1:
-    ax.plot(plot_df.index, plot_df.iloc[:, 0], marker="o", linewidth=2)
-else:
-    for col in plot_df.columns:
-        ax.plot(plot_df.index, plot_df[col], marker="o", linewidth=2, label=str(col))
-
-# Formatting: quarterly ticks, readable labels
+# Quarterly ticks
 ax.xaxis.set_major_locator(mdates.MonthLocator(interval=3))
 ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
 plt.setp(ax.get_xticklabels(), rotation=0, ha="center")
 
-ax.set_xlabel("Month")
+# Labels and title
+y_label = f"{value_col} [{unit}]" if unit else str(value_col)
 ax.set_ylabel(y_label)
-ax.set_title("Monthly Trend")
+ax.set_xlabel("Month")
+ax.set_title(f"Monthly Trend of {value_col}")
 
 # Grid for readability
-ax.grid(True, which="major", linestyle="--", linewidth=0.6, alpha=0.7)
+ax.grid(True, linewidth=0.5, alpha=0.5)
 
-# Legend only if multiple series
-if plot_df.shape[1] > 1:
-    ax.legend(title="Series", frameon=False)
-
+# Tight layout and save
 plt.tight_layout()
 plt.savefig("chart.png", dpi=150, bbox_inches="tight")

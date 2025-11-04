@@ -1,0 +1,2 @@
+/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t03_scatter_group/gpt5thinking/baseline/s1/code.py:67: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  cmap = plt.cm.get_cmap("tab10", max(n_groups, 1))

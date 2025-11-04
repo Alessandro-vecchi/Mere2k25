@@ -1,2 +1,2 @@
-/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/gpt5thinking/standards/s1/code.py:14: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
-  dt = pd.to_datetime(df[c], errors="coerce", utc=False)
+/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/gpt5thinking/standards/s1/code.py:30: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[date_col] = pd.to_datetime(df[date_col], errors="coerce")

@@ -1,2 +1,0 @@
-/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/perplexitypro/selfcheck/s1/code.py:6: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
-  df = pd.read_csv('data.csv', parse_dates=[0])
