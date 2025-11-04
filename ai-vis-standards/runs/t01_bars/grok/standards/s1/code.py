@@ -1,37 +1,20 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Read data
-df = pd.read_csv("data.csv")
-df = df.dropna(subset=["Concentration (milligrams per liter)"])
-df["Concentration (milligrams per liter)"] = df["Concentration (milligrams per liter)"].astype(float)
+df = pd.read_csv('data.csv')
+df = df.dropna().sort_values(by='Concentration (milligrams per liter)', ascending=False)
 
-# Sort descending by value
-df_sorted = df.sort_values("Concentration (milligrams per liter)", ascending=False)
-
-# Plot
-fig, ax = plt.subplots(figsize=(8, 5))
-bars = ax.bar(
-    df_sorted["Site"],
-    df_sorted["Concentration (milligrams per liter)"],
-    color="#3366cc"
-)
-ax.set_title("River Concentrations Ranked by Value", fontsize=14, pad=12)
-ax.set_xlabel("River Site", fontsize=12)
-ax.set_ylabel("Concentration (mg/L)", fontsize=12)
-ax.set_ylim(0, df_sorted["Concentration (milligrams per liter)"].max() * 1.1)
-plt.setp(ax.get_xticklabels(), rotation=30, ha='right', fontsize=9)
-
-# Improve contrast for y-tick labels and axes
-ax.tick_params(axis='y', labelsize=10, colors='#222222')
-ax.spines['bottom'].set_color('#222222')
-ax.spines['left'].set_color('#222222')
-ax.yaxis.label.set_color('#222222')
-ax.xaxis.label.set_color('#222222')
-ax.title.set_color('#222222')
-
-# Add legend
-ax.legend(['Concentration (mg/L)'], loc='upper right', facecolor='white', edgecolor='gray', fontsize=10)
-
+plt.figure(figsize=(10, 6))
+bars = plt.bar(df['Site'], df['Concentration (milligrams per liter)'], color='#1f77b4')
+plt.xlabel('Site')
+plt.ylabel('Concentration (mg/L)')
+plt.title('River Sediment Concentration Ranking')
+plt.xticks(rotation=45, ha='right')
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+for bar in bars:
+    height = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2., height + 0.1,
+             f'{height}', ha='center', va='bottom', fontsize=9)
+plt.ylim(0, max(df['Concentration (milligrams per liter)']) * 1.15)
 plt.tight_layout()
-plt.savefig("chart.png", dpi=150, bbox_inches='tight')
+plt.savefig('chart.png', dpi=150, bbox_inches='tight')

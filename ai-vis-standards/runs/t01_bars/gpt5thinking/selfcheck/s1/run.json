@@ -1,11 +1,14 @@
 {
-  "trial_id": "t01_bars__A__gpt5thinking__selfcheck__s1",
-  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/A/gpt5thinking/selfcheck/s1",
-  "timestamp": "2025-10-31T01:03:48",
-  "duration_sec": 2.536,
-  "returncode": 1,
-  "code_sha256": "5d468cedc90ff48d6576bf3a0339be38bfb6566bd43137729825a27c2167f7a3",
-  "image_exists": false,
-  "image_sha256": null,
-  "image_size_px": null
+  "trial_id": "runs__t01_bars__gpt5thinking__selfcheck__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t01_bars/gpt5thinking/selfcheck/s1",
+  "timestamp": "2025-11-04T00:41:38",
+  "duration_sec": 5.91,
+  "returncode": 0,
+  "code_sha256": "aa7d5d53f3ae7c64c82ad0566a1a09aef6b2903b7ea69193cd5c148f66abdbd8",
+  "image_exists": true,
+  "image_sha256": "56c6768c394f7f08e506ff76c56ddcad587f761c9592589141705b249313347f",
+  "image_size_px": {
+    "width": 1484,
+    "height": 701
+  }
 }

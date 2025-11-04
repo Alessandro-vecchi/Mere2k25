@@ -1,11 +1,14 @@
 {
   "trial_id": "runs__t02_line_gaps__gpt5thinking__baseline__s1",
   "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t02_line_gaps/gpt5thinking/baseline/s1",
-  "timestamp": "2025-10-31T01:34:48",
-  "duration_sec": 1.326,
-  "returncode": 1,
-  "code_sha256": "1d080b3f6e06e4cf9ff63620f2f0f37e9a8d772dff920a76c33c1b68f5c74080",
-  "image_exists": false,
-  "image_sha256": null,
-  "image_size_px": null
+  "timestamp": "2025-11-04T00:49:12",
+  "duration_sec": 7.836,
+  "returncode": 0,
+  "code_sha256": "ca2741df69ab748711c39d0702703846a6ff1703743774062b87cf15da1850ba",
+  "image_exists": true,
+  "image_sha256": "2ecde13b2b0d762703c1c636497701555f522042c5c6374af001545af9671027",
+  "image_size_px": {
+    "width": 1145,
+    "height": 750
+  }
 }

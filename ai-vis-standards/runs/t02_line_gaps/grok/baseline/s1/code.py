@@ -1,35 +1,19 @@
-import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
+import pandas as pd
+from pandas.plotting import register_matplotlib_converters
+register_matplotlib_converters()
 
-# Read the CSV assuming columns are 'Month' and 'Value' (adjust column names as needed)
-data = pd.read_csv('data.csv')
+df = pd.read_csv('data.csv', parse_dates=['date'], dayfirst=False)
+df = df.set_index('date').sort_index()
 
-# Detect which column is for months/date
-date_col = None
-for col in data.columns:
-    if data[col].dtype == object and (
-        "month" in col.lower() or "date" in col.lower()
-    ):
-        date_col = col
-        break
+fig, ax = plt.subplots(figsize=(10, 6))
+ax.plot(df.index, df['Temperature (°C)'], marker='o', linestyle='-')
 
-if not date_col:
-    date_col = data.columns[0]
+ax.set_ylabel('Temperature (°C)')
+ax.set_title('Monthly Temperature Trend')
 
-data[date_col] = pd.to_datetime(data[date_col], errors='coerce')
-data = data.sort_values(date_col)
-
-fig, ax = plt.subplots(figsize=(8, 4))
-ax.plot(data[date_col], data['Value'], marker='o', linestyle='-')
-
-ax.xaxis.set_major_locator(mdates.MonthLocator(bymonth=[1,4,7,10]))
-ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
-fig.autofmt_xdate()
-
-ax.set_xlabel('Month')
-ax.set_ylabel('Value (unit)')
-ax.set_title('Monthly Trend')
+ax.xaxis.set_major_locator(plt.MaxNLocator(nbins=12))
+ax.grid(True, which='major', axis='y', linestyle='--', alpha=0.5)
 
 plt.savefig('chart.png', dpi=150, bbox_inches='tight')
-plt.close()
+plt.close(fig)

@@ -1,0 +1,14 @@
+{
+  "trial_id": "runs__t03_scatter_group__gpt5thinking__baseline__s1",
+  "trial_dir": "/Users/alessandrovecchi/Desktop/Mere2k25/ai-vis-standards/runs/t03_scatter_group/gpt5thinking/baseline/s1",
+  "timestamp": "2025-11-04T00:59:01",
+  "duration_sec": 6.38,
+  "returncode": 0,
+  "code_sha256": "9c42bba7889a178545c4c71386aae81e440f8114db897663e4a84aa3bd6a82c6",
+  "image_exists": true,
+  "image_sha256": "1d80a07c06fe155a7df3bb10e0584a93bebd9f165897a9d168918bbe3bea72d4",
+  "image_size_px": {
+    "width": 1109,
+    "height": 808
+  }
+}

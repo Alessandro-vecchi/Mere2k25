@@ -1,74 +1,77 @@
-import re
 import pandas as pd
 import matplotlib.pyplot as plt
+import re
 
 # Read data
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data.csv", encoding="utf-8-sig")
 
-# Heuristics to find category (non-numeric) and value (numeric) columns
-num_cols = df.select_dtypes(include=["number"]).columns.tolist()
-cat_cols = df.select_dtypes(exclude=["number"]).columns.tolist()
+# Infer category and value columns
+# Category: first non-numeric column
+non_numeric_cols = [c for c in df.columns if not pd.api.types.is_numeric_dtype(df[c])]
+if not non_numeric_cols:
+    raise ValueError("No categorical column found. Include at least one non-numeric column for categories.")
+category_col = non_numeric_cols[0]
 
-# If numeric columns not detected (e.g., numbers stored as strings), try coercion
-if not num_cols:
-    for col in df.columns:
-        coerced = pd.to_numeric(df[col], errors="coerce")
-        if coerced.notna().sum() > 0:
-            df[col] = coerced
-            num_cols.append(col)
+# Value: prefer a column named like 'value' else first numeric column
+numeric_cols = [c for c in df.columns if pd.api.types.is_numeric_dtype(df[c])]
+if not numeric_cols:
+    raise ValueError("No numeric value column found.")
+value_candidates = [c for c in numeric_cols if re.search(r'value|amount|score|metric|measure|quantity|total', c, re.I)]
+value_col = value_candidates[0] if value_candidates else numeric_cols[0]
 
-# Fallbacks
-value_col = num_cols[0] if num_cols else df.columns[-1]
-category_col = cat_cols[0] if cat_cols else df.columns[0]
-if category_col == value_col and len(df.columns) > 1:
-    # If both point to same column, pick another for category
-    for c in df.columns:
-        if c != value_col:
-            category_col = c
-            break
-
-# Extract unit from either a dedicated column or the value column header
-unit = ""
-if "Unit" in df.columns:
-    unit_val = df["Unit"].dropna().astype(str)
-    if not unit_val.empty:
-        unit = unit_val.iloc[0].strip()
-
-# Try to parse unit from header like "Value (mg/L)" or "Value [mg/L]"
-if not unit:
-    m = re.search(r"\(([^)]+)\)|\[(.+?)\]", value_col)
+# Try to infer unit
+unit = None
+# 1) Dedicated unit column
+unit_cols = [c for c in df.columns if re.fullmatch(r'unit[s]?|measurement[_\s]*unit[s]?', c, re.I)]
+if unit_cols:
+    unit_vals = df[unit_cols[0]].dropna().astype(str).str.strip().unique()
+    if len(unit_vals) == 1:
+        unit = unit_vals[0]
+# 2) From value column name, e.g., "Concentration (mg/L)" or "Value [kg]"
+if unit is None:
+    m = re.search(r'\(([^)]+)\)', value_col)
+    if not m:
+        m = re.search(r'\[([^\]]+)\]', value_col)
     if m:
-        unit = (m.group(1) or m.group(2)).strip()
+        unit = m.group(1).strip()
+# 3) From common suffix in header like "... mg/L"
+if unit is None:
+    m = re.search(r'([A-Za-zµ%]+(?:\/[A-Za-zµ%]+)?)\s*$', value_col)
+    if m and not re.search(r'(value|amount|score|metric|measure|quantity|total)$', value_col, re.I):
+        unit = m.group(1).strip()
 
-# Make a clean y-axis label (strip any unit already present in the header)
-y_base = re.sub(r"\s*[\(\[].*?[\)\]]\s*", "", value_col).strip()
-y_label = f"{y_base} ({unit})" if unit else y_base
+# Prepare data: group by category if duplicates exist, summing values
+plot_df = df.groupby(category_col, dropna=False, as_index=False)[value_col].sum()
 
-# Prepare data: drop rows with missing categories or values, sort descending by value
-plot_df = df[[category_col, value_col]].dropna()
-plot_df[category_col] = plot_df[category_col].astype(str)
+# Sort descending by value
 plot_df = plot_df.sort_values(by=value_col, ascending=False)
 
-# Create the bar chart
-fig, ax = plt.subplots(figsize=(10, 6))
-bars = ax.bar(plot_df[category_col], plot_df[value_col], edgecolor="black")
+# Build labels and values
+cats = plot_df[category_col].astype(str)
+vals = plot_df[value_col].astype(float)
 
-# Accessibility & readability: grid lines and clear text
-ax.set_axisbelow(True)
-ax.yaxis.grid(True, linestyle="--", alpha=0.4)
+# Figure setup
+plt.figure(figsize=(10, max(4, 0.4 * len(cats))))
+bars = plt.bar(cats, vals, edgecolor="black")
+
+# Ensure bars start at zero
+ymin, ymax = plt.ylim()
+plt.ylim(bottom=0, top=max(ymax, vals.max() * 1.05 if len(vals) else 1))
+
+# Improve readability
+plt.grid(axis='y', linestyle='--', linewidth=0.6, alpha=0.6)
+plt.xticks(rotation=45, ha='right')
 
 # Titles and labels
-ax.set_title("Category Ranking by Value")
-ax.set_xlabel(category_col)
-ax.set_ylabel(y_label)
+y_label_unit = f" ({unit})" if unit else ""
+plt.ylabel(f"{value_col}{y_label_unit}")
+plt.xlabel(category_col)
+plt.title(f"Ranked {category_col} by {value_col}")
 
-# Bars must start at zero
-ymax = plot_df[value_col].max() if not plot_df.empty else 0
-ax.set_ylim(0, ymax * 1.1 if ymax > 0 else 1)
+# Annotate values on bars for accessibility (optional but helpful)
+for rect, v in zip(bars, vals):
+    plt.text(rect.get_x() + rect.get_width()/2, rect.get_height(),
+             f"{v:,.2f}", va='bottom', ha='center', fontsize=8)
 
-# Improve x label readability
-ax.tick_params(axis="x", labelrotation=45, ha="right")
-
-# Save figure
 plt.tight_layout()
-plt.savefig("chart.png", dpi=150, bbox_inches="tight")
+plt.savefig("chart.png", dpi=150, bbox_inches='tight')
