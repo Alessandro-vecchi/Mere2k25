@@ -1,0 +1,1081 @@
+rubric,graph_type,model,prompt_type,verdict
+Code validity & reproducibility,Bars,gemini,baseline,YES
+Code validity & reproducibility,Bars,gemini,selfcheck,YES
+Code validity & reproducibility,Bars,gemini,standards,YES
+Encoding choice matches task,Bars,gemini,baseline,YES
+Encoding choice matches task,Bars,gemini,selfcheck,YES
+Encoding choice matches task,Bars,gemini,standards,YES
+Chart type suitability,Bars,gemini,baseline,YES
+Chart type suitability,Bars,gemini,selfcheck,YES
+Chart type suitability,Bars,gemini,standards,YES
+Axis integrity,Bars,gemini,baseline,YES
+Axis integrity,Bars,gemini,selfcheck,YES
+Axis integrity,Bars,gemini,standards,YES
+Scale consistency across panels,Bars,gemini,baseline,NO
+Scale consistency across panels,Bars,gemini,selfcheck,YES
+Scale consistency across panels,Bars,gemini,standards,YES
+Color contrast & colorblind safety,Bars,gemini,baseline,YES
+Color contrast & colorblind safety,Bars,gemini,selfcheck,YES
+Color contrast & colorblind safety,Bars,gemini,standards,YES
+Redundancy,Bars,gemini,baseline,YES
+Redundancy,Bars,gemini,selfcheck,YES
+Redundancy,Bars,gemini,standards,YES
+Data faithfulness,Bars,gemini,baseline,YES
+Data faithfulness,Bars,gemini,selfcheck,YES
+Data faithfulness,Bars,gemini,standards,YES
+"Labels, units, titles & legends",Bars,gemini,baseline,YES
+"Labels, units, titles & legends",Bars,gemini,selfcheck,YES
+"Labels, units, titles & legends",Bars,gemini,standards,YES
+Gridlines/ticks & sizing,Bars,gemini,baseline,YES
+Gridlines/ticks & sizing,Bars,gemini,selfcheck,YES
+Gridlines/ticks & sizing,Bars,gemini,standards,YES
+Uncertainty depiction (when applicable),Bars,gemini,baseline,N/A
+Uncertainty depiction (when applicable),Bars,gemini,selfcheck,N/A
+Uncertainty depiction (when applicable),Bars,gemini,standards,N/A
+Appropriate Data‑ink ratio,Bars,gemini,baseline,YES
+Appropriate Data‑ink ratio,Bars,gemini,selfcheck,NO
+Appropriate Data‑ink ratio,Bars,gemini,standards,NO
+Legend–encoding alignment,Bars,gemini,baseline,N/A
+Legend–encoding alignment,Bars,gemini,selfcheck,N/A
+Legend–encoding alignment,Bars,gemini,standards,N/A
+Task intent adherence,Bars,gemini,baseline,YES
+Task intent adherence,Bars,gemini,selfcheck,YES
+Task intent adherence,Bars,gemini,standards,YES
+Holistic readability,Bars,gemini,baseline,YES
+Holistic readability,Bars,gemini,selfcheck,YES
+Holistic readability,Bars,gemini,standards,YES
+Code validity & reproducibility,Bars,grok,baseline,YES
+Code validity & reproducibility,Bars,grok,selfcheck,YES
+Code validity & reproducibility,Bars,grok,standards,YES
+Encoding choice matches task,Bars,grok,baseline,YES
+Encoding choice matches task,Bars,grok,selfcheck,YES
+Encoding choice matches task,Bars,grok,standards,YES
+Chart type suitability,Bars,grok,baseline,YES
+Chart type suitability,Bars,grok,selfcheck,YES
+Chart type suitability,Bars,grok,standards,YES
+Axis integrity,Bars,grok,baseline,YES
+Axis integrity,Bars,grok,selfcheck,YES
+Axis integrity,Bars,grok,standards,YES
+Scale consistency across panels,Bars,grok,baseline,NO
+Scale consistency across panels,Bars,grok,selfcheck,NO
+Scale consistency across panels,Bars,grok,standards,YES
+Color contrast & colorblind safety,Bars,grok,baseline,YES
+Color contrast & colorblind safety,Bars,grok,selfcheck,YES
+Color contrast & colorblind safety,Bars,grok,standards,YES
+Redundancy,Bars,grok,baseline,YES
+Redundancy,Bars,grok,selfcheck,YES
+Redundancy,Bars,grok,standards,YES
+Data faithfulness,Bars,grok,baseline,YES
+Data faithfulness,Bars,grok,selfcheck,YES
+Data faithfulness,Bars,grok,standards,YES
+"Labels, units, titles & legends",Bars,grok,baseline,YES
+"Labels, units, titles & legends",Bars,grok,selfcheck,YES
+"Labels, units, titles & legends",Bars,grok,standards,YES
+Gridlines/ticks & sizing,Bars,grok,baseline,YES
+Gridlines/ticks & sizing,Bars,grok,selfcheck,YES
+Gridlines/ticks & sizing,Bars,grok,standards,YES
+Uncertainty depiction (when applicable),Bars,grok,baseline,N/A
+Uncertainty depiction (when applicable),Bars,grok,selfcheck,N/A
+Uncertainty depiction (when applicable),Bars,grok,standards,N/A
+Appropriate Data‑ink ratio,Bars,grok,baseline,YES
+Appropriate Data‑ink ratio,Bars,grok,selfcheck,YES
+Appropriate Data‑ink ratio,Bars,grok,standards,NO
+Legend–encoding alignment,Bars,grok,baseline,N/A
+Legend–encoding alignment,Bars,grok,selfcheck,N/A
+Legend–encoding alignment,Bars,grok,standards,N/A
+Task intent adherence,Bars,grok,baseline,YES
+Task intent adherence,Bars,grok,selfcheck,YES
+Task intent adherence,Bars,grok,standards,YES
+Holistic readability,Bars,grok,baseline,YES
+Holistic readability,Bars,grok,selfcheck,YES
+Holistic readability,Bars,grok,standards,YES
+Code validity & reproducibility,Bars,chatgpt,baseline,YES
+Code validity & reproducibility,Bars,chatgpt,selfcheck,YES
+Code validity & reproducibility,Bars,chatgpt,standards,YES
+Encoding choice matches task,Bars,chatgpt,baseline,YES
+Encoding choice matches task,Bars,chatgpt,selfcheck,YES
+Encoding choice matches task,Bars,chatgpt,standards,YES
+Chart type suitability,Bars,chatgpt,baseline,YES
+Chart type suitability,Bars,chatgpt,selfcheck,YES
+Chart type suitability,Bars,chatgpt,standards,YES
+Axis integrity,Bars,chatgpt,baseline,YES
+Axis integrity,Bars,chatgpt,selfcheck,YES
+Axis integrity,Bars,chatgpt,standards,YES
+Scale consistency across panels,Bars,chatgpt,baseline,NO
+Scale consistency across panels,Bars,chatgpt,selfcheck,YES
+Scale consistency across panels,Bars,chatgpt,standards,YES
+Color contrast & colorblind safety,Bars,chatgpt,baseline,YES
+Color contrast & colorblind safety,Bars,chatgpt,selfcheck,YES
+Color contrast & colorblind safety,Bars,chatgpt,standards,YES
+Redundancy,Bars,chatgpt,baseline,YES
+Redundancy,Bars,chatgpt,selfcheck,YES
+Redundancy,Bars,chatgpt,standards,YES
+Data faithfulness,Bars,chatgpt,baseline,YES
+Data faithfulness,Bars,chatgpt,selfcheck,YES
+Data faithfulness,Bars,chatgpt,standards,YES
+"Labels, units, titles & legends",Bars,chatgpt,baseline,NO
+"Labels, units, titles & legends",Bars,chatgpt,selfcheck,NO
+"Labels, units, titles & legends",Bars,chatgpt,standards,YES
+Gridlines/ticks & sizing,Bars,chatgpt,baseline,YES
+Gridlines/ticks & sizing,Bars,chatgpt,selfcheck,YES
+Gridlines/ticks & sizing,Bars,chatgpt,standards,YES
+Uncertainty depiction (when applicable),Bars,chatgpt,baseline,N/A
+Uncertainty depiction (when applicable),Bars,chatgpt,selfcheck,N/A
+Uncertainty depiction (when applicable),Bars,chatgpt,standards,N/A
+Appropriate Data‑ink ratio,Bars,chatgpt,baseline,NO
+Appropriate Data‑ink ratio,Bars,chatgpt,selfcheck,NO
+Appropriate Data‑ink ratio,Bars,chatgpt,standards,NO
+Legend–encoding alignment,Bars,chatgpt,baseline,N/A
+Legend–encoding alignment,Bars,chatgpt,selfcheck,N/A
+Legend–encoding alignment,Bars,chatgpt,standards,N/A
+Task intent adherence,Bars,chatgpt,baseline,YES
+Task intent adherence,Bars,chatgpt,selfcheck,YES
+Task intent adherence,Bars,chatgpt,standards,YES
+Holistic readability,Bars,chatgpt,baseline,YES
+Holistic readability,Bars,chatgpt,selfcheck,YES
+Holistic readability,Bars,chatgpt,standards,YES
+Code validity & reproducibility,line gaps,gemini,baseline,YES
+Code validity & reproducibility,line gaps,gemini,selfcheck,YES
+Code validity & reproducibility,line gaps,gemini,standards,YES
+Encoding choice matches task,line gaps,gemini,baseline,YES
+Encoding choice matches task,line gaps,gemini,selfcheck,YES
+Encoding choice matches task,line gaps,gemini,standards,YES
+Chart type suitability,line gaps,gemini,baseline,YES
+Chart type suitability,line gaps,gemini,selfcheck,YES
+Chart type suitability,line gaps,gemini,standards,YES
+Axis integrity,line gaps,gemini,baseline,YES
+Axis integrity,line gaps,gemini,selfcheck,YES
+Axis integrity,line gaps,gemini,standards,YES
+Scale consistency across panels,line gaps,gemini,baseline,YES
+Scale consistency across panels,line gaps,gemini,selfcheck,YES
+Scale consistency across panels,line gaps,gemini,standards,NO
+Color contrast & colorblind safety,line gaps,gemini,baseline,YES
+Color contrast & colorblind safety,line gaps,gemini,selfcheck,YES
+Color contrast & colorblind safety,line gaps,gemini,standards,YES
+Redundancy,line gaps,gemini,baseline,YES
+Redundancy,line gaps,gemini,selfcheck,YES
+Redundancy,line gaps,gemini,standards,YES
+Data faithfulness,line gaps,gemini,baseline,YES
+Data faithfulness,line gaps,gemini,selfcheck,YES
+Data faithfulness,line gaps,gemini,standards,YES
+"Labels, units, titles & legends",line gaps,gemini,baseline,YES
+"Labels, units, titles & legends",line gaps,gemini,selfcheck,YES
+"Labels, units, titles & legends",line gaps,gemini,standards,YES
+Gridlines/ticks & sizing,line gaps,gemini,baseline,YES
+Gridlines/ticks & sizing,line gaps,gemini,selfcheck,YES
+Gridlines/ticks & sizing,line gaps,gemini,standards,YES
+Uncertainty depiction (when applicable),line gaps,gemini,baseline,N/A
+Uncertainty depiction (when applicable),line gaps,gemini,selfcheck,N/A
+Uncertainty depiction (when applicable),line gaps,gemini,standards,N/A
+Appropriate Data‑ink ratio,line gaps,gemini,baseline,YES
+Appropriate Data‑ink ratio,line gaps,gemini,selfcheck,YES
+Appropriate Data‑ink ratio,line gaps,gemini,standards,YES
+Legend–encoding alignment,line gaps,gemini,baseline,N/A
+Legend–encoding alignment,line gaps,gemini,selfcheck,N/A
+Legend–encoding alignment,line gaps,gemini,standards,N/A
+Task intent adherence,line gaps,gemini,baseline,YES
+Task intent adherence,line gaps,gemini,selfcheck,YES
+Task intent adherence,line gaps,gemini,standards,YES
+Holistic readability,line gaps,gemini,baseline,YES
+Holistic readability,line gaps,gemini,selfcheck,YES
+Holistic readability,line gaps,gemini,standards,YES
+Code validity & reproducibility,line gaps,grok,baseline,YES
+Code validity & reproducibility,line gaps,grok,selfcheck,YES
+Code validity & reproducibility,line gaps,grok,standards,YES
+Encoding choice matches task,line gaps,grok,baseline,YES
+Encoding choice matches task,line gaps,grok,selfcheck,YES
+Encoding choice matches task,line gaps,grok,standards,YES
+Chart type suitability,line gaps,grok,baseline,YES
+Chart type suitability,line gaps,grok,selfcheck,YES
+Chart type suitability,line gaps,grok,standards,YES
+Axis integrity,line gaps,grok,baseline,YES
+Axis integrity,line gaps,grok,selfcheck,NO
+Axis integrity,line gaps,grok,standards,NO
+Scale consistency across panels,line gaps,grok,baseline,NO
+Scale consistency across panels,line gaps,grok,selfcheck,NO
+Scale consistency across panels,line gaps,grok,standards,YES
+Color contrast & colorblind safety,line gaps,grok,baseline,YES
+Color contrast & colorblind safety,line gaps,grok,selfcheck,YES
+Color contrast & colorblind safety,line gaps,grok,standards,YES
+Redundancy,line gaps,grok,baseline,YES
+Redundancy,line gaps,grok,selfcheck,YES
+Redundancy,line gaps,grok,standards,YES
+Data faithfulness,line gaps,grok,baseline,YES
+Data faithfulness,line gaps,grok,selfcheck,YES
+Data faithfulness,line gaps,grok,standards,YES
+"Labels, units, titles & legends",line gaps,grok,baseline,NO
+"Labels, units, titles & legends",line gaps,grok,selfcheck,YES
+"Labels, units, titles & legends",line gaps,grok,standards,YES
+Gridlines/ticks & sizing,line gaps,grok,baseline,NO
+Gridlines/ticks & sizing,line gaps,grok,selfcheck,NO
+Gridlines/ticks & sizing,line gaps,grok,standards,YES
+Uncertainty depiction (when applicable),line gaps,grok,baseline,N/A
+Uncertainty depiction (when applicable),line gaps,grok,selfcheck,N/A
+Uncertainty depiction (when applicable),line gaps,grok,standards,N/A
+Appropriate Data‑ink ratio,line gaps,grok,baseline,YES
+Appropriate Data‑ink ratio,line gaps,grok,selfcheck,NO
+Appropriate Data‑ink ratio,line gaps,grok,standards,NO
+Legend–encoding alignment,line gaps,grok,baseline,N/A
+Legend–encoding alignment,line gaps,grok,selfcheck,N/A
+Legend–encoding alignment,line gaps,grok,standards,N/A
+Task intent adherence,line gaps,grok,baseline,YES
+Task intent adherence,line gaps,grok,selfcheck,YES
+Task intent adherence,line gaps,grok,standards,YES
+Holistic readability,line gaps,grok,baseline,YES
+Holistic readability,line gaps,grok,selfcheck,YES
+Holistic readability,line gaps,grok,standards,YES
+Code validity & reproducibility,line gaps,chatgpt,baseline,YES
+Code validity & reproducibility,line gaps,chatgpt,selfcheck,YES
+Code validity & reproducibility,line gaps,chatgpt,standards,YES
+Encoding choice matches task,line gaps,chatgpt,baseline,YES
+Encoding choice matches task,line gaps,chatgpt,selfcheck,YES
+Encoding choice matches task,line gaps,chatgpt,standards,YES
+Chart type suitability,line gaps,chatgpt,baseline,NO
+Chart type suitability,line gaps,chatgpt,selfcheck,NO
+Chart type suitability,line gaps,chatgpt,standards,NO
+Axis integrity,line gaps,chatgpt,baseline,NO
+Axis integrity,line gaps,chatgpt,selfcheck,NO
+Axis integrity,line gaps,chatgpt,standards,NO
+Scale consistency across panels,line gaps,chatgpt,baseline,YES
+Scale consistency across panels,line gaps,chatgpt,selfcheck,YES
+Scale consistency across panels,line gaps,chatgpt,standards,YES
+Color contrast & colorblind safety,line gaps,chatgpt,baseline,YES
+Color contrast & colorblind safety,line gaps,chatgpt,selfcheck,YES
+Color contrast & colorblind safety,line gaps,chatgpt,standards,YES
+Redundancy,line gaps,chatgpt,baseline,NO
+Redundancy,line gaps,chatgpt,selfcheck,YES
+Redundancy,line gaps,chatgpt,standards,NO
+Data faithfulness,line gaps,chatgpt,baseline,YES
+Data faithfulness,line gaps,chatgpt,selfcheck,YES
+Data faithfulness,line gaps,chatgpt,standards,YES
+"Labels, units, titles & legends",line gaps,chatgpt,baseline,YES
+"Labels, units, titles & legends",line gaps,chatgpt,selfcheck,NO
+"Labels, units, titles & legends",line gaps,chatgpt,standards,YES
+Gridlines/ticks & sizing,line gaps,chatgpt,baseline,YES
+Gridlines/ticks & sizing,line gaps,chatgpt,selfcheck,YES
+Gridlines/ticks & sizing,line gaps,chatgpt,standards,YES
+Uncertainty depiction (when applicable),line gaps,chatgpt,baseline,N/A
+Uncertainty depiction (when applicable),line gaps,chatgpt,selfcheck,N/A
+Uncertainty depiction (when applicable),line gaps,chatgpt,standards,N/A
+Appropriate Data‑ink ratio,line gaps,chatgpt,baseline,YES
+Appropriate Data‑ink ratio,line gaps,chatgpt,selfcheck,YES
+Appropriate Data‑ink ratio,line gaps,chatgpt,standards,NO
+Legend–encoding alignment,line gaps,chatgpt,baseline,N/A
+Legend–encoding alignment,line gaps,chatgpt,selfcheck,N/A
+Legend–encoding alignment,line gaps,chatgpt,standards,N/A
+Task intent adherence,line gaps,chatgpt,baseline,NO
+Task intent adherence,line gaps,chatgpt,selfcheck,NO
+Task intent adherence,line gaps,chatgpt,standards,NO
+Holistic readability,line gaps,chatgpt,baseline,YES
+Holistic readability,line gaps,chatgpt,selfcheck,YES
+Holistic readability,line gaps,chatgpt,standards,YES
+Code validity & reproducibility,scatter group,gemini,baseline,YES
+Code validity & reproducibility,scatter group,gemini,selfcheck,YES
+Code validity & reproducibility,scatter group,gemini,standards,YES
+Encoding choice matches task,scatter group,gemini,baseline,YES
+Encoding choice matches task,scatter group,gemini,selfcheck,YES
+Encoding choice matches task,scatter group,gemini,standards,YES
+Chart type suitability,scatter group,gemini,baseline,YES
+Chart type suitability,scatter group,gemini,selfcheck,YES
+Chart type suitability,scatter group,gemini,standards,YES
+Axis integrity,scatter group,gemini,baseline,NO
+Axis integrity,scatter group,gemini,selfcheck,NO
+Axis integrity,scatter group,gemini,standards,NO
+Scale consistency across panels,scatter group,gemini,baseline,YES
+Scale consistency across panels,scatter group,gemini,selfcheck,NO
+Scale consistency across panels,scatter group,gemini,standards,YES
+Color contrast & colorblind safety,scatter group,gemini,baseline,YES
+Color contrast & colorblind safety,scatter group,gemini,selfcheck,YES
+Color contrast & colorblind safety,scatter group,gemini,standards,YES
+Redundancy,scatter group,gemini,baseline,NO
+Redundancy,scatter group,gemini,selfcheck,NO
+Redundancy,scatter group,gemini,standards,NO
+Data faithfulness,scatter group,gemini,baseline,YES
+Data faithfulness,scatter group,gemini,selfcheck,YES
+Data faithfulness,scatter group,gemini,standards,YES
+"Labels, units, titles & legends",scatter group,gemini,baseline,YES
+"Labels, units, titles & legends",scatter group,gemini,selfcheck,YES
+"Labels, units, titles & legends",scatter group,gemini,standards,YES
+Gridlines/ticks & sizing,scatter group,gemini,baseline,YES
+Gridlines/ticks & sizing,scatter group,gemini,selfcheck,YES
+Gridlines/ticks & sizing,scatter group,gemini,standards,YES
+Uncertainty depiction (when applicable),scatter group,gemini,baseline,N/A
+Uncertainty depiction (when applicable),scatter group,gemini,selfcheck,N/A
+Uncertainty depiction (when applicable),scatter group,gemini,standards,N/A
+Appropriate Data‑ink ratio,scatter group,gemini,baseline,YES
+Appropriate Data‑ink ratio,scatter group,gemini,selfcheck,YES
+Appropriate Data‑ink ratio,scatter group,gemini,standards,YES
+Legend–encoding alignment,scatter group,gemini,baseline,YES
+Legend–encoding alignment,scatter group,gemini,selfcheck,YES
+Legend–encoding alignment,scatter group,gemini,standards,YES
+Task intent adherence,scatter group,gemini,baseline,YES
+Task intent adherence,scatter group,gemini,selfcheck,YES
+Task intent adherence,scatter group,gemini,standards,YES
+Holistic readability,scatter group,gemini,baseline,YES
+Holistic readability,scatter group,gemini,selfcheck,YES
+Holistic readability,scatter group,gemini,standards,YES
+Code validity & reproducibility,scatter group,grok,baseline,YES
+Code validity & reproducibility,scatter group,grok,selfcheck,YES
+Code validity & reproducibility,scatter group,grok,standards,YES
+Encoding choice matches task,scatter group,grok,baseline,YES
+Encoding choice matches task,scatter group,grok,selfcheck,YES
+Encoding choice matches task,scatter group,grok,standards,YES
+Chart type suitability,scatter group,grok,baseline,YES
+Chart type suitability,scatter group,grok,selfcheck,YES
+Chart type suitability,scatter group,grok,standards,YES
+Axis integrity,scatter group,grok,baseline,NO
+Axis integrity,scatter group,grok,selfcheck,NO
+Axis integrity,scatter group,grok,standards,NO
+Scale consistency across panels,scatter group,grok,baseline,YES
+Scale consistency across panels,scatter group,grok,selfcheck,YES
+Scale consistency across panels,scatter group,grok,standards,YES
+Color contrast & colorblind safety,scatter group,grok,baseline,YES
+Color contrast & colorblind safety,scatter group,grok,selfcheck,YES
+Color contrast & colorblind safety,scatter group,grok,standards,YES
+Redundancy,scatter group,grok,baseline,NO
+Redundancy,scatter group,grok,selfcheck,NO
+Redundancy,scatter group,grok,standards,NO
+Data faithfulness,scatter group,grok,baseline,YES
+Data faithfulness,scatter group,grok,selfcheck,YES
+Data faithfulness,scatter group,grok,standards,YES
+"Labels, units, titles & legends",scatter group,grok,baseline,NO
+"Labels, units, titles & legends",scatter group,grok,selfcheck,YES
+"Labels, units, titles & legends",scatter group,grok,standards,YES
+Gridlines/ticks & sizing,scatter group,grok,baseline,YES
+Gridlines/ticks & sizing,scatter group,grok,selfcheck,YES
+Gridlines/ticks & sizing,scatter group,grok,standards,YES
+Uncertainty depiction (when applicable),scatter group,grok,baseline,N/A
+Uncertainty depiction (when applicable),scatter group,grok,selfcheck,N/A
+Uncertainty depiction (when applicable),scatter group,grok,standards,N/A
+Appropriate Data‑ink ratio,scatter group,grok,baseline,YES
+Appropriate Data‑ink ratio,scatter group,grok,selfcheck,YES
+Appropriate Data‑ink ratio,scatter group,grok,standards,YES
+Legend–encoding alignment,scatter group,grok,baseline,YES
+Legend–encoding alignment,scatter group,grok,selfcheck,YES
+Legend–encoding alignment,scatter group,grok,standards,YES
+Task intent adherence,scatter group,grok,baseline,YES
+Task intent adherence,scatter group,grok,selfcheck,YES
+Task intent adherence,scatter group,grok,standards,YES
+Holistic readability,scatter group,grok,baseline,YES
+Holistic readability,scatter group,grok,selfcheck,YES
+Holistic readability,scatter group,grok,standards,YES
+Code validity & reproducibility,scatter group,chatgpt,baseline,YES
+Code validity & reproducibility,scatter group,chatgpt,selfcheck,YES
+Code validity & reproducibility,scatter group,chatgpt,standards,YES
+Encoding choice matches task,scatter group,chatgpt,baseline,YES
+Encoding choice matches task,scatter group,chatgpt,selfcheck,YES
+Encoding choice matches task,scatter group,chatgpt,standards,YES
+Chart type suitability,scatter group,chatgpt,baseline,YES
+Chart type suitability,scatter group,chatgpt,selfcheck,YES
+Chart type suitability,scatter group,chatgpt,standards,YES
+Axis integrity,scatter group,chatgpt,baseline,NO
+Axis integrity,scatter group,chatgpt,selfcheck,NO
+Axis integrity,scatter group,chatgpt,standards,NO
+Scale consistency across panels,scatter group,chatgpt,baseline,YES
+Scale consistency across panels,scatter group,chatgpt,selfcheck,NO
+Scale consistency across panels,scatter group,chatgpt,standards,YES
+Color contrast & colorblind safety,scatter group,chatgpt,baseline,NO
+Color contrast & colorblind safety,scatter group,chatgpt,selfcheck,YES
+Color contrast & colorblind safety,scatter group,chatgpt,standards,YES
+Redundancy,scatter group,chatgpt,baseline,NO
+Redundancy,scatter group,chatgpt,selfcheck,YES
+Redundancy,scatter group,chatgpt,standards,NO
+Data faithfulness,scatter group,chatgpt,baseline,YES
+Data faithfulness,scatter group,chatgpt,selfcheck,YES
+Data faithfulness,scatter group,chatgpt,standards,YES
+"Labels, units, titles & legends",scatter group,chatgpt,baseline,NO
+"Labels, units, titles & legends",scatter group,chatgpt,selfcheck,YES
+"Labels, units, titles & legends",scatter group,chatgpt,standards,NO
+Gridlines/ticks & sizing,scatter group,chatgpt,baseline,YES
+Gridlines/ticks & sizing,scatter group,chatgpt,selfcheck,YES
+Gridlines/ticks & sizing,scatter group,chatgpt,standards,YES
+Uncertainty depiction (when applicable),scatter group,chatgpt,baseline,N/A
+Uncertainty depiction (when applicable),scatter group,chatgpt,selfcheck,N/A
+Uncertainty depiction (when applicable),scatter group,chatgpt,standards,N/A
+Appropriate Data‑ink ratio,scatter group,chatgpt,baseline,YES
+Appropriate Data‑ink ratio,scatter group,chatgpt,selfcheck,YES
+Appropriate Data‑ink ratio,scatter group,chatgpt,standards,YES
+Legend–encoding alignment,scatter group,chatgpt,baseline,YES
+Legend–encoding alignment,scatter group,chatgpt,selfcheck,YES
+Legend–encoding alignment,scatter group,chatgpt,standards,YES
+Task intent adherence,scatter group,chatgpt,baseline,YES
+Task intent adherence,scatter group,chatgpt,selfcheck,YES
+Task intent adherence,scatter group,chatgpt,standards,YES
+Holistic readability,scatter group,chatgpt,baseline,YES
+Holistic readability,scatter group,chatgpt,selfcheck,YES
+Holistic readability,scatter group,chatgpt,standards,YES
+Code validity & reproducibility,heatmap,gemini,baseline,YES
+Code validity & reproducibility,heatmap,gemini,selfcheck,NO
+Code validity & reproducibility,heatmap,gemini,standards,YES
+Encoding choice matches task,heatmap,gemini,baseline,YES
+Encoding choice matches task,heatmap,gemini,selfcheck,N/A
+Encoding choice matches task,heatmap,gemini,standards,YES
+Chart type suitability,heatmap,gemini,baseline,YES
+Chart type suitability,heatmap,gemini,selfcheck,NO
+Chart type suitability,heatmap,gemini,standards,YES
+Axis integrity,heatmap,gemini,baseline,NO
+Axis integrity,heatmap,gemini,selfcheck,YES
+Axis integrity,heatmap,gemini,standards,YES
+Scale consistency across panels,heatmap,gemini,baseline,YES
+Scale consistency across panels,heatmap,gemini,selfcheck,YES
+Scale consistency across panels,heatmap,gemini,standards,YES
+Color contrast & colorblind safety,heatmap,gemini,baseline,NO
+Color contrast & colorblind safety,heatmap,gemini,selfcheck,N/A
+Color contrast & colorblind safety,heatmap,gemini,standards,NO
+Redundancy,heatmap,gemini,baseline,YES
+Redundancy,heatmap,gemini,selfcheck,N/A
+Redundancy,heatmap,gemini,standards,YES
+Data faithfulness,heatmap,gemini,baseline,YES
+Data faithfulness,heatmap,gemini,selfcheck,N/A
+Data faithfulness,heatmap,gemini,standards,YES
+"Labels, units, titles & legends",heatmap,gemini,baseline,YES
+"Labels, units, titles & legends",heatmap,gemini,selfcheck,NO
+"Labels, units, titles & legends",heatmap,gemini,standards,NO
+Gridlines/ticks & sizing,heatmap,gemini,baseline,YES
+Gridlines/ticks & sizing,heatmap,gemini,selfcheck,YES
+Gridlines/ticks & sizing,heatmap,gemini,standards,YES
+Uncertainty depiction (when applicable),heatmap,gemini,baseline,N/A
+Uncertainty depiction (when applicable),heatmap,gemini,selfcheck,N/A
+Uncertainty depiction (when applicable),heatmap,gemini,standards,N/A
+Appropriate Data‑ink ratio,heatmap,gemini,baseline,NO
+Appropriate Data‑ink ratio,heatmap,gemini,selfcheck,NO
+Appropriate Data‑ink ratio,heatmap,gemini,standards,NO
+Legend–encoding alignment,heatmap,gemini,baseline,YES
+Legend–encoding alignment,heatmap,gemini,selfcheck,N/A
+Legend–encoding alignment,heatmap,gemini,standards,YES
+Task intent adherence,heatmap,gemini,baseline,YES
+Task intent adherence,heatmap,gemini,selfcheck,NO
+Task intent adherence,heatmap,gemini,standards,YES
+Holistic readability,heatmap,gemini,baseline,YES
+Holistic readability,heatmap,gemini,selfcheck,NO
+Holistic readability,heatmap,gemini,standards,YES
+Code validity & reproducibility,heatmap,grok,baseline,YES
+Code validity & reproducibility,heatmap,grok,selfcheck,YES
+Code validity & reproducibility,heatmap,grok,standards,YES
+Encoding choice matches task,heatmap,grok,baseline,YES
+Encoding choice matches task,heatmap,grok,selfcheck,YES
+Encoding choice matches task,heatmap,grok,standards,YES
+Chart type suitability,heatmap,grok,baseline,YES
+Chart type suitability,heatmap,grok,selfcheck,YES
+Chart type suitability,heatmap,grok,standards,YES
+Axis integrity,heatmap,grok,baseline,NO
+Axis integrity,heatmap,grok,selfcheck,NO
+Axis integrity,heatmap,grok,standards,NO
+Scale consistency across panels,heatmap,grok,baseline,YES
+Scale consistency across panels,heatmap,grok,selfcheck,YES
+Scale consistency across panels,heatmap,grok,standards,YES
+Color contrast & colorblind safety,heatmap,grok,baseline,NO
+Color contrast & colorblind safety,heatmap,grok,selfcheck,NO
+Color contrast & colorblind safety,heatmap,grok,standards,NO
+Redundancy,heatmap,grok,baseline,YES
+Redundancy,heatmap,grok,selfcheck,YES
+Redundancy,heatmap,grok,standards,YES
+Data faithfulness,heatmap,grok,baseline,NO
+Data faithfulness,heatmap,grok,selfcheck,YES
+Data faithfulness,heatmap,grok,standards,NO
+"Labels, units, titles & legends",heatmap,grok,baseline,YES
+"Labels, units, titles & legends",heatmap,grok,selfcheck,YES
+"Labels, units, titles & legends",heatmap,grok,standards,YES
+Gridlines/ticks & sizing,heatmap,grok,baseline,YES
+Gridlines/ticks & sizing,heatmap,grok,selfcheck,NO
+Gridlines/ticks & sizing,heatmap,grok,standards,YES
+Uncertainty depiction (when applicable),heatmap,grok,baseline,N/A
+Uncertainty depiction (when applicable),heatmap,grok,selfcheck,N/A
+Uncertainty depiction (when applicable),heatmap,grok,standards,N/A
+Appropriate Data‑ink ratio,heatmap,grok,baseline,NO
+Appropriate Data‑ink ratio,heatmap,grok,selfcheck,YES
+Appropriate Data‑ink ratio,heatmap,grok,standards,NO
+Legend–encoding alignment,heatmap,grok,baseline,YES
+Legend–encoding alignment,heatmap,grok,selfcheck,YES
+Legend–encoding alignment,heatmap,grok,standards,YES
+Task intent adherence,heatmap,grok,baseline,YES
+Task intent adherence,heatmap,grok,selfcheck,YES
+Task intent adherence,heatmap,grok,standards,YES
+Holistic readability,heatmap,grok,baseline,YES
+Holistic readability,heatmap,grok,selfcheck,YES
+Holistic readability,heatmap,grok,standards,YES
+Code validity & reproducibility,heatmap,chatgpt,baseline,YES
+Code validity & reproducibility,heatmap,chatgpt,selfcheck,YES
+Code validity & reproducibility,heatmap,chatgpt,standards,YES
+Encoding choice matches task,heatmap,chatgpt,baseline,YES
+Encoding choice matches task,heatmap,chatgpt,selfcheck,YES
+Encoding choice matches task,heatmap,chatgpt,standards,YES
+Chart type suitability,heatmap,chatgpt,baseline,YES
+Chart type suitability,heatmap,chatgpt,selfcheck,YES
+Chart type suitability,heatmap,chatgpt,standards,YES
+Axis integrity,heatmap,chatgpt,baseline,NO
+Axis integrity,heatmap,chatgpt,selfcheck,NO
+Axis integrity,heatmap,chatgpt,standards,NO
+Scale consistency across panels,heatmap,chatgpt,baseline,YES
+Scale consistency across panels,heatmap,chatgpt,selfcheck,YES
+Scale consistency across panels,heatmap,chatgpt,standards,YES
+Color contrast & colorblind safety,heatmap,chatgpt,baseline,YES
+Color contrast & colorblind safety,heatmap,chatgpt,selfcheck,YES
+Color contrast & colorblind safety,heatmap,chatgpt,standards,YES
+Redundancy,heatmap,chatgpt,baseline,NO
+Redundancy,heatmap,chatgpt,selfcheck,NO
+Redundancy,heatmap,chatgpt,standards,NO
+Data faithfulness,heatmap,chatgpt,baseline,YES
+Data faithfulness,heatmap,chatgpt,selfcheck,YES
+Data faithfulness,heatmap,chatgpt,standards,YES
+"Labels, units, titles & legends",heatmap,chatgpt,baseline,NO
+"Labels, units, titles & legends",heatmap,chatgpt,selfcheck,NO
+"Labels, units, titles & legends",heatmap,chatgpt,standards,NO
+Gridlines/ticks & sizing,heatmap,chatgpt,baseline,YES
+Gridlines/ticks & sizing,heatmap,chatgpt,selfcheck,NO
+Gridlines/ticks & sizing,heatmap,chatgpt,standards,YES
+Uncertainty depiction (when applicable),heatmap,chatgpt,baseline,N/A
+Uncertainty depiction (when applicable),heatmap,chatgpt,selfcheck,N/A
+Uncertainty depiction (when applicable),heatmap,chatgpt,standards,N/A
+Appropriate Data‑ink ratio,heatmap,chatgpt,baseline,NO
+Appropriate Data‑ink ratio,heatmap,chatgpt,selfcheck,NO
+Appropriate Data‑ink ratio,heatmap,chatgpt,standards,NO
+Legend–encoding alignment,heatmap,chatgpt,baseline,YES
+Legend–encoding alignment,heatmap,chatgpt,selfcheck,YES
+Legend–encoding alignment,heatmap,chatgpt,standards,YES
+Task intent adherence,heatmap,chatgpt,baseline,YES
+Task intent adherence,heatmap,chatgpt,selfcheck,YES
+Task intent adherence,heatmap,chatgpt,standards,YES
+Holistic readability,heatmap,chatgpt,baseline,YES
+Holistic readability,heatmap,chatgpt,selfcheck,YES
+Holistic readability,heatmap,chatgpt,standards,YES
+Code validity & reproducibility,small multi,gemini,baseline,YES
+Code validity & reproducibility,small multi,gemini,selfcheck,YES
+Code validity & reproducibility,small multi,gemini,standards,YES
+Encoding choice matches task,small multi,gemini,baseline,YES
+Encoding choice matches task,small multi,gemini,selfcheck,YES
+Encoding choice matches task,small multi,gemini,standards,YES
+Chart type suitability,small multi,gemini,baseline,YES
+Chart type suitability,small multi,gemini,selfcheck,YES
+Chart type suitability,small multi,gemini,standards,YES
+Axis integrity,small multi,gemini,baseline,NO
+Axis integrity,small multi,gemini,selfcheck,NO
+Axis integrity,small multi,gemini,standards,NO
+Scale consistency across panels,small multi,gemini,baseline,NO
+Scale consistency across panels,small multi,gemini,selfcheck,YES
+Scale consistency across panels,small multi,gemini,standards,NO
+Color contrast & colorblind safety,small multi,gemini,baseline,YES
+Color contrast & colorblind safety,small multi,gemini,selfcheck,NO
+Color contrast & colorblind safety,small multi,gemini,standards,YES
+Redundancy,small multi,gemini,baseline,NO
+Redundancy,small multi,gemini,selfcheck,NO
+Redundancy,small multi,gemini,standards,NO
+Data faithfulness,small multi,gemini,baseline,YES
+Data faithfulness,small multi,gemini,selfcheck,YES
+Data faithfulness,small multi,gemini,standards,YES
+"Labels, units, titles & legends",small multi,gemini,baseline,NO
+"Labels, units, titles & legends",small multi,gemini,selfcheck,YES
+"Labels, units, titles & legends",small multi,gemini,standards,YES
+Gridlines/ticks & sizing,small multi,gemini,baseline,NO
+Gridlines/ticks & sizing,small multi,gemini,selfcheck,NO
+Gridlines/ticks & sizing,small multi,gemini,standards,YES
+Uncertainty depiction (when applicable),small multi,gemini,baseline,N/A
+Uncertainty depiction (when applicable),small multi,gemini,selfcheck,N/A
+Uncertainty depiction (when applicable),small multi,gemini,standards,N/A
+Appropriate Data‑ink ratio,small multi,gemini,baseline,YES
+Appropriate Data‑ink ratio,small multi,gemini,selfcheck,YES
+Appropriate Data‑ink ratio,small multi,gemini,standards,YES
+Legend–encoding alignment,small multi,gemini,baseline,YES
+Legend–encoding alignment,small multi,gemini,selfcheck,YES
+Legend–encoding alignment,small multi,gemini,standards,NO
+Task intent adherence,small multi,gemini,baseline,YES
+Task intent adherence,small multi,gemini,selfcheck,YES
+Task intent adherence,small multi,gemini,standards,YES
+Holistic readability,small multi,gemini,baseline,YES
+Holistic readability,small multi,gemini,selfcheck,YES
+Holistic readability,small multi,gemini,standards,YES
+Code validity & reproducibility,small multi,grok,baseline,NO
+Code validity & reproducibility,small multi,grok,selfcheck,YES
+Code validity & reproducibility,small multi,grok,standards,YES
+Encoding choice matches task,small multi,grok,baseline,N/A
+Encoding choice matches task,small multi,grok,selfcheck,YES
+Encoding choice matches task,small multi,grok,standards,YES
+Chart type suitability,small multi,grok,baseline,N/A
+Chart type suitability,small multi,grok,selfcheck,YES
+Chart type suitability,small multi,grok,standards,YES
+Axis integrity,small multi,grok,baseline,N/A
+Axis integrity,small multi,grok,selfcheck,NO
+Axis integrity,small multi,grok,standards,NO
+Scale consistency across panels,small multi,grok,baseline,N/A
+Scale consistency across panels,small multi,grok,selfcheck,YES
+Scale consistency across panels,small multi,grok,standards,YES
+Color contrast & colorblind safety,small multi,grok,baseline,N/A
+Color contrast & colorblind safety,small multi,grok,selfcheck,YES
+Color contrast & colorblind safety,small multi,grok,standards,NO
+Redundancy,small multi,grok,baseline,N/A
+Redundancy,small multi,grok,selfcheck,NO
+Redundancy,small multi,grok,standards,YES
+Data faithfulness,small multi,grok,baseline,N/A
+Data faithfulness,small multi,grok,selfcheck,YES
+Data faithfulness,small multi,grok,standards,NO
+"Labels, units, titles & legends",small multi,grok,baseline,N/A
+"Labels, units, titles & legends",small multi,grok,selfcheck,NO
+"Labels, units, titles & legends",small multi,grok,standards,NO
+Gridlines/ticks & sizing,small multi,grok,baseline,N/A
+Gridlines/ticks & sizing,small multi,grok,selfcheck,NO
+Gridlines/ticks & sizing,small multi,grok,standards,NO
+Uncertainty depiction (when applicable),small multi,grok,baseline,N/A
+Uncertainty depiction (when applicable),small multi,grok,selfcheck,N/A
+Uncertainty depiction (when applicable),small multi,grok,standards,N/A
+Appropriate Data‑ink ratio,small multi,grok,baseline,N/A
+Appropriate Data‑ink ratio,small multi,grok,selfcheck,YES
+Appropriate Data‑ink ratio,small multi,grok,standards,NO
+Legend–encoding alignment,small multi,grok,baseline,N/A
+Legend–encoding alignment,small multi,grok,selfcheck,YES
+Legend–encoding alignment,small multi,grok,standards,YES
+Task intent adherence,small multi,grok,baseline,N/A
+Task intent adherence,small multi,grok,selfcheck,YES
+Task intent adherence,small multi,grok,standards,YES
+Holistic readability,small multi,grok,baseline,N/A
+Holistic readability,small multi,grok,selfcheck,YES
+Holistic readability,small multi,grok,standards,YES
+Code validity & reproducibility,small multi,chatgpt,baseline,YES
+Code validity & reproducibility,small multi,chatgpt,selfcheck,YES
+Code validity & reproducibility,small multi,chatgpt,standards,YES
+Encoding choice matches task,small multi,chatgpt,baseline,YES
+Encoding choice matches task,small multi,chatgpt,selfcheck,YES
+Encoding choice matches task,small multi,chatgpt,standards,YES
+Chart type suitability,small multi,chatgpt,baseline,YES
+Chart type suitability,small multi,chatgpt,selfcheck,YES
+Chart type suitability,small multi,chatgpt,standards,YES
+Axis integrity,small multi,chatgpt,baseline,NO
+Axis integrity,small multi,chatgpt,selfcheck,NO
+Axis integrity,small multi,chatgpt,standards,NO
+Scale consistency across panels,small multi,chatgpt,baseline,YES
+Scale consistency across panels,small multi,chatgpt,selfcheck,YES
+Scale consistency across panels,small multi,chatgpt,standards,NO
+Color contrast & colorblind safety,small multi,chatgpt,baseline,YES
+Color contrast & colorblind safety,small multi,chatgpt,selfcheck,YES
+Color contrast & colorblind safety,small multi,chatgpt,standards,YES
+Redundancy,small multi,chatgpt,baseline,NO
+Redundancy,small multi,chatgpt,selfcheck,NO
+Redundancy,small multi,chatgpt,standards,NO
+Data faithfulness,small multi,chatgpt,baseline,YES
+Data faithfulness,small multi,chatgpt,selfcheck,YES
+Data faithfulness,small multi,chatgpt,standards,YES
+"Labels, units, titles & legends",small multi,chatgpt,baseline,YES
+"Labels, units, titles & legends",small multi,chatgpt,selfcheck,YES
+"Labels, units, titles & legends",small multi,chatgpt,standards,YES
+Gridlines/ticks & sizing,small multi,chatgpt,baseline,YES
+Gridlines/ticks & sizing,small multi,chatgpt,selfcheck,YES
+Gridlines/ticks & sizing,small multi,chatgpt,standards,YES
+Uncertainty depiction (when applicable),small multi,chatgpt,baseline,N/A
+Uncertainty depiction (when applicable),small multi,chatgpt,selfcheck,N/A
+Uncertainty depiction (when applicable),small multi,chatgpt,standards,N/A
+Appropriate Data‑ink ratio,small multi,chatgpt,baseline,NO
+Appropriate Data‑ink ratio,small multi,chatgpt,selfcheck,YES
+Appropriate Data‑ink ratio,small multi,chatgpt,standards,NO
+Legend–encoding alignment,small multi,chatgpt,baseline,NO
+Legend–encoding alignment,small multi,chatgpt,selfcheck,YES
+Legend–encoding alignment,small multi,chatgpt,standards,NO
+Task intent adherence,small multi,chatgpt,baseline,YES
+Task intent adherence,small multi,chatgpt,selfcheck,YES
+Task intent adherence,small multi,chatgpt,standards,YES
+Holistic readability,small multi,chatgpt,baseline,YES
+Holistic readability,small multi,chatgpt,selfcheck,YES
+Holistic readability,small multi,chatgpt,standards,YES
+Code validity & reproducibility,dual axis,gemini,baseline,YES
+Code validity & reproducibility,dual axis,gemini,selfcheck,YES
+Code validity & reproducibility,dual axis,gemini,standards,YES
+Encoding choice matches task,dual axis,gemini,baseline,YES
+Encoding choice matches task,dual axis,gemini,selfcheck,YES
+Encoding choice matches task,dual axis,gemini,standards,YES
+Chart type suitability,dual axis,gemini,baseline,NO
+Chart type suitability,dual axis,gemini,selfcheck,NO
+Chart type suitability,dual axis,gemini,standards,NO
+Axis integrity,dual axis,gemini,baseline,NO
+Axis integrity,dual axis,gemini,selfcheck,NO
+Axis integrity,dual axis,gemini,standards,NO
+Scale consistency across panels,dual axis,gemini,baseline,NO
+Scale consistency across panels,dual axis,gemini,selfcheck,NO
+Scale consistency across panels,dual axis,gemini,standards,NO
+Color contrast & colorblind safety,dual axis,gemini,baseline,NO
+Color contrast & colorblind safety,dual axis,gemini,selfcheck,YES
+Color contrast & colorblind safety,dual axis,gemini,standards,NO
+Redundancy,dual axis,gemini,baseline,YES
+Redundancy,dual axis,gemini,selfcheck,YES
+Redundancy,dual axis,gemini,standards,NO
+Data faithfulness,dual axis,gemini,baseline,YES
+Data faithfulness,dual axis,gemini,selfcheck,YES
+Data faithfulness,dual axis,gemini,standards,YES
+"Labels, units, titles & legends",dual axis,gemini,baseline,YES
+"Labels, units, titles & legends",dual axis,gemini,selfcheck,YES
+"Labels, units, titles & legends",dual axis,gemini,standards,YES
+Gridlines/ticks & sizing,dual axis,gemini,baseline,YES
+Gridlines/ticks & sizing,dual axis,gemini,selfcheck,YES
+Gridlines/ticks & sizing,dual axis,gemini,standards,YES
+Uncertainty depiction (when applicable),dual axis,gemini,baseline,N/A
+Uncertainty depiction (when applicable),dual axis,gemini,selfcheck,N/A
+Uncertainty depiction (when applicable),dual axis,gemini,standards,N/A
+Appropriate Data‑ink ratio,dual axis,gemini,baseline,YES
+Appropriate Data‑ink ratio,dual axis,gemini,selfcheck,YES
+Appropriate Data‑ink ratio,dual axis,gemini,standards,YES
+Legend–encoding alignment,dual axis,gemini,baseline,N/A
+Legend–encoding alignment,dual axis,gemini,selfcheck,N/A
+Legend–encoding alignment,dual axis,gemini,standards,N/A
+Task intent adherence,dual axis,gemini,baseline,NO
+Task intent adherence,dual axis,gemini,selfcheck,NO
+Task intent adherence,dual axis,gemini,standards,NO
+Holistic readability,dual axis,gemini,baseline,YES
+Holistic readability,dual axis,gemini,selfcheck,YES
+Holistic readability,dual axis,gemini,standards,YES
+Code validity & reproducibility,dual axis,grok,baseline,YES
+Code validity & reproducibility,dual axis,grok,selfcheck,YES
+Code validity & reproducibility,dual axis,grok,standards,YES
+Encoding choice matches task,dual axis,grok,baseline,YES
+Encoding choice matches task,dual axis,grok,selfcheck,YES
+Encoding choice matches task,dual axis,grok,standards,YES
+Chart type suitability,dual axis,grok,baseline,NO
+Chart type suitability,dual axis,grok,selfcheck,NO
+Chart type suitability,dual axis,grok,standards,NO
+Axis integrity,dual axis,grok,baseline,NO
+Axis integrity,dual axis,grok,selfcheck,NO
+Axis integrity,dual axis,grok,standards,NO
+Scale consistency across panels,dual axis,grok,baseline,NO
+Scale consistency across panels,dual axis,grok,selfcheck,NO
+Scale consistency across panels,dual axis,grok,standards,NO
+Color contrast & colorblind safety,dual axis,grok,baseline,NO
+Color contrast & colorblind safety,dual axis,grok,selfcheck,NO
+Color contrast & colorblind safety,dual axis,grok,standards,YES
+Redundancy,dual axis,grok,baseline,YES
+Redundancy,dual axis,grok,selfcheck,YES
+Redundancy,dual axis,grok,standards,YES
+Data faithfulness,dual axis,grok,baseline,YES
+Data faithfulness,dual axis,grok,selfcheck,YES
+Data faithfulness,dual axis,grok,standards,YES
+"Labels, units, titles & legends",dual axis,grok,baseline,YES
+"Labels, units, titles & legends",dual axis,grok,selfcheck,YES
+"Labels, units, titles & legends",dual axis,grok,standards,YES
+Gridlines/ticks & sizing,dual axis,grok,baseline,YES
+Gridlines/ticks & sizing,dual axis,grok,selfcheck,YES
+Gridlines/ticks & sizing,dual axis,grok,standards,YES
+Uncertainty depiction (when applicable),dual axis,grok,baseline,N/A
+Uncertainty depiction (when applicable),dual axis,grok,selfcheck,N/A
+Uncertainty depiction (when applicable),dual axis,grok,standards,N/A
+Appropriate Data‑ink ratio,dual axis,grok,baseline,YES
+Appropriate Data‑ink ratio,dual axis,grok,selfcheck,NO
+Appropriate Data‑ink ratio,dual axis,grok,standards,YES
+Legend–encoding alignment,dual axis,grok,baseline,N/A
+Legend–encoding alignment,dual axis,grok,selfcheck,NO
+Legend–encoding alignment,dual axis,grok,standards,YES
+Task intent adherence,dual axis,grok,baseline,NO
+Task intent adherence,dual axis,grok,selfcheck,NO
+Task intent adherence,dual axis,grok,standards,NO
+Holistic readability,dual axis,grok,baseline,YES
+Holistic readability,dual axis,grok,selfcheck,YES
+Holistic readability,dual axis,grok,standards,YES
+Code validity & reproducibility,dual axis,chatgpt,baseline,YES
+Code validity & reproducibility,dual axis,chatgpt,selfcheck,YES
+Code validity & reproducibility,dual axis,chatgpt,standards,YES
+Encoding choice matches task,dual axis,chatgpt,baseline,YES
+Encoding choice matches task,dual axis,chatgpt,selfcheck,YES
+Encoding choice matches task,dual axis,chatgpt,standards,YES
+Chart type suitability,dual axis,chatgpt,baseline,NO
+Chart type suitability,dual axis,chatgpt,selfcheck,NO
+Chart type suitability,dual axis,chatgpt,standards,NO
+Axis integrity,dual axis,chatgpt,baseline,NO
+Axis integrity,dual axis,chatgpt,selfcheck,NO
+Axis integrity,dual axis,chatgpt,standards,NO
+Scale consistency across panels,dual axis,chatgpt,baseline,NO
+Scale consistency across panels,dual axis,chatgpt,selfcheck,NO
+Scale consistency across panels,dual axis,chatgpt,standards,NO
+Color contrast & colorblind safety,dual axis,chatgpt,baseline,NO
+Color contrast & colorblind safety,dual axis,chatgpt,selfcheck,NO
+Color contrast & colorblind safety,dual axis,chatgpt,standards,NO
+Redundancy,dual axis,chatgpt,baseline,NO
+Redundancy,dual axis,chatgpt,selfcheck,NO
+Redundancy,dual axis,chatgpt,standards,NO
+Data faithfulness,dual axis,chatgpt,baseline,YES
+Data faithfulness,dual axis,chatgpt,selfcheck,YES
+Data faithfulness,dual axis,chatgpt,standards,YES
+"Labels, units, titles & legends",dual axis,chatgpt,baseline,NO
+"Labels, units, titles & legends",dual axis,chatgpt,selfcheck,NO
+"Labels, units, titles & legends",dual axis,chatgpt,standards,NO
+Gridlines/ticks & sizing,dual axis,chatgpt,baseline,YES
+Gridlines/ticks & sizing,dual axis,chatgpt,selfcheck,YES
+Gridlines/ticks & sizing,dual axis,chatgpt,standards,YES
+Uncertainty depiction (when applicable),dual axis,chatgpt,baseline,N/A
+Uncertainty depiction (when applicable),dual axis,chatgpt,selfcheck,N/A
+Uncertainty depiction (when applicable),dual axis,chatgpt,standards,N/A
+Appropriate Data‑ink ratio,dual axis,chatgpt,baseline,YES
+Appropriate Data‑ink ratio,dual axis,chatgpt,selfcheck,NO
+Appropriate Data‑ink ratio,dual axis,chatgpt,standards,NO
+Legend–encoding alignment,dual axis,chatgpt,baseline,YES
+Legend–encoding alignment,dual axis,chatgpt,selfcheck,YES
+Legend–encoding alignment,dual axis,chatgpt,standards,YES
+Task intent adherence,dual axis,chatgpt,baseline,NO
+Task intent adherence,dual axis,chatgpt,selfcheck,NO
+Task intent adherence,dual axis,chatgpt,standards,NO
+Holistic readability,dual axis,chatgpt,baseline,YES
+Holistic readability,dual axis,chatgpt,selfcheck,YES
+Holistic readability,dual axis,chatgpt,standards,YES
+Code validity & reproducibility,histogram,gemini,baseline,YES
+Code validity & reproducibility,histogram,gemini,selfcheck,YES
+Code validity & reproducibility,histogram,gemini,standards,YES
+Encoding choice matches task,histogram,gemini,baseline,YES
+Encoding choice matches task,histogram,gemini,selfcheck,YES
+Encoding choice matches task,histogram,gemini,standards,YES
+Chart type suitability,histogram,gemini,baseline,YES
+Chart type suitability,histogram,gemini,selfcheck,YES
+Chart type suitability,histogram,gemini,standards,YES
+Axis integrity,histogram,gemini,baseline,YES
+Axis integrity,histogram,gemini,selfcheck,YES
+Axis integrity,histogram,gemini,standards,YES
+Scale consistency across panels,histogram,gemini,baseline,YES
+Scale consistency across panels,histogram,gemini,selfcheck,YES
+Scale consistency across panels,histogram,gemini,standards,YES
+Color contrast & colorblind safety,histogram,gemini,baseline,YES
+Color contrast & colorblind safety,histogram,gemini,selfcheck,YES
+Color contrast & colorblind safety,histogram,gemini,standards,YES
+Redundancy,histogram,gemini,baseline,YES
+Redundancy,histogram,gemini,selfcheck,YES
+Redundancy,histogram,gemini,standards,YES
+Data faithfulness,histogram,gemini,baseline,YES
+Data faithfulness,histogram,gemini,selfcheck,YES
+Data faithfulness,histogram,gemini,standards,YES
+"Labels, units, titles & legends",histogram,gemini,baseline,YES
+"Labels, units, titles & legends",histogram,gemini,selfcheck,YES
+"Labels, units, titles & legends",histogram,gemini,standards,YES
+Gridlines/ticks & sizing,histogram,gemini,baseline,NO
+Gridlines/ticks & sizing,histogram,gemini,selfcheck,YES
+Gridlines/ticks & sizing,histogram,gemini,standards,NO
+Uncertainty depiction (when applicable),histogram,gemini,baseline,N/A
+Uncertainty depiction (when applicable),histogram,gemini,selfcheck,N/A
+Uncertainty depiction (when applicable),histogram,gemini,standards,N/A
+Appropriate Data‑ink ratio,histogram,gemini,baseline,YES
+Appropriate Data‑ink ratio,histogram,gemini,selfcheck,YES
+Appropriate Data‑ink ratio,histogram,gemini,standards,YES
+Legend–encoding alignment,histogram,gemini,baseline,N/A
+Legend–encoding alignment,histogram,gemini,selfcheck,N/A
+Legend–encoding alignment,histogram,gemini,standards,N/A
+Task intent adherence,histogram,gemini,baseline,YES
+Task intent adherence,histogram,gemini,selfcheck,YES
+Task intent adherence,histogram,gemini,standards,YES
+Holistic readability,histogram,gemini,baseline,YES
+Holistic readability,histogram,gemini,selfcheck,YES
+Holistic readability,histogram,gemini,standards,YES
+Code validity & reproducibility,histogram,grok,baseline,YES
+Code validity & reproducibility,histogram,grok,selfcheck,YES
+Code validity & reproducibility,histogram,grok,standards,YES
+Encoding choice matches task,histogram,grok,baseline,YES
+Encoding choice matches task,histogram,grok,selfcheck,YES
+Encoding choice matches task,histogram,grok,standards,YES
+Chart type suitability,histogram,grok,baseline,YES
+Chart type suitability,histogram,grok,selfcheck,YES
+Chart type suitability,histogram,grok,standards,YES
+Axis integrity,histogram,grok,baseline,NO
+Axis integrity,histogram,grok,selfcheck,NO
+Axis integrity,histogram,grok,standards,NO
+Scale consistency across panels,histogram,grok,baseline,YES
+Scale consistency across panels,histogram,grok,selfcheck,YES
+Scale consistency across panels,histogram,grok,standards,YES
+Color contrast & colorblind safety,histogram,grok,baseline,YES
+Color contrast & colorblind safety,histogram,grok,selfcheck,YES
+Color contrast & colorblind safety,histogram,grok,standards,YES
+Redundancy,histogram,grok,baseline,YES
+Redundancy,histogram,grok,selfcheck,YES
+Redundancy,histogram,grok,standards,YES
+Data faithfulness,histogram,grok,baseline,YES
+Data faithfulness,histogram,grok,selfcheck,YES
+Data faithfulness,histogram,grok,standards,YES
+"Labels, units, titles & legends",histogram,grok,baseline,YES
+"Labels, units, titles & legends",histogram,grok,selfcheck,YES
+"Labels, units, titles & legends",histogram,grok,standards,YES
+Gridlines/ticks & sizing,histogram,grok,baseline,NO
+Gridlines/ticks & sizing,histogram,grok,selfcheck,YES
+Gridlines/ticks & sizing,histogram,grok,standards,YES
+Uncertainty depiction (when applicable),histogram,grok,baseline,N/A
+Uncertainty depiction (when applicable),histogram,grok,selfcheck,N/A
+Uncertainty depiction (when applicable),histogram,grok,standards,N/A
+Appropriate Data‑ink ratio,histogram,grok,baseline,YES
+Appropriate Data‑ink ratio,histogram,grok,selfcheck,YES
+Appropriate Data‑ink ratio,histogram,grok,standards,YES
+Legend–encoding alignment,histogram,grok,baseline,N/A
+Legend–encoding alignment,histogram,grok,selfcheck,N/A
+Legend–encoding alignment,histogram,grok,standards,N/A
+Task intent adherence,histogram,grok,baseline,YES
+Task intent adherence,histogram,grok,selfcheck,YES
+Task intent adherence,histogram,grok,standards,YES
+Holistic readability,histogram,grok,baseline,YES
+Holistic readability,histogram,grok,selfcheck,YES
+Holistic readability,histogram,grok,standards,YES
+Code validity & reproducibility,histogram,chatgpt,baseline,YES
+Code validity & reproducibility,histogram,chatgpt,selfcheck,YES
+Code validity & reproducibility,histogram,chatgpt,standards,YES
+Encoding choice matches task,histogram,chatgpt,baseline,YES
+Encoding choice matches task,histogram,chatgpt,selfcheck,YES
+Encoding choice matches task,histogram,chatgpt,standards,YES
+Chart type suitability,histogram,chatgpt,baseline,YES
+Chart type suitability,histogram,chatgpt,selfcheck,YES
+Chart type suitability,histogram,chatgpt,standards,YES
+Axis integrity,histogram,chatgpt,baseline,NO
+Axis integrity,histogram,chatgpt,selfcheck,YES
+Axis integrity,histogram,chatgpt,standards,YES
+Scale consistency across panels,histogram,chatgpt,baseline,YES
+Scale consistency across panels,histogram,chatgpt,selfcheck,YES
+Scale consistency across panels,histogram,chatgpt,standards,YES
+Color contrast & colorblind safety,histogram,chatgpt,baseline,YES
+Color contrast & colorblind safety,histogram,chatgpt,selfcheck,YES
+Color contrast & colorblind safety,histogram,chatgpt,standards,YES
+Redundancy,histogram,chatgpt,baseline,NO
+Redundancy,histogram,chatgpt,selfcheck,YES
+Redundancy,histogram,chatgpt,standards,YES
+Data faithfulness,histogram,chatgpt,baseline,YES
+Data faithfulness,histogram,chatgpt,selfcheck,YES
+Data faithfulness,histogram,chatgpt,standards,YES
+"Labels, units, titles & legends",histogram,chatgpt,baseline,YES
+"Labels, units, titles & legends",histogram,chatgpt,selfcheck,YES
+"Labels, units, titles & legends",histogram,chatgpt,standards,YES
+Gridlines/ticks & sizing,histogram,chatgpt,baseline,YES
+Gridlines/ticks & sizing,histogram,chatgpt,selfcheck,YES
+Gridlines/ticks & sizing,histogram,chatgpt,standards,YES
+Uncertainty depiction (when applicable),histogram,chatgpt,baseline,N/A
+Uncertainty depiction (when applicable),histogram,chatgpt,selfcheck,N/A
+Uncertainty depiction (when applicable),histogram,chatgpt,standards,N/A
+Appropriate Data‑ink ratio,histogram,chatgpt,baseline,NO
+Appropriate Data‑ink ratio,histogram,chatgpt,selfcheck,YES
+Appropriate Data‑ink ratio,histogram,chatgpt,standards,YES
+Legend–encoding alignment,histogram,chatgpt,baseline,N/A
+Legend–encoding alignment,histogram,chatgpt,selfcheck,N/A
+Legend–encoding alignment,histogram,chatgpt,standards,N/A
+Task intent adherence,histogram,chatgpt,baseline,YES
+Task intent adherence,histogram,chatgpt,selfcheck,YES
+Task intent adherence,histogram,chatgpt,standards,YES
+Holistic readability,histogram,chatgpt,baseline,YES
+Holistic readability,histogram,chatgpt,selfcheck,YES
+Holistic readability,histogram,chatgpt,standards,YES
+Code validity & reproducibility,stacked bars,gemini,baseline,YES
+Code validity & reproducibility,stacked bars,gemini,selfcheck,YES
+Code validity & reproducibility,stacked bars,gemini,standards,YES
+Encoding choice matches task,stacked bars,gemini,baseline,YES
+Encoding choice matches task,stacked bars,gemini,selfcheck,YES
+Encoding choice matches task,stacked bars,gemini,standards,YES
+Chart type suitability,stacked bars,gemini,baseline,YES
+Chart type suitability,stacked bars,gemini,selfcheck,YES
+Chart type suitability,stacked bars,gemini,standards,YES
+Axis integrity,stacked bars,gemini,baseline,YES
+Axis integrity,stacked bars,gemini,selfcheck,YES
+Axis integrity,stacked bars,gemini,standards,YES
+Scale consistency across panels,stacked bars,gemini,baseline,YES
+Scale consistency across panels,stacked bars,gemini,selfcheck,YES
+Scale consistency across panels,stacked bars,gemini,standards,YES
+Color contrast & colorblind safety,stacked bars,gemini,baseline,YES
+Color contrast & colorblind safety,stacked bars,gemini,selfcheck,NO
+Color contrast & colorblind safety,stacked bars,gemini,standards,YES
+Redundancy,stacked bars,gemini,baseline,NO
+Redundancy,stacked bars,gemini,selfcheck,NO
+Redundancy,stacked bars,gemini,standards,NO
+Data faithfulness,stacked bars,gemini,baseline,NO
+Data faithfulness,stacked bars,gemini,selfcheck,NO
+Data faithfulness,stacked bars,gemini,standards,NO
+"Labels, units, titles & legends",stacked bars,gemini,baseline,YES
+"Labels, units, titles & legends",stacked bars,gemini,selfcheck,YES
+"Labels, units, titles & legends",stacked bars,gemini,standards,YES
+Gridlines/ticks & sizing,stacked bars,gemini,baseline,NO
+Gridlines/ticks & sizing,stacked bars,gemini,selfcheck,YES
+Gridlines/ticks & sizing,stacked bars,gemini,standards,YES
+Uncertainty depiction (when applicable),stacked bars,gemini,baseline,N/A
+Uncertainty depiction (when applicable),stacked bars,gemini,selfcheck,N/A
+Uncertainty depiction (when applicable),stacked bars,gemini,standards,N/A
+Appropriate Data‑ink ratio,stacked bars,gemini,baseline,YES
+Appropriate Data‑ink ratio,stacked bars,gemini,selfcheck,YES
+Appropriate Data‑ink ratio,stacked bars,gemini,standards,YES
+Legend–encoding alignment,stacked bars,gemini,baseline,NO
+Legend–encoding alignment,stacked bars,gemini,selfcheck,NO
+Legend–encoding alignment,stacked bars,gemini,standards,NO
+Task intent adherence,stacked bars,gemini,baseline,YES
+Task intent adherence,stacked bars,gemini,selfcheck,YES
+Task intent adherence,stacked bars,gemini,standards,YES
+Holistic readability,stacked bars,gemini,baseline,YES
+Holistic readability,stacked bars,gemini,selfcheck,YES
+Holistic readability,stacked bars,gemini,standards,YES
+Code validity & reproducibility,stacked bars,grok,baseline,YES
+Code validity & reproducibility,stacked bars,grok,selfcheck,YES
+Code validity & reproducibility,stacked bars,grok,standards,YES
+Encoding choice matches task,stacked bars,grok,baseline,YES
+Encoding choice matches task,stacked bars,grok,selfcheck,YES
+Encoding choice matches task,stacked bars,grok,standards,YES
+Chart type suitability,stacked bars,grok,baseline,YES
+Chart type suitability,stacked bars,grok,selfcheck,YES
+Chart type suitability,stacked bars,grok,standards,YES
+Axis integrity,stacked bars,grok,baseline,YES
+Axis integrity,stacked bars,grok,selfcheck,YES
+Axis integrity,stacked bars,grok,standards,YES
+Scale consistency across panels,stacked bars,grok,baseline,YES
+Scale consistency across panels,stacked bars,grok,selfcheck,YES
+Scale consistency across panels,stacked bars,grok,standards,YES
+Color contrast & colorblind safety,stacked bars,grok,baseline,YES
+Color contrast & colorblind safety,stacked bars,grok,selfcheck,YES
+Color contrast & colorblind safety,stacked bars,grok,standards,NO
+Redundancy,stacked bars,grok,baseline,NO
+Redundancy,stacked bars,grok,selfcheck,NO
+Redundancy,stacked bars,grok,standards,NO
+Data faithfulness,stacked bars,grok,baseline,NO
+Data faithfulness,stacked bars,grok,selfcheck,NO
+Data faithfulness,stacked bars,grok,standards,NO
+"Labels, units, titles & legends",stacked bars,grok,baseline,YES
+"Labels, units, titles & legends",stacked bars,grok,selfcheck,YES
+"Labels, units, titles & legends",stacked bars,grok,standards,YES
+Gridlines/ticks & sizing,stacked bars,grok,baseline,NO
+Gridlines/ticks & sizing,stacked bars,grok,selfcheck,YES
+Gridlines/ticks & sizing,stacked bars,grok,standards,YES
+Uncertainty depiction (when applicable),stacked bars,grok,baseline,N/A
+Uncertainty depiction (when applicable),stacked bars,grok,selfcheck,N/A
+Uncertainty depiction (when applicable),stacked bars,grok,standards,N/A
+Appropriate Data‑ink ratio,stacked bars,grok,baseline,YES
+Appropriate Data‑ink ratio,stacked bars,grok,selfcheck,YES
+Appropriate Data‑ink ratio,stacked bars,grok,standards,YES
+Legend–encoding alignment,stacked bars,grok,baseline,NO
+Legend–encoding alignment,stacked bars,grok,selfcheck,NO
+Legend–encoding alignment,stacked bars,grok,standards,YES
+Task intent adherence,stacked bars,grok,baseline,YES
+Task intent adherence,stacked bars,grok,selfcheck,YES
+Task intent adherence,stacked bars,grok,standards,YES
+Holistic readability,stacked bars,grok,baseline,YES
+Holistic readability,stacked bars,grok,selfcheck,YES
+Holistic readability,stacked bars,grok,standards,YES
+Code validity & reproducibility,stacked bars,chatgpt,baseline,YES
+Code validity & reproducibility,stacked bars,chatgpt,selfcheck,YES
+Code validity & reproducibility,stacked bars,chatgpt,standards,YES
+Encoding choice matches task,stacked bars,chatgpt,baseline,YES
+Encoding choice matches task,stacked bars,chatgpt,selfcheck,YES
+Encoding choice matches task,stacked bars,chatgpt,standards,YES
+Chart type suitability,stacked bars,chatgpt,baseline,YES
+Chart type suitability,stacked bars,chatgpt,selfcheck,YES
+Chart type suitability,stacked bars,chatgpt,standards,YES
+Axis integrity,stacked bars,chatgpt,baseline,NO
+Axis integrity,stacked bars,chatgpt,selfcheck,NO
+Axis integrity,stacked bars,chatgpt,standards,NO
+Scale consistency across panels,stacked bars,chatgpt,baseline,YES
+Scale consistency across panels,stacked bars,chatgpt,selfcheck,YES
+Scale consistency across panels,stacked bars,chatgpt,standards,YES
+Color contrast & colorblind safety,stacked bars,chatgpt,baseline,YES
+Color contrast & colorblind safety,stacked bars,chatgpt,selfcheck,YES
+Color contrast & colorblind safety,stacked bars,chatgpt,standards,YES
+Redundancy,stacked bars,chatgpt,baseline,NO
+Redundancy,stacked bars,chatgpt,selfcheck,NO
+Redundancy,stacked bars,chatgpt,standards,NO
+Data faithfulness,stacked bars,chatgpt,baseline,YES
+Data faithfulness,stacked bars,chatgpt,selfcheck,YES
+Data faithfulness,stacked bars,chatgpt,standards,YES
+"Labels, units, titles & legends",stacked bars,chatgpt,baseline,YES
+"Labels, units, titles & legends",stacked bars,chatgpt,selfcheck,YES
+"Labels, units, titles & legends",stacked bars,chatgpt,standards,YES
+Gridlines/ticks & sizing,stacked bars,chatgpt,baseline,YES
+Gridlines/ticks & sizing,stacked bars,chatgpt,selfcheck,YES
+Gridlines/ticks & sizing,stacked bars,chatgpt,standards,YES
+Uncertainty depiction (when applicable),stacked bars,chatgpt,baseline,N/A
+Uncertainty depiction (when applicable),stacked bars,chatgpt,selfcheck,N/A
+Uncertainty depiction (when applicable),stacked bars,chatgpt,standards,N/A
+Appropriate Data‑ink ratio,stacked bars,chatgpt,baseline,YES
+Appropriate Data‑ink ratio,stacked bars,chatgpt,selfcheck,YES
+Appropriate Data‑ink ratio,stacked bars,chatgpt,standards,YES
+Legend–encoding alignment,stacked bars,chatgpt,baseline,YES
+Legend–encoding alignment,stacked bars,chatgpt,selfcheck,NO
+Legend–encoding alignment,stacked bars,chatgpt,standards,YES
+Task intent adherence,stacked bars,chatgpt,baseline,YES
+Task intent adherence,stacked bars,chatgpt,selfcheck,YES
+Task intent adherence,stacked bars,chatgpt,standards,YES
+Holistic readability,stacked bars,chatgpt,baseline,YES
+Holistic readability,stacked bars,chatgpt,selfcheck,YES
+Holistic readability,stacked bars,chatgpt,standards,YES
