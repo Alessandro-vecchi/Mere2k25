@@ -33,13 +33,13 @@
 Folder pattern is task-first:
 
 ```
-runs/<task>/<instance>/<model>/<condition>/<sample>/
+runs/<task>/<model>/<condition>/<sample>/
 ```
 
 Example:
 
 ```
-runs/t01_bars/A/gpt5thinking/baseline/s1/
+runs/t01_bars/gpt5thinking/baseline/s1/
 ```
 
 ## Per-trial procedure
@@ -47,32 +47,30 @@ runs/t01_bars/A/gpt5thinking/baseline/s1/
 1. **Create the trial folder** (if not already created)
 
    ```bash
-   mkdir -p runs/t01_bars/A/gpt5thinking/baseline/s1
+   mkdir -p runs/t01_bars/gpt5thinking/baseline/s1
    ```
 2. **Copy the dataset instance**
 
    ```bash
-   cp data/tasks/t01_bars/instances/A.csv runs/t01_bars/A/gpt5thinking/baseline/s1/data.csv
+   cp data/tasks/t01_bars/instances/A.csv runs/t01_bars/gpt5thinking/baseline/s1/data.csv
    ```
 3. **Fresh web-UI chat**
    Attach `data.csv`. Paste the composed prompt for the *task × condition*.
    Copy the returned **code only** into:
 
    ```
-   runs/t01_bars/A/gpt5thinking/baseline/s1/code.py
+   runs/t01_bars/gpt5thinking/baseline/s1/code.py
    ```
 4. **Execute locally**
 
    ```bash
-   python src/runner.py   runs/t01_bars/A/gpt5thinking/baseline/s1
+   python src/runner.py   runs/t01_bars/gpt5thinking/baseline/s1
    ```
 
    This produces `chart.png`, `stdout.txt`, `stderr.txt`, and `run.json`.
 5. **Lint the output**
 
-   ```bash
    python src/linter.py   runs/t01_bars/A/gpt5thinking/baseline/s1
-   ```
 
    This produces `lint.json`.
 
@@ -107,9 +105,8 @@ runs/t01_bars/A/gpt5thinking/baseline/s1/
 * **Determinism:** our linter flags RNG without `seed`; prefer prompts that request `np.random.seed(0)` if randomness appears.
 * **Naming conventions:**
 
-  * Models: `gpt5thinking`, `gemini25pro`, `perplexitypro`
+  * Models: `gpt5thinking`, `gemini25pro`, `grok`
   * Tasks: `t01_bars`, `t02_line_gaps`, `t03_scatter_group`, `t04_heatmap_corr`, `t05_small_multiples`, `t06_dual_axis`, `t07_histogram`, `t08_stacked_bars`
-  * Instances: `A`, `B`
   * Conditions: `baseline`, `standards`, `selfcheck`
   * Samples: `s1`, `s2`
 

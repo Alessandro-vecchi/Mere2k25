@@ -41,17 +41,15 @@ def main():
         lint = load_json(lint_json) or []
 
         parts = trial_dir.parts
-        task = parts[-5] if len(parts) >= 5 else ''
-        instance = parts[-4] if len(parts) >= 4 else ''
+        task = parts[-4] if len(parts) >= 5 else ''
         model = parts[-3] if len(parts) >= 3 else ''
         condition = parts[-2] if len(parts) >= 2 else ''
         sample = parts[-1] if len(parts) >= 1 else ''
-        trial_id = f'{task}__{instance}__{model}__{condition}__{sample}'
+        trial_id = f'{task}__{model}__{condition}__{sample}'
 
         run_rows.append({
             'trial_id': trial_id,
             'task': task,
-            'instance': instance,
             'model': model,
             'condition': condition,
             'sample': sample,
@@ -69,7 +67,6 @@ def main():
             row = {
                 'trial_id': trial_id,
                 'task': task,
-                'instance': instance,
                 'model': model,
                 'condition': condition,
                 'sample': sample,
@@ -89,7 +86,7 @@ def main():
     runs_csv = out_dir/'runs.csv'
     with runs_csv.open('w', newline='', encoding='utf-8') as f:
         w = csv.DictWriter(f, fieldnames=[
-            'trial_id','task','instance','model','condition','sample',
+            'trial_id','task','model','condition','sample',
             'timestamp','duration_sec','returncode',
             'code_sha256','image_exists','image_sha256','image_w','image_h'
         ])
@@ -99,7 +96,7 @@ def main():
 
     lint_csv = out_dir/'lint_summary.csv'
     with lint_csv.open('w', newline='', encoding='utf-8') as f:
-        fields = ['trial_id','task','instance','model','condition','sample','rule','status','value','detail','ratio']
+        fields = ['trial_id','task','model','condition','sample','rule','status','value','detail','ratio']
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         for r in sorted(lint_rows, key=lambda x: (x['rule'], x['trial_id'])):

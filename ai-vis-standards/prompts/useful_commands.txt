@@ -1,26 +1,26 @@
-python src/runner.py runs/t03_scatter_group/gemini25pro/baseline/s1
-python src/runner.py runs/t03_scatter_group/gemini25pro/standards/s1
-python src/runner.py runs/t03_scatter_group/gemini25pro/selfcheck/s1
+python src/linter.py runs/t08_stacked_bars/gemini25pro/baseline/s1
+python src/linter.py runs/t08_stacked_bars/gemini25pro/standards/s1
+python src/linter.py runs/t08_stacked_bars/gemini25pro/selfcheck/s1
 
-python src/runner.py runs/t03_scatter_group/gpt5thinking/baseline/s1
-python src/runner.py runs/t03_scatter_group/gpt5thinking/standards/s1
-python src/runner.py runs/t03_scatter_group/gpt5thinking/selfcheck/s1
+python src/linter.py runs/t08_stacked_bars/gpt5thinking/baseline/s1
+python src/linter.py runs/t08_stacked_bars/gpt5thinking/standards/s1
+python src/linter.py runs/t08_stacked_bars/gpt5thinking/selfcheck/s1
 
-python src/runner.py runs/t03_scatter_group/grok/baseline/s1
-python src/runner.py runs/t03_scatter_group/grok/standards/s1
-python src/runner.py runs/t03_scatter_group/grok/selfcheck/s1
+python src/linter.py runs/t08_stacked_bars/grok/baseline/s1
+python src/linter.py runs/t08_stacked_bars/grok/standards/s1
+python src/linter.py runs/t08_stacked_bars/grok/selfcheck/s1
 
-cp data/tasks/t03_scatter_group/instances/A.csv runs/t03_scatter_group/gemini25pro/baseline/s1/data.csv
-cp data/tasks/t03_scatter_group/instances/A.csv runs/t03_scatter_group/gemini25pro/standards/s1/data.csv
-cp data/tasks/t03_scatter_group/instances/A.csv runs/t03_scatter_group/gemini25pro/selfcheck/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gemini25pro/baseline/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gemini25pro/standards/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gemini25pro/selfcheck/s1/data.csv
 
-cp data/tasks/t03_scatter_group/instances/A.csv runs/t03_scatter_group/gpt5thinking/baseline/s1/data.csv
-cp data/tasks/t03_scatter_group/instances/A.csv runs/t03_scatter_group/gpt5thinking/standards/s1/data.csv
-cp data/tasks/t03_scatter_group/instances/A.csv runs/t03_scatter_group/gpt5thinking/selfcheck/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gpt5thinking/baseline/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gpt5thinking/standards/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gpt5thinking/selfcheck/s1/data.csv
 
-cp data/tasks/t03_scatter_group/instances/A.csv runs/t03_scatter_group/grok/baseline/s1/data.csv
-cp data/tasks/t03_scatter_group/instances/A.csv runs/t03_scatter_group/grok/standards/s1/data.csv
-cp data/tasks/t03_scatter_group/instances/A.csv runs/t03_scatter_group/grok/selfcheck/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/grok/baseline/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/grok/standards/s1/data.csv
+cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/grok/selfcheck/s1/data.csv
 
 Return only Python code in a single fenced block. Use matplotlib, read "data.csv" from the current directory,
 and save the figure as "chart.png" (dpi=150, bbox_inches='tight'). Don’t call plt.show(). No prose.
