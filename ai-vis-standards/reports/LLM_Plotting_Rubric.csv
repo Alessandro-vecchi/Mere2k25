@@ -29,9 +29,6 @@ Data faithfulness,Bars,gemini,standards,YES
 Gridlines/ticks & sizing,Bars,gemini,baseline,YES
 Gridlines/ticks & sizing,Bars,gemini,selfcheck,YES
 Gridlines/ticks & sizing,Bars,gemini,standards,YES
-Uncertainty depiction (when applicable),Bars,gemini,baseline,N/A
-Uncertainty depiction (when applicable),Bars,gemini,selfcheck,N/A
-Uncertainty depiction (when applicable),Bars,gemini,standards,N/A
 Appropriate Data‑ink ratio,Bars,gemini,baseline,YES
 Appropriate Data‑ink ratio,Bars,gemini,selfcheck,NO
 Appropriate Data‑ink ratio,Bars,gemini,standards,NO
@@ -74,9 +71,6 @@ Data faithfulness,Bars,grok,standards,YES
 Gridlines/ticks & sizing,Bars,grok,baseline,YES
 Gridlines/ticks & sizing,Bars,grok,selfcheck,YES
 Gridlines/ticks & sizing,Bars,grok,standards,YES
-Uncertainty depiction (when applicable),Bars,grok,baseline,N/A
-Uncertainty depiction (when applicable),Bars,grok,selfcheck,N/A
-Uncertainty depiction (when applicable),Bars,grok,standards,N/A
 Appropriate Data‑ink ratio,Bars,grok,baseline,YES
 Appropriate Data‑ink ratio,Bars,grok,selfcheck,YES
 Appropriate Data‑ink ratio,Bars,grok,standards,NO
@@ -119,9 +113,6 @@ Data faithfulness,Bars,chatgpt,standards,YES
 Gridlines/ticks & sizing,Bars,chatgpt,baseline,YES
 Gridlines/ticks & sizing,Bars,chatgpt,selfcheck,YES
 Gridlines/ticks & sizing,Bars,chatgpt,standards,YES
-Uncertainty depiction (when applicable),Bars,chatgpt,baseline,N/A
-Uncertainty depiction (when applicable),Bars,chatgpt,selfcheck,N/A
-Uncertainty depiction (when applicable),Bars,chatgpt,standards,N/A
 Appropriate Data‑ink ratio,Bars,chatgpt,baseline,NO
 Appropriate Data‑ink ratio,Bars,chatgpt,selfcheck,NO
 Appropriate Data‑ink ratio,Bars,chatgpt,standards,NO
@@ -164,9 +155,6 @@ Data faithfulness,line gaps,gemini,standards,YES
 Gridlines/ticks & sizing,line gaps,gemini,baseline,YES
 Gridlines/ticks & sizing,line gaps,gemini,selfcheck,YES
 Gridlines/ticks & sizing,line gaps,gemini,standards,YES
-Uncertainty depiction (when applicable),line gaps,gemini,baseline,N/A
-Uncertainty depiction (when applicable),line gaps,gemini,selfcheck,N/A
-Uncertainty depiction (when applicable),line gaps,gemini,standards,N/A
 Appropriate Data‑ink ratio,line gaps,gemini,baseline,YES
 Appropriate Data‑ink ratio,line gaps,gemini,selfcheck,YES
 Appropriate Data‑ink ratio,line gaps,gemini,standards,YES
@@ -209,9 +197,6 @@ Data faithfulness,line gaps,grok,standards,YES
 Gridlines/ticks & sizing,line gaps,grok,baseline,NO
 Gridlines/ticks & sizing,line gaps,grok,selfcheck,NO
 Gridlines/ticks & sizing,line gaps,grok,standards,YES
-Uncertainty depiction (when applicable),line gaps,grok,baseline,N/A
-Uncertainty depiction (when applicable),line gaps,grok,selfcheck,N/A
-Uncertainty depiction (when applicable),line gaps,grok,standards,N/A
 Appropriate Data‑ink ratio,line gaps,grok,baseline,YES
 Appropriate Data‑ink ratio,line gaps,grok,selfcheck,NO
 Appropriate Data‑ink ratio,line gaps,grok,standards,NO
@@ -254,9 +239,6 @@ Data faithfulness,line gaps,chatgpt,standards,YES
 Gridlines/ticks & sizing,line gaps,chatgpt,baseline,YES
 Gridlines/ticks & sizing,line gaps,chatgpt,selfcheck,YES
 Gridlines/ticks & sizing,line gaps,chatgpt,standards,YES
-Uncertainty depiction (when applicable),line gaps,chatgpt,baseline,N/A
-Uncertainty depiction (when applicable),line gaps,chatgpt,selfcheck,N/A
-Uncertainty depiction (when applicable),line gaps,chatgpt,standards,N/A
 Appropriate Data‑ink ratio,line gaps,chatgpt,baseline,YES
 Appropriate Data‑ink ratio,line gaps,chatgpt,selfcheck,YES
 Appropriate Data‑ink ratio,line gaps,chatgpt,standards,NO
@@ -299,9 +281,6 @@ Data faithfulness,scatter group,gemini,standards,YES
 Gridlines/ticks & sizing,scatter group,gemini,baseline,YES
 Gridlines/ticks & sizing,scatter group,gemini,selfcheck,YES
 Gridlines/ticks & sizing,scatter group,gemini,standards,YES
-Uncertainty depiction (when applicable),scatter group,gemini,baseline,N/A
-Uncertainty depiction (when applicable),scatter group,gemini,selfcheck,N/A
-Uncertainty depiction (when applicable),scatter group,gemini,standards,N/A
 Appropriate Data‑ink ratio,scatter group,gemini,baseline,YES
 Appropriate Data‑ink ratio,scatter group,gemini,selfcheck,YES
 Appropriate Data‑ink ratio,scatter group,gemini,standards,YES
@@ -344,9 +323,6 @@ Data faithfulness,scatter group,grok,standards,YES
 Gridlines/ticks & sizing,scatter group,grok,baseline,YES
 Gridlines/ticks & sizing,scatter group,grok,selfcheck,YES
 Gridlines/ticks & sizing,scatter group,grok,standards,YES
-Uncertainty depiction (when applicable),scatter group,grok,baseline,N/A
-Uncertainty depiction (when applicable),scatter group,grok,selfcheck,N/A
-Uncertainty depiction (when applicable),scatter group,grok,standards,N/A
 Appropriate Data‑ink ratio,scatter group,grok,baseline,YES
 Appropriate Data‑ink ratio,scatter group,grok,selfcheck,YES
 Appropriate Data‑ink ratio,scatter group,grok,standards,YES
@@ -389,9 +365,6 @@ Data faithfulness,scatter group,chatgpt,standards,YES
 Gridlines/ticks & sizing,scatter group,chatgpt,baseline,YES
 Gridlines/ticks & sizing,scatter group,chatgpt,selfcheck,YES
 Gridlines/ticks & sizing,scatter group,chatgpt,standards,YES
-Uncertainty depiction (when applicable),scatter group,chatgpt,baseline,N/A
-Uncertainty depiction (when applicable),scatter group,chatgpt,selfcheck,N/A
-Uncertainty depiction (when applicable),scatter group,chatgpt,standards,N/A
 Appropriate Data‑ink ratio,scatter group,chatgpt,baseline,YES
 Appropriate Data‑ink ratio,scatter group,chatgpt,selfcheck,YES
 Appropriate Data‑ink ratio,scatter group,chatgpt,standards,YES
@@ -434,9 +407,6 @@ Data faithfulness,heatmap,gemini,standards,YES
 Gridlines/ticks & sizing,heatmap,gemini,baseline,YES
 Gridlines/ticks & sizing,heatmap,gemini,selfcheck,YES
 Gridlines/ticks & sizing,heatmap,gemini,standards,YES
-Uncertainty depiction (when applicable),heatmap,gemini,baseline,N/A
-Uncertainty depiction (when applicable),heatmap,gemini,selfcheck,N/A
-Uncertainty depiction (when applicable),heatmap,gemini,standards,N/A
 Appropriate Data‑ink ratio,heatmap,gemini,baseline,NO
 Appropriate Data‑ink ratio,heatmap,gemini,selfcheck,NO
 Appropriate Data‑ink ratio,heatmap,gemini,standards,NO
@@ -479,9 +449,6 @@ Data faithfulness,heatmap,grok,standards,NO
 Gridlines/ticks & sizing,heatmap,grok,baseline,YES
 Gridlines/ticks & sizing,heatmap,grok,selfcheck,NO
 Gridlines/ticks & sizing,heatmap,grok,standards,YES
-Uncertainty depiction (when applicable),heatmap,grok,baseline,N/A
-Uncertainty depiction (when applicable),heatmap,grok,selfcheck,N/A
-Uncertainty depiction (when applicable),heatmap,grok,standards,N/A
 Appropriate Data‑ink ratio,heatmap,grok,baseline,NO
 Appropriate Data‑ink ratio,heatmap,grok,selfcheck,YES
 Appropriate Data‑ink ratio,heatmap,grok,standards,NO
@@ -524,9 +491,6 @@ Data faithfulness,heatmap,chatgpt,standards,YES
 Gridlines/ticks & sizing,heatmap,chatgpt,baseline,YES
 Gridlines/ticks & sizing,heatmap,chatgpt,selfcheck,NO
 Gridlines/ticks & sizing,heatmap,chatgpt,standards,YES
-Uncertainty depiction (when applicable),heatmap,chatgpt,baseline,N/A
-Uncertainty depiction (when applicable),heatmap,chatgpt,selfcheck,N/A
-Uncertainty depiction (when applicable),heatmap,chatgpt,standards,N/A
 Appropriate Data‑ink ratio,heatmap,chatgpt,baseline,NO
 Appropriate Data‑ink ratio,heatmap,chatgpt,selfcheck,NO
 Appropriate Data‑ink ratio,heatmap,chatgpt,standards,NO
@@ -569,9 +533,6 @@ Data faithfulness,small multi,gemini,standards,YES
 Gridlines/ticks & sizing,small multi,gemini,baseline,NO
 Gridlines/ticks & sizing,small multi,gemini,selfcheck,NO
 Gridlines/ticks & sizing,small multi,gemini,standards,YES
-Uncertainty depiction (when applicable),small multi,gemini,baseline,N/A
-Uncertainty depiction (when applicable),small multi,gemini,selfcheck,N/A
-Uncertainty depiction (when applicable),small multi,gemini,standards,N/A
 Appropriate Data‑ink ratio,small multi,gemini,baseline,YES
 Appropriate Data‑ink ratio,small multi,gemini,selfcheck,YES
 Appropriate Data‑ink ratio,small multi,gemini,standards,YES
@@ -614,9 +575,6 @@ Data faithfulness,small multi,grok,standards,NO
 Gridlines/ticks & sizing,small multi,grok,baseline,N/A
 Gridlines/ticks & sizing,small multi,grok,selfcheck,NO
 Gridlines/ticks & sizing,small multi,grok,standards,NO
-Uncertainty depiction (when applicable),small multi,grok,baseline,N/A
-Uncertainty depiction (when applicable),small multi,grok,selfcheck,N/A
-Uncertainty depiction (when applicable),small multi,grok,standards,N/A
 Appropriate Data‑ink ratio,small multi,grok,baseline,N/A
 Appropriate Data‑ink ratio,small multi,grok,selfcheck,YES
 Appropriate Data‑ink ratio,small multi,grok,standards,NO
@@ -659,9 +617,6 @@ Data faithfulness,small multi,chatgpt,standards,YES
 Gridlines/ticks & sizing,small multi,chatgpt,baseline,YES
 Gridlines/ticks & sizing,small multi,chatgpt,selfcheck,YES
 Gridlines/ticks & sizing,small multi,chatgpt,standards,YES
-Uncertainty depiction (when applicable),small multi,chatgpt,baseline,N/A
-Uncertainty depiction (when applicable),small multi,chatgpt,selfcheck,N/A
-Uncertainty depiction (when applicable),small multi,chatgpt,standards,N/A
 Appropriate Data‑ink ratio,small multi,chatgpt,baseline,NO
 Appropriate Data‑ink ratio,small multi,chatgpt,selfcheck,YES
 Appropriate Data‑ink ratio,small multi,chatgpt,standards,NO
@@ -704,9 +659,6 @@ Data faithfulness,dual axis,gemini,standards,YES
 Gridlines/ticks & sizing,dual axis,gemini,baseline,YES
 Gridlines/ticks & sizing,dual axis,gemini,selfcheck,YES
 Gridlines/ticks & sizing,dual axis,gemini,standards,YES
-Uncertainty depiction (when applicable),dual axis,gemini,baseline,N/A
-Uncertainty depiction (when applicable),dual axis,gemini,selfcheck,N/A
-Uncertainty depiction (when applicable),dual axis,gemini,standards,N/A
 Appropriate Data‑ink ratio,dual axis,gemini,baseline,YES
 Appropriate Data‑ink ratio,dual axis,gemini,selfcheck,YES
 Appropriate Data‑ink ratio,dual axis,gemini,standards,YES
@@ -749,9 +701,6 @@ Data faithfulness,dual axis,grok,standards,YES
 Gridlines/ticks & sizing,dual axis,grok,baseline,YES
 Gridlines/ticks & sizing,dual axis,grok,selfcheck,YES
 Gridlines/ticks & sizing,dual axis,grok,standards,YES
-Uncertainty depiction (when applicable),dual axis,grok,baseline,N/A
-Uncertainty depiction (when applicable),dual axis,grok,selfcheck,N/A
-Uncertainty depiction (when applicable),dual axis,grok,standards,N/A
 Appropriate Data‑ink ratio,dual axis,grok,baseline,YES
 Appropriate Data‑ink ratio,dual axis,grok,selfcheck,NO
 Appropriate Data‑ink ratio,dual axis,grok,standards,YES
@@ -794,9 +743,6 @@ Data faithfulness,dual axis,chatgpt,standards,YES
 Gridlines/ticks & sizing,dual axis,chatgpt,baseline,YES
 Gridlines/ticks & sizing,dual axis,chatgpt,selfcheck,YES
 Gridlines/ticks & sizing,dual axis,chatgpt,standards,YES
-Uncertainty depiction (when applicable),dual axis,chatgpt,baseline,N/A
-Uncertainty depiction (when applicable),dual axis,chatgpt,selfcheck,N/A
-Uncertainty depiction (when applicable),dual axis,chatgpt,standards,N/A
 Appropriate Data‑ink ratio,dual axis,chatgpt,baseline,YES
 Appropriate Data‑ink ratio,dual axis,chatgpt,selfcheck,NO
 Appropriate Data‑ink ratio,dual axis,chatgpt,standards,NO
@@ -839,9 +785,6 @@ Data faithfulness,histogram,gemini,standards,YES
 Gridlines/ticks & sizing,histogram,gemini,baseline,NO
 Gridlines/ticks & sizing,histogram,gemini,selfcheck,YES
 Gridlines/ticks & sizing,histogram,gemini,standards,NO
-Uncertainty depiction (when applicable),histogram,gemini,baseline,N/A
-Uncertainty depiction (when applicable),histogram,gemini,selfcheck,N/A
-Uncertainty depiction (when applicable),histogram,gemini,standards,N/A
 Appropriate Data‑ink ratio,histogram,gemini,baseline,YES
 Appropriate Data‑ink ratio,histogram,gemini,selfcheck,YES
 Appropriate Data‑ink ratio,histogram,gemini,standards,YES
@@ -884,9 +827,6 @@ Data faithfulness,histogram,grok,standards,YES
 Gridlines/ticks & sizing,histogram,grok,baseline,NO
 Gridlines/ticks & sizing,histogram,grok,selfcheck,YES
 Gridlines/ticks & sizing,histogram,grok,standards,YES
-Uncertainty depiction (when applicable),histogram,grok,baseline,N/A
-Uncertainty depiction (when applicable),histogram,grok,selfcheck,N/A
-Uncertainty depiction (when applicable),histogram,grok,standards,N/A
 Appropriate Data‑ink ratio,histogram,grok,baseline,YES
 Appropriate Data‑ink ratio,histogram,grok,selfcheck,YES
 Appropriate Data‑ink ratio,histogram,grok,standards,YES
@@ -929,9 +869,6 @@ Data faithfulness,histogram,chatgpt,standards,YES
 Gridlines/ticks & sizing,histogram,chatgpt,baseline,YES
 Gridlines/ticks & sizing,histogram,chatgpt,selfcheck,YES
 Gridlines/ticks & sizing,histogram,chatgpt,standards,YES
-Uncertainty depiction (when applicable),histogram,chatgpt,baseline,N/A
-Uncertainty depiction (when applicable),histogram,chatgpt,selfcheck,N/A
-Uncertainty depiction (when applicable),histogram,chatgpt,standards,N/A
 Appropriate Data‑ink ratio,histogram,chatgpt,baseline,NO
 Appropriate Data‑ink ratio,histogram,chatgpt,selfcheck,YES
 Appropriate Data‑ink ratio,histogram,chatgpt,standards,YES
@@ -974,9 +911,6 @@ Data faithfulness,stacked bars,gemini,standards,NO
 Gridlines/ticks & sizing,stacked bars,gemini,baseline,NO
 Gridlines/ticks & sizing,stacked bars,gemini,selfcheck,YES
 Gridlines/ticks & sizing,stacked bars,gemini,standards,YES
-Uncertainty depiction (when applicable),stacked bars,gemini,baseline,N/A
-Uncertainty depiction (when applicable),stacked bars,gemini,selfcheck,N/A
-Uncertainty depiction (when applicable),stacked bars,gemini,standards,N/A
 Appropriate Data‑ink ratio,stacked bars,gemini,baseline,YES
 Appropriate Data‑ink ratio,stacked bars,gemini,selfcheck,YES
 Appropriate Data‑ink ratio,stacked bars,gemini,standards,YES
@@ -1019,9 +953,6 @@ Data faithfulness,stacked bars,grok,standards,NO
 Gridlines/ticks & sizing,stacked bars,grok,baseline,NO
 Gridlines/ticks & sizing,stacked bars,grok,selfcheck,YES
 Gridlines/ticks & sizing,stacked bars,grok,standards,YES
-Uncertainty depiction (when applicable),stacked bars,grok,baseline,N/A
-Uncertainty depiction (when applicable),stacked bars,grok,selfcheck,N/A
-Uncertainty depiction (when applicable),stacked bars,grok,standards,N/A
 Appropriate Data‑ink ratio,stacked bars,grok,baseline,YES
 Appropriate Data‑ink ratio,stacked bars,grok,selfcheck,YES
 Appropriate Data‑ink ratio,stacked bars,grok,standards,YES
@@ -1064,9 +995,6 @@ Data faithfulness,stacked bars,chatgpt,standards,YES
 Gridlines/ticks & sizing,stacked bars,chatgpt,baseline,YES
 Gridlines/ticks & sizing,stacked bars,chatgpt,selfcheck,YES
 Gridlines/ticks & sizing,stacked bars,chatgpt,standards,YES
-Uncertainty depiction (when applicable),stacked bars,chatgpt,baseline,N/A
-Uncertainty depiction (when applicable),stacked bars,chatgpt,selfcheck,N/A
-Uncertainty depiction (when applicable),stacked bars,chatgpt,standards,N/A
 Appropriate Data‑ink ratio,stacked bars,chatgpt,baseline,YES
 Appropriate Data‑ink ratio,stacked bars,chatgpt,selfcheck,YES
 Appropriate Data‑ink ratio,stacked bars,chatgpt,standards,YES
