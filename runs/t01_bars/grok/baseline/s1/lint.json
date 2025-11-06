@@ -1,0 +1,43 @@
+[
+  {
+    "rule": "chart_type",
+    "value": "bar"
+  },
+  {
+    "rule": "labels_present",
+    "status": "fail",
+    "detail": "title,ylabel"
+  },
+  {
+    "rule": "legend_call",
+    "status": "warn",
+    "detail": "no legend() call"
+  },
+  {
+    "rule": "dual_axes",
+    "status": "pass",
+    "detail": "not detected"
+  },
+  {
+    "rule": "determinism_seed",
+    "status": "pass",
+    "detail": "no unseeded rng"
+  },
+  {
+    "rule": "seaborn_usage",
+    "status": "info",
+    "detail": "not used"
+  },
+  {
+    "rule": "baseline_zero_bar",
+    "status": "warn",
+    "detail": "no explicit baseline enforcement"
+  },
+  {
+    "rule": "contrast_text",
+    "status": "pass",
+    "ratio": 4.82,
+    "threshold_text": 4.5,
+    "threshold_graphics": 3.0
+  }
+]

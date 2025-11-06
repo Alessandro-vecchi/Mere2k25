@@ -1,0 +1,38 @@
+[
+  {
+    "rule": "chart_type",
+    "value": "scatter"
+  },
+  {
+    "rule": "labels_present",
+    "status": "pass",
+    "detail": "title,xlabel,ylabel"
+  },
+  {
+    "rule": "legend_call",
+    "status": "pass",
+    "detail": "legend() detected"
+  },
+  {
+    "rule": "dual_axes",
+    "status": "pass",
+    "detail": "not detected"
+  },
+  {
+    "rule": "determinism_seed",
+    "status": "pass",
+    "detail": "no unseeded rng"
+  },
+  {
+    "rule": "seaborn_usage",
+    "status": "info",
+    "detail": "not used"
+  },
+  {
+    "rule": "contrast_text",
+    "status": "fail",
+    "ratio": 2.58,
+    "threshold_text": 4.5,
+    "threshold_graphics": 3.0
+  }
+]
