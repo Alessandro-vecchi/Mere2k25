@@ -1,0 +1,10 @@
+model,condition,overall_pass_rate_on_selected_rules
+gemini25pro,baseline,0.5714285714285714
+gemini25pro,selfcheck,0.5882352941176471
+gemini25pro,standards,0.5882352941176471
+gpt5thinking,baseline,0.6
+gpt5thinking,selfcheck,0.6571428571428571
+gpt5thinking,standards,0.7352941176470589
+grok,baseline,0.5333333333333333
+grok,selfcheck,0.6470588235294118
+grok,standards,0.6764705882352942

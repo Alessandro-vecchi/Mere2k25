@@ -32,9 +32,9 @@ Gridlines/ticks & sizing,Bars,gemini,standards,YES
 Appropriate Data‑ink ratio,Bars,gemini,baseline,YES
 Appropriate Data‑ink ratio,Bars,gemini,selfcheck,NO
 Appropriate Data‑ink ratio,Bars,gemini,standards,NO
-Legend–encoding alignment,Bars,gemini,baseline,N/A
-Legend–encoding alignment,Bars,gemini,selfcheck,N/A
-Legend–encoding alignment,Bars,gemini,standards,N/A
+Legend–encoding alignment,Bars,gemini,baseline,
+Legend–encoding alignment,Bars,gemini,selfcheck,
+Legend–encoding alignment,Bars,gemini,standards,
 Task intent adherence,Bars,gemini,baseline,YES
 Task intent adherence,Bars,gemini,selfcheck,YES
 Task intent adherence,Bars,gemini,standards,YES
@@ -74,9 +74,9 @@ Gridlines/ticks & sizing,Bars,grok,standards,YES
 Appropriate Data‑ink ratio,Bars,grok,baseline,YES
 Appropriate Data‑ink ratio,Bars,grok,selfcheck,YES
 Appropriate Data‑ink ratio,Bars,grok,standards,NO
-Legend–encoding alignment,Bars,grok,baseline,N/A
-Legend–encoding alignment,Bars,grok,selfcheck,N/A
-Legend–encoding alignment,Bars,grok,standards,N/A
+Legend–encoding alignment,Bars,grok,baseline,
+Legend–encoding alignment,Bars,grok,selfcheck,
+Legend–encoding alignment,Bars,grok,standards,
 Task intent adherence,Bars,grok,baseline,YES
 Task intent adherence,Bars,grok,selfcheck,YES
 Task intent adherence,Bars,grok,standards,YES
@@ -116,9 +116,9 @@ Gridlines/ticks & sizing,Bars,chatgpt,standards,YES
 Appropriate Data‑ink ratio,Bars,chatgpt,baseline,NO
 Appropriate Data‑ink ratio,Bars,chatgpt,selfcheck,NO
 Appropriate Data‑ink ratio,Bars,chatgpt,standards,NO
-Legend–encoding alignment,Bars,chatgpt,baseline,N/A
-Legend–encoding alignment,Bars,chatgpt,selfcheck,N/A
-Legend–encoding alignment,Bars,chatgpt,standards,N/A
+Legend–encoding alignment,Bars,chatgpt,baseline,
+Legend–encoding alignment,Bars,chatgpt,selfcheck,
+Legend–encoding alignment,Bars,chatgpt,standards,
 Task intent adherence,Bars,chatgpt,baseline,YES
 Task intent adherence,Bars,chatgpt,selfcheck,YES
 Task intent adherence,Bars,chatgpt,standards,YES
@@ -158,9 +158,9 @@ Gridlines/ticks & sizing,line gaps,gemini,standards,YES
 Appropriate Data‑ink ratio,line gaps,gemini,baseline,YES
 Appropriate Data‑ink ratio,line gaps,gemini,selfcheck,YES
 Appropriate Data‑ink ratio,line gaps,gemini,standards,YES
-Legend–encoding alignment,line gaps,gemini,baseline,N/A
-Legend–encoding alignment,line gaps,gemini,selfcheck,N/A
-Legend–encoding alignment,line gaps,gemini,standards,N/A
+Legend–encoding alignment,line gaps,gemini,baseline,
+Legend–encoding alignment,line gaps,gemini,selfcheck,
+Legend–encoding alignment,line gaps,gemini,standards,
 Task intent adherence,line gaps,gemini,baseline,YES
 Task intent adherence,line gaps,gemini,selfcheck,YES
 Task intent adherence,line gaps,gemini,standards,YES
@@ -200,9 +200,9 @@ Gridlines/ticks & sizing,line gaps,grok,standards,YES
 Appropriate Data‑ink ratio,line gaps,grok,baseline,YES
 Appropriate Data‑ink ratio,line gaps,grok,selfcheck,NO
 Appropriate Data‑ink ratio,line gaps,grok,standards,NO
-Legend–encoding alignment,line gaps,grok,baseline,N/A
-Legend–encoding alignment,line gaps,grok,selfcheck,N/A
-Legend–encoding alignment,line gaps,grok,standards,N/A
+Legend–encoding alignment,line gaps,grok,baseline,
+Legend–encoding alignment,line gaps,grok,selfcheck,
+Legend–encoding alignment,line gaps,grok,standards,
 Task intent adherence,line gaps,grok,baseline,YES
 Task intent adherence,line gaps,grok,selfcheck,YES
 Task intent adherence,line gaps,grok,standards,YES
@@ -242,9 +242,9 @@ Gridlines/ticks & sizing,line gaps,chatgpt,standards,YES
 Appropriate Data‑ink ratio,line gaps,chatgpt,baseline,YES
 Appropriate Data‑ink ratio,line gaps,chatgpt,selfcheck,YES
 Appropriate Data‑ink ratio,line gaps,chatgpt,standards,NO
-Legend–encoding alignment,line gaps,chatgpt,baseline,N/A
-Legend–encoding alignment,line gaps,chatgpt,selfcheck,N/A
-Legend–encoding alignment,line gaps,chatgpt,standards,N/A
+Legend–encoding alignment,line gaps,chatgpt,baseline,
+Legend–encoding alignment,line gaps,chatgpt,selfcheck,
+Legend–encoding alignment,line gaps,chatgpt,standards,
 Task intent adherence,line gaps,chatgpt,baseline,NO
 Task intent adherence,line gaps,chatgpt,selfcheck,NO
 Task intent adherence,line gaps,chatgpt,standards,NO
@@ -381,7 +381,7 @@ Code validity & reproducibility,heatmap,gemini,baseline,YES
 Code validity & reproducibility,heatmap,gemini,selfcheck,NO
 Code validity & reproducibility,heatmap,gemini,standards,YES
 Encoding choice matches task,heatmap,gemini,baseline,YES
-Encoding choice matches task,heatmap,gemini,selfcheck,N/A
+Encoding choice matches task,heatmap,gemini,selfcheck,
 Encoding choice matches task,heatmap,gemini,standards,YES
 Chart type suitability,heatmap,gemini,baseline,YES
 Chart type suitability,heatmap,gemini,selfcheck,NO
@@ -393,13 +393,13 @@ Scale consistency across panels,heatmap,gemini,baseline,YES
 Scale consistency across panels,heatmap,gemini,selfcheck,YES
 Scale consistency across panels,heatmap,gemini,standards,YES
 Color contrast & colorblind safety,heatmap,gemini,baseline,NO
-Color contrast & colorblind safety,heatmap,gemini,selfcheck,N/A
+Color contrast & colorblind safety,heatmap,gemini,selfcheck,
 Color contrast & colorblind safety,heatmap,gemini,standards,NO
 Redundancy,heatmap,gemini,baseline,YES
-Redundancy,heatmap,gemini,selfcheck,N/A
+Redundancy,heatmap,gemini,selfcheck,
 Redundancy,heatmap,gemini,standards,YES
 Data faithfulness,heatmap,gemini,baseline,YES
-Data faithfulness,heatmap,gemini,selfcheck,N/A
+Data faithfulness,heatmap,gemini,selfcheck,
 Data faithfulness,heatmap,gemini,standards,YES
 "Labels, units, titles & legends",heatmap,gemini,baseline,YES
 "Labels, units, titles & legends",heatmap,gemini,selfcheck,NO
@@ -411,7 +411,7 @@ Appropriate Data‑ink ratio,heatmap,gemini,baseline,NO
 Appropriate Data‑ink ratio,heatmap,gemini,selfcheck,NO
 Appropriate Data‑ink ratio,heatmap,gemini,standards,NO
 Legend–encoding alignment,heatmap,gemini,baseline,YES
-Legend–encoding alignment,heatmap,gemini,selfcheck,N/A
+Legend–encoding alignment,heatmap,gemini,selfcheck,
 Legend–encoding alignment,heatmap,gemini,standards,YES
 Task intent adherence,heatmap,gemini,baseline,YES
 Task intent adherence,heatmap,gemini,selfcheck,NO
@@ -548,43 +548,43 @@ Holistic readability,small multi,gemini,standards,YES
 Code validity & reproducibility,small multi,grok,baseline,NO
 Code validity & reproducibility,small multi,grok,selfcheck,YES
 Code validity & reproducibility,small multi,grok,standards,YES
-Encoding choice matches task,small multi,grok,baseline,N/A
+Encoding choice matches task,small multi,grok,baseline,
 Encoding choice matches task,small multi,grok,selfcheck,YES
 Encoding choice matches task,small multi,grok,standards,YES
-Chart type suitability,small multi,grok,baseline,N/A
+Chart type suitability,small multi,grok,baseline,
 Chart type suitability,small multi,grok,selfcheck,YES
 Chart type suitability,small multi,grok,standards,YES
-Axis integrity,small multi,grok,baseline,N/A
+Axis integrity,small multi,grok,baseline,
 Axis integrity,small multi,grok,selfcheck,NO
 Axis integrity,small multi,grok,standards,NO
-Scale consistency across panels,small multi,grok,baseline,N/A
+Scale consistency across panels,small multi,grok,baseline,
 Scale consistency across panels,small multi,grok,selfcheck,YES
 Scale consistency across panels,small multi,grok,standards,YES
-Color contrast & colorblind safety,small multi,grok,baseline,N/A
+Color contrast & colorblind safety,small multi,grok,baseline,
 Color contrast & colorblind safety,small multi,grok,selfcheck,YES
 Color contrast & colorblind safety,small multi,grok,standards,NO
-Redundancy,small multi,grok,baseline,N/A
+Redundancy,small multi,grok,baseline,
 Redundancy,small multi,grok,selfcheck,NO
 Redundancy,small multi,grok,standards,YES
-Data faithfulness,small multi,grok,baseline,N/A
+Data faithfulness,small multi,grok,baseline,
 Data faithfulness,small multi,grok,selfcheck,YES
 Data faithfulness,small multi,grok,standards,NO
-"Labels, units, titles & legends",small multi,grok,baseline,N/A
+"Labels, units, titles & legends",small multi,grok,baseline,
 "Labels, units, titles & legends",small multi,grok,selfcheck,NO
 "Labels, units, titles & legends",small multi,grok,standards,NO
-Gridlines/ticks & sizing,small multi,grok,baseline,N/A
+Gridlines/ticks & sizing,small multi,grok,baseline,
 Gridlines/ticks & sizing,small multi,grok,selfcheck,NO
 Gridlines/ticks & sizing,small multi,grok,standards,NO
-Appropriate Data‑ink ratio,small multi,grok,baseline,N/A
+Appropriate Data‑ink ratio,small multi,grok,baseline,
 Appropriate Data‑ink ratio,small multi,grok,selfcheck,YES
 Appropriate Data‑ink ratio,small multi,grok,standards,NO
-Legend–encoding alignment,small multi,grok,baseline,N/A
+Legend–encoding alignment,small multi,grok,baseline,
 Legend–encoding alignment,small multi,grok,selfcheck,YES
 Legend–encoding alignment,small multi,grok,standards,YES
-Task intent adherence,small multi,grok,baseline,N/A
+Task intent adherence,small multi,grok,baseline,
 Task intent adherence,small multi,grok,selfcheck,YES
 Task intent adherence,small multi,grok,standards,YES
-Holistic readability,small multi,grok,baseline,N/A
+Holistic readability,small multi,grok,baseline,
 Holistic readability,small multi,grok,selfcheck,YES
 Holistic readability,small multi,grok,standards,YES
 Code validity & reproducibility,small multi,chatgpt,baseline,YES
@@ -662,9 +662,9 @@ Gridlines/ticks & sizing,dual axis,gemini,standards,YES
 Appropriate Data‑ink ratio,dual axis,gemini,baseline,YES
 Appropriate Data‑ink ratio,dual axis,gemini,selfcheck,YES
 Appropriate Data‑ink ratio,dual axis,gemini,standards,YES
-Legend–encoding alignment,dual axis,gemini,baseline,N/A
-Legend–encoding alignment,dual axis,gemini,selfcheck,N/A
-Legend–encoding alignment,dual axis,gemini,standards,N/A
+Legend–encoding alignment,dual axis,gemini,baseline,
+Legend–encoding alignment,dual axis,gemini,selfcheck,
+Legend–encoding alignment,dual axis,gemini,standards,
 Task intent adherence,dual axis,gemini,baseline,NO
 Task intent adherence,dual axis,gemini,selfcheck,NO
 Task intent adherence,dual axis,gemini,standards,NO
@@ -704,7 +704,7 @@ Gridlines/ticks & sizing,dual axis,grok,standards,YES
 Appropriate Data‑ink ratio,dual axis,grok,baseline,YES
 Appropriate Data‑ink ratio,dual axis,grok,selfcheck,NO
 Appropriate Data‑ink ratio,dual axis,grok,standards,YES
-Legend–encoding alignment,dual axis,grok,baseline,N/A
+Legend–encoding alignment,dual axis,grok,baseline,
 Legend–encoding alignment,dual axis,grok,selfcheck,NO
 Legend–encoding alignment,dual axis,grok,standards,YES
 Task intent adherence,dual axis,grok,baseline,NO
@@ -788,9 +788,9 @@ Gridlines/ticks & sizing,histogram,gemini,standards,NO
 Appropriate Data‑ink ratio,histogram,gemini,baseline,YES
 Appropriate Data‑ink ratio,histogram,gemini,selfcheck,YES
 Appropriate Data‑ink ratio,histogram,gemini,standards,YES
-Legend–encoding alignment,histogram,gemini,baseline,N/A
-Legend–encoding alignment,histogram,gemini,selfcheck,N/A
-Legend–encoding alignment,histogram,gemini,standards,N/A
+Legend–encoding alignment,histogram,gemini,baseline,
+Legend–encoding alignment,histogram,gemini,selfcheck,
+Legend–encoding alignment,histogram,gemini,standards,
 Task intent adherence,histogram,gemini,baseline,YES
 Task intent adherence,histogram,gemini,selfcheck,YES
 Task intent adherence,histogram,gemini,standards,YES
@@ -830,9 +830,9 @@ Gridlines/ticks & sizing,histogram,grok,standards,YES
 Appropriate Data‑ink ratio,histogram,grok,baseline,YES
 Appropriate Data‑ink ratio,histogram,grok,selfcheck,YES
 Appropriate Data‑ink ratio,histogram,grok,standards,YES
-Legend–encoding alignment,histogram,grok,baseline,N/A
-Legend–encoding alignment,histogram,grok,selfcheck,N/A
-Legend–encoding alignment,histogram,grok,standards,N/A
+Legend–encoding alignment,histogram,grok,baseline,
+Legend–encoding alignment,histogram,grok,selfcheck,
+Legend–encoding alignment,histogram,grok,standards,
 Task intent adherence,histogram,grok,baseline,YES
 Task intent adherence,histogram,grok,selfcheck,YES
 Task intent adherence,histogram,grok,standards,YES
@@ -872,9 +872,9 @@ Gridlines/ticks & sizing,histogram,chatgpt,standards,YES
 Appropriate Data‑ink ratio,histogram,chatgpt,baseline,NO
 Appropriate Data‑ink ratio,histogram,chatgpt,selfcheck,YES
 Appropriate Data‑ink ratio,histogram,chatgpt,standards,YES
-Legend–encoding alignment,histogram,chatgpt,baseline,N/A
-Legend–encoding alignment,histogram,chatgpt,selfcheck,N/A
-Legend–encoding alignment,histogram,chatgpt,standards,N/A
+Legend–encoding alignment,histogram,chatgpt,baseline,
+Legend–encoding alignment,histogram,chatgpt,selfcheck,
+Legend–encoding alignment,histogram,chatgpt,standards,
 Task intent adherence,histogram,chatgpt,baseline,YES
 Task intent adherence,histogram,chatgpt,selfcheck,YES
 Task intent adherence,histogram,chatgpt,standards,YES
