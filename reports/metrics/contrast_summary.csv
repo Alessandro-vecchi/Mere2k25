@@ -1,0 +1,10 @@
+model,condition,pct_below_4p5,pct_below_3p0,n
+gemini25pro,baseline,0.625,0.625,8
+gemini25pro,selfcheck,0.875,0.625,8
+gemini25pro,standards,0.625,0.5,8
+gpt5thinking,baseline,0.5,0.5,8
+gpt5thinking,selfcheck,0.5,0.5,8
+gpt5thinking,standards,0.5,0.5,8
+grok,baseline,0.2857142857142857,0.2857142857142857,7
+grok,selfcheck,0.75,0.5,8
+grok,standards,0.625,0.5,8

@@ -1,0 +1,6 @@
+rule,violations,applicable_trials,violations_per_100_trials
+baseline_zero_bar,15,21,71.42857142857143
+contrast_text,42,71,59.15492957746479
+legend_call,39,71,54.929577464788736
+labels_present,19,71,26.760563380281692
+determinism_seed,1,71,1.408450704225352

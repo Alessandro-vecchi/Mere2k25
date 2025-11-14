@@ -1,0 +1,6 @@
+rule,gain_baseline_to_standards,gain_standards_to_selfcheck
+labels_present,0.32142857142857145,0.0
+baseline_zero_bar,0.2222222222222222,0.11111111111111112
+legend_call,0.1130952380952381,-0.041666666666666664
+dual_axes,0.0,0.0
+contrast_text,-0.1130952380952381,-0.125
