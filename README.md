@@ -113,14 +113,12 @@ runs/t01_bars/gpt5thinking/baseline/s1/
 * **Disable browsing/tools** in the web UI if possible. If the UI auto-retrieves (e.g., shows citations), note it—add a short comment to `stderr.txt` or a `notes` field in `run.json` extending the schema.
 * **Keep prompts identical** across trials; only the *task footer* and *condition* (baseline/standards/selfcheck) change.
 * **Do not rename** folder components; analysis scripts rely on the path format.
-* **Two samples per cell** (web UI is stochastic): use `s1` and `s2`.
 * **Determinism:** our linter flags RNG without `seed`; prefer prompts that request `np.random.seed(0)` if randomness appears.
 * **Naming conventions:**
 
   * Models: `gpt5thinking`, `gemini25pro`, `grok`
   * Tasks: `t01_bars`, `t02_line_gaps`, `t03_scatter_group`, `t04_heatmap_corr`, `t05_small_multiples`, `t06_dual_axis`, `t07_histogram`, `t08_stacked_bars`
   * Conditions: `baseline`, `standards`, `selfcheck`
-  * Samples: `s1`, `s2`
 
 ---
 
