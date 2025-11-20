@@ -1,0 +1,1873 @@
+rater,task,model,prompt_style,rubric,score
+1,Bars,ChatGPT 5 Thinking,baseline,Aligned scales,no
+1,Bars,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+1,Bars,ChatGPT 5 Thinking,standards,Aligned scales,yes
+1,Bars,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+1,Bars,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+1,Bars,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+1,Bars,ChatGPT 5 Thinking,baseline,Axis integrity,yes
+1,Bars,ChatGPT 5 Thinking,selfcheck,Axis integrity,yes
+1,Bars,ChatGPT 5 Thinking,standards,Axis integrity,yes
+1,Bars,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+1,Bars,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+1,Bars,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+1,Bars,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+1,Bars,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+1,Bars,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+1,Bars,ChatGPT 5 Thinking,baseline,Color redundancy,yes
+1,Bars,ChatGPT 5 Thinking,selfcheck,Color redundancy,yes
+1,Bars,ChatGPT 5 Thinking,standards,Color redundancy,yes
+1,Bars,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+1,Bars,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+1,Bars,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+1,Bars,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+1,Bars,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+1,Bars,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+1,Bars,ChatGPT 5 Thinking,baseline,Efficiency,no
+1,Bars,ChatGPT 5 Thinking,selfcheck,Efficiency,no
+1,Bars,ChatGPT 5 Thinking,standards,Efficiency,no
+1,Bars,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+1,Bars,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+1,Bars,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+1,Bars,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,N/A
+1,Bars,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,N/A
+1,Bars,ChatGPT 5 Thinking,standards,Legend–encoding alignment,N/A
+1,Bars,ChatGPT 5 Thinking,baseline,Legibility,yes
+1,Bars,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+1,Bars,ChatGPT 5 Thinking,standards,Legibility,yes
+1,Bars,ChatGPT 5 Thinking,baseline,Text clarity,no
+1,Bars,ChatGPT 5 Thinking,selfcheck,Text clarity,no
+1,Bars,ChatGPT 5 Thinking,standards,Text clarity,yes
+1,Bars,Gemini 2.5 Pro,baseline,Aligned scales,no
+1,Bars,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+1,Bars,Gemini 2.5 Pro,standards,Aligned scales,yes
+1,Bars,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+1,Bars,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+1,Bars,Gemini 2.5 Pro,baseline,Axis integrity,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Axis integrity,yes
+1,Bars,Gemini 2.5 Pro,standards,Axis integrity,yes
+1,Bars,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+1,Bars,Gemini 2.5 Pro,standards,Chart type suitability,yes
+1,Bars,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+1,Bars,Gemini 2.5 Pro,standards,Code reproducibility,yes
+1,Bars,Gemini 2.5 Pro,baseline,Color redundancy,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Color redundancy,yes
+1,Bars,Gemini 2.5 Pro,standards,Color redundancy,yes
+1,Bars,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Colorblind safety,yes
+1,Bars,Gemini 2.5 Pro,standards,Colorblind safety,yes
+1,Bars,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+1,Bars,Gemini 2.5 Pro,standards,Data faithfulness,yes
+1,Bars,Gemini 2.5 Pro,baseline,Efficiency,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Efficiency,no
+1,Bars,Gemini 2.5 Pro,standards,Efficiency,no
+1,Bars,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+1,Bars,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+1,Bars,Gemini 2.5 Pro,baseline,Legend–encoding alignment,N/A
+1,Bars,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,N/A
+1,Bars,Gemini 2.5 Pro,standards,Legend–encoding alignment,N/A
+1,Bars,Gemini 2.5 Pro,baseline,Legibility,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Legibility,yes
+1,Bars,Gemini 2.5 Pro,standards,Legibility,yes
+1,Bars,Gemini 2.5 Pro,baseline,Text clarity,yes
+1,Bars,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+1,Bars,Gemini 2.5 Pro,standards,Text clarity,yes
+1,Bars,Grok,baseline,Aligned scales,no
+1,Bars,Grok,selfcheck,Aligned scales,no
+1,Bars,Grok,standards,Aligned scales,yes
+1,Bars,Grok,baseline,Appropriate visual encoding,yes
+1,Bars,Grok,selfcheck,Appropriate visual encoding,yes
+1,Bars,Grok,standards,Appropriate visual encoding,yes
+1,Bars,Grok,baseline,Axis integrity,yes
+1,Bars,Grok,selfcheck,Axis integrity,yes
+1,Bars,Grok,standards,Axis integrity,yes
+1,Bars,Grok,baseline,Chart type suitability,yes
+1,Bars,Grok,selfcheck,Chart type suitability,yes
+1,Bars,Grok,standards,Chart type suitability,yes
+1,Bars,Grok,baseline,Code reproducibility,yes
+1,Bars,Grok,selfcheck,Code reproducibility,yes
+1,Bars,Grok,standards,Code reproducibility,yes
+1,Bars,Grok,baseline,Color redundancy,yes
+1,Bars,Grok,selfcheck,Color redundancy,yes
+1,Bars,Grok,standards,Color redundancy,yes
+1,Bars,Grok,baseline,Colorblind safety,yes
+1,Bars,Grok,selfcheck,Colorblind safety,yes
+1,Bars,Grok,standards,Colorblind safety,yes
+1,Bars,Grok,baseline,Data faithfulness,yes
+1,Bars,Grok,selfcheck,Data faithfulness,yes
+1,Bars,Grok,standards,Data faithfulness,yes
+1,Bars,Grok,baseline,Efficiency,yes
+1,Bars,Grok,selfcheck,Efficiency,yes
+1,Bars,Grok,standards,Efficiency,no
+1,Bars,Grok,baseline,Holistic interpretation,yes
+1,Bars,Grok,selfcheck,Holistic interpretation,yes
+1,Bars,Grok,standards,Holistic interpretation,yes
+1,Bars,Grok,baseline,Legend–encoding alignment,N/A
+1,Bars,Grok,selfcheck,Legend–encoding alignment,N/A
+1,Bars,Grok,standards,Legend–encoding alignment,N/A
+1,Bars,Grok,baseline,Legibility,yes
+1,Bars,Grok,selfcheck,Legibility,yes
+1,Bars,Grok,standards,Legibility,yes
+1,Bars,Grok,baseline,Text clarity,yes
+1,Bars,Grok,selfcheck,Text clarity,yes
+1,Bars,Grok,standards,Text clarity,yes
+1,dual axis,ChatGPT 5 Thinking,baseline,Aligned scales,no
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Aligned scales,no
+1,dual axis,ChatGPT 5 Thinking,standards,Aligned scales,no
+1,dual axis,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+1,dual axis,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+1,dual axis,ChatGPT 5 Thinking,baseline,Axis integrity,no
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+1,dual axis,ChatGPT 5 Thinking,standards,Axis integrity,no
+1,dual axis,ChatGPT 5 Thinking,baseline,Chart type suitability,no
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Chart type suitability,no
+1,dual axis,ChatGPT 5 Thinking,standards,Chart type suitability,no
+1,dual axis,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+1,dual axis,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+1,dual axis,ChatGPT 5 Thinking,baseline,Color redundancy,no
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Color redundancy,no
+1,dual axis,ChatGPT 5 Thinking,standards,Color redundancy,no
+1,dual axis,ChatGPT 5 Thinking,baseline,Colorblind safety,no
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Colorblind safety,no
+1,dual axis,ChatGPT 5 Thinking,standards,Colorblind safety,no
+1,dual axis,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+1,dual axis,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+1,dual axis,ChatGPT 5 Thinking,baseline,Efficiency,yes
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Efficiency,no
+1,dual axis,ChatGPT 5 Thinking,standards,Efficiency,no
+1,dual axis,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+1,dual axis,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+1,dual axis,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,yes
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,yes
+1,dual axis,ChatGPT 5 Thinking,standards,Legend–encoding alignment,yes
+1,dual axis,ChatGPT 5 Thinking,baseline,Legibility,yes
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+1,dual axis,ChatGPT 5 Thinking,standards,Legibility,yes
+1,dual axis,ChatGPT 5 Thinking,baseline,Text clarity,no
+1,dual axis,ChatGPT 5 Thinking,selfcheck,Text clarity,no
+1,dual axis,ChatGPT 5 Thinking,standards,Text clarity,no
+1,dual axis,Gemini 2.5 Pro,baseline,Aligned scales,no
+1,dual axis,Gemini 2.5 Pro,selfcheck,Aligned scales,no
+1,dual axis,Gemini 2.5 Pro,standards,Aligned scales,no
+1,dual axis,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+1,dual axis,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+1,dual axis,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+1,dual axis,Gemini 2.5 Pro,baseline,Axis integrity,no
+1,dual axis,Gemini 2.5 Pro,selfcheck,Axis integrity,no
+1,dual axis,Gemini 2.5 Pro,standards,Axis integrity,no
+1,dual axis,Gemini 2.5 Pro,baseline,Chart type suitability,no
+1,dual axis,Gemini 2.5 Pro,selfcheck,Chart type suitability,no
+1,dual axis,Gemini 2.5 Pro,standards,Chart type suitability,no
+1,dual axis,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+1,dual axis,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+1,dual axis,Gemini 2.5 Pro,standards,Code reproducibility,yes
+1,dual axis,Gemini 2.5 Pro,baseline,Color redundancy,yes
+1,dual axis,Gemini 2.5 Pro,selfcheck,Color redundancy,yes
+1,dual axis,Gemini 2.5 Pro,standards,Color redundancy,no
+1,dual axis,Gemini 2.5 Pro,baseline,Colorblind safety,no
+1,dual axis,Gemini 2.5 Pro,selfcheck,Colorblind safety,yes
+1,dual axis,Gemini 2.5 Pro,standards,Colorblind safety,no
+1,dual axis,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+1,dual axis,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+1,dual axis,Gemini 2.5 Pro,standards,Data faithfulness,yes
+1,dual axis,Gemini 2.5 Pro,baseline,Efficiency,yes
+1,dual axis,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+1,dual axis,Gemini 2.5 Pro,standards,Efficiency,yes
+1,dual axis,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+1,dual axis,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+1,dual axis,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+1,dual axis,Gemini 2.5 Pro,baseline,Legend–encoding alignment,N/A
+1,dual axis,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,N/A
+1,dual axis,Gemini 2.5 Pro,standards,Legend–encoding alignment,N/A
+1,dual axis,Gemini 2.5 Pro,baseline,Legibility,yes
+1,dual axis,Gemini 2.5 Pro,selfcheck,Legibility,yes
+1,dual axis,Gemini 2.5 Pro,standards,Legibility,yes
+1,dual axis,Gemini 2.5 Pro,baseline,Text clarity,yes
+1,dual axis,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+1,dual axis,Gemini 2.5 Pro,standards,Text clarity,yes
+1,dual axis,Grok,baseline,Aligned scales,no
+1,dual axis,Grok,selfcheck,Aligned scales,no
+1,dual axis,Grok,standards,Aligned scales,no
+1,dual axis,Grok,baseline,Appropriate visual encoding,yes
+1,dual axis,Grok,selfcheck,Appropriate visual encoding,yes
+1,dual axis,Grok,standards,Appropriate visual encoding,yes
+1,dual axis,Grok,baseline,Axis integrity,no
+1,dual axis,Grok,selfcheck,Axis integrity,no
+1,dual axis,Grok,standards,Axis integrity,no
+1,dual axis,Grok,baseline,Chart type suitability,no
+1,dual axis,Grok,selfcheck,Chart type suitability,no
+1,dual axis,Grok,standards,Chart type suitability,no
+1,dual axis,Grok,baseline,Code reproducibility,yes
+1,dual axis,Grok,selfcheck,Code reproducibility,yes
+1,dual axis,Grok,standards,Code reproducibility,yes
+1,dual axis,Grok,baseline,Color redundancy,yes
+1,dual axis,Grok,selfcheck,Color redundancy,yes
+1,dual axis,Grok,standards,Color redundancy,yes
+1,dual axis,Grok,baseline,Colorblind safety,no
+1,dual axis,Grok,selfcheck,Colorblind safety,no
+1,dual axis,Grok,standards,Colorblind safety,yes
+1,dual axis,Grok,baseline,Data faithfulness,yes
+1,dual axis,Grok,selfcheck,Data faithfulness,yes
+1,dual axis,Grok,standards,Data faithfulness,yes
+1,dual axis,Grok,baseline,Efficiency,yes
+1,dual axis,Grok,selfcheck,Efficiency,no
+1,dual axis,Grok,standards,Efficiency,yes
+1,dual axis,Grok,baseline,Holistic interpretation,yes
+1,dual axis,Grok,selfcheck,Holistic interpretation,yes
+1,dual axis,Grok,standards,Holistic interpretation,yes
+1,dual axis,Grok,baseline,Legend–encoding alignment,N/A
+1,dual axis,Grok,selfcheck,Legend–encoding alignment,no
+1,dual axis,Grok,standards,Legend–encoding alignment,yes
+1,dual axis,Grok,baseline,Legibility,yes
+1,dual axis,Grok,selfcheck,Legibility,yes
+1,dual axis,Grok,standards,Legibility,yes
+1,dual axis,Grok,baseline,Text clarity,yes
+1,dual axis,Grok,selfcheck,Text clarity,yes
+1,dual axis,Grok,standards,Text clarity,yes
+1,heatmap,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+1,heatmap,ChatGPT 5 Thinking,standards,Aligned scales,yes
+1,heatmap,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+1,heatmap,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+1,heatmap,ChatGPT 5 Thinking,baseline,Axis integrity,no
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+1,heatmap,ChatGPT 5 Thinking,standards,Axis integrity,no
+1,heatmap,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+1,heatmap,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+1,heatmap,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+1,heatmap,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+1,heatmap,ChatGPT 5 Thinking,baseline,Color redundancy,no
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Color redundancy,no
+1,heatmap,ChatGPT 5 Thinking,standards,Color redundancy,no
+1,heatmap,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+1,heatmap,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+1,heatmap,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+1,heatmap,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+1,heatmap,ChatGPT 5 Thinking,baseline,Efficiency,no
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Efficiency,no
+1,heatmap,ChatGPT 5 Thinking,standards,Efficiency,no
+1,heatmap,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+1,heatmap,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+1,heatmap,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,yes
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,yes
+1,heatmap,ChatGPT 5 Thinking,standards,Legend–encoding alignment,yes
+1,heatmap,ChatGPT 5 Thinking,baseline,Legibility,yes
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Legibility,no
+1,heatmap,ChatGPT 5 Thinking,standards,Legibility,yes
+1,heatmap,ChatGPT 5 Thinking,baseline,Text clarity,no
+1,heatmap,ChatGPT 5 Thinking,selfcheck,Text clarity,no
+1,heatmap,ChatGPT 5 Thinking,standards,Text clarity,no
+1,heatmap,Gemini 2.5 Pro,baseline,Aligned scales,yes
+1,heatmap,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+1,heatmap,Gemini 2.5 Pro,standards,Aligned scales,yes
+1,heatmap,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+1,heatmap,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,no
+1,heatmap,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+1,heatmap,Gemini 2.5 Pro,baseline,Axis integrity,no
+1,heatmap,Gemini 2.5 Pro,selfcheck,Axis integrity,yes
+1,heatmap,Gemini 2.5 Pro,standards,Axis integrity,yes
+1,heatmap,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+1,heatmap,Gemini 2.5 Pro,selfcheck,Chart type suitability,no
+1,heatmap,Gemini 2.5 Pro,standards,Chart type suitability,yes
+1,heatmap,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+1,heatmap,Gemini 2.5 Pro,selfcheck,Code reproducibility,no
+1,heatmap,Gemini 2.5 Pro,standards,Code reproducibility,yes
+1,heatmap,Gemini 2.5 Pro,baseline,Color redundancy,yes
+1,heatmap,Gemini 2.5 Pro,selfcheck,Color redundancy,N/A
+1,heatmap,Gemini 2.5 Pro,standards,Color redundancy,yes
+1,heatmap,Gemini 2.5 Pro,baseline,Colorblind safety,no
+1,heatmap,Gemini 2.5 Pro,selfcheck,Colorblind safety,no
+1,heatmap,Gemini 2.5 Pro,standards,Colorblind safety,no
+1,heatmap,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+1,heatmap,Gemini 2.5 Pro,selfcheck,Data faithfulness,no
+1,heatmap,Gemini 2.5 Pro,standards,Data faithfulness,yes
+1,heatmap,Gemini 2.5 Pro,baseline,Efficiency,no
+1,heatmap,Gemini 2.5 Pro,selfcheck,Efficiency,no
+1,heatmap,Gemini 2.5 Pro,standards,Efficiency,no
+1,heatmap,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+1,heatmap,Gemini 2.5 Pro,selfcheck,Holistic interpretation,no
+1,heatmap,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+1,heatmap,Gemini 2.5 Pro,baseline,Legend–encoding alignment,yes
+1,heatmap,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,N/A
+1,heatmap,Gemini 2.5 Pro,standards,Legend–encoding alignment,yes
+1,heatmap,Gemini 2.5 Pro,baseline,Legibility,yes
+1,heatmap,Gemini 2.5 Pro,selfcheck,Legibility,yes
+1,heatmap,Gemini 2.5 Pro,standards,Legibility,yes
+1,heatmap,Gemini 2.5 Pro,baseline,Text clarity,yes
+1,heatmap,Gemini 2.5 Pro,selfcheck,Text clarity,no
+1,heatmap,Gemini 2.5 Pro,standards,Text clarity,no
+1,heatmap,Grok,baseline,Aligned scales,yes
+1,heatmap,Grok,selfcheck,Aligned scales,yes
+1,heatmap,Grok,standards,Aligned scales,yes
+1,heatmap,Grok,baseline,Appropriate visual encoding,yes
+1,heatmap,Grok,selfcheck,Appropriate visual encoding,yes
+1,heatmap,Grok,standards,Appropriate visual encoding,yes
+1,heatmap,Grok,baseline,Axis integrity,no
+1,heatmap,Grok,selfcheck,Axis integrity,no
+1,heatmap,Grok,standards,Axis integrity,no
+1,heatmap,Grok,baseline,Chart type suitability,yes
+1,heatmap,Grok,selfcheck,Chart type suitability,yes
+1,heatmap,Grok,standards,Chart type suitability,yes
+1,heatmap,Grok,baseline,Code reproducibility,yes
+1,heatmap,Grok,selfcheck,Code reproducibility,yes
+1,heatmap,Grok,standards,Code reproducibility,yes
+1,heatmap,Grok,baseline,Color redundancy,yes
+1,heatmap,Grok,selfcheck,Color redundancy,yes
+1,heatmap,Grok,standards,Color redundancy,yes
+1,heatmap,Grok,baseline,Colorblind safety,no
+1,heatmap,Grok,selfcheck,Colorblind safety,no
+1,heatmap,Grok,standards,Colorblind safety,no
+1,heatmap,Grok,baseline,Data faithfulness,no
+1,heatmap,Grok,selfcheck,Data faithfulness,yes
+1,heatmap,Grok,standards,Data faithfulness,no
+1,heatmap,Grok,baseline,Efficiency,no
+1,heatmap,Grok,selfcheck,Efficiency,yes
+1,heatmap,Grok,standards,Efficiency,no
+1,heatmap,Grok,baseline,Holistic interpretation,yes
+1,heatmap,Grok,selfcheck,Holistic interpretation,yes
+1,heatmap,Grok,standards,Holistic interpretation,yes
+1,heatmap,Grok,baseline,Legend–encoding alignment,yes
+1,heatmap,Grok,selfcheck,Legend–encoding alignment,yes
+1,heatmap,Grok,standards,Legend–encoding alignment,yes
+1,heatmap,Grok,baseline,Legibility,yes
+1,heatmap,Grok,selfcheck,Legibility,no
+1,heatmap,Grok,standards,Legibility,yes
+1,heatmap,Grok,baseline,Text clarity,yes
+1,heatmap,Grok,selfcheck,Text clarity,yes
+1,heatmap,Grok,standards,Text clarity,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+1,histogram,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+1,histogram,ChatGPT 5 Thinking,standards,Aligned scales,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+1,histogram,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+1,histogram,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Axis integrity,no
+1,histogram,ChatGPT 5 Thinking,selfcheck,Axis integrity,yes
+1,histogram,ChatGPT 5 Thinking,standards,Axis integrity,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+1,histogram,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+1,histogram,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+1,histogram,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+1,histogram,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Color redundancy,no
+1,histogram,ChatGPT 5 Thinking,selfcheck,Color redundancy,yes
+1,histogram,ChatGPT 5 Thinking,standards,Color redundancy,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+1,histogram,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+1,histogram,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+1,histogram,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+1,histogram,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Efficiency,no
+1,histogram,ChatGPT 5 Thinking,selfcheck,Efficiency,yes
+1,histogram,ChatGPT 5 Thinking,standards,Efficiency,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+1,histogram,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+1,histogram,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,N/A
+1,histogram,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,N/A
+1,histogram,ChatGPT 5 Thinking,standards,Legend–encoding alignment,N/A
+1,histogram,ChatGPT 5 Thinking,baseline,Legibility,yes
+1,histogram,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+1,histogram,ChatGPT 5 Thinking,standards,Legibility,yes
+1,histogram,ChatGPT 5 Thinking,baseline,Text clarity,yes
+1,histogram,ChatGPT 5 Thinking,selfcheck,Text clarity,yes
+1,histogram,ChatGPT 5 Thinking,standards,Text clarity,yes
+1,histogram,Gemini 2.5 Pro,baseline,Aligned scales,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+1,histogram,Gemini 2.5 Pro,standards,Aligned scales,yes
+1,histogram,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+1,histogram,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+1,histogram,Gemini 2.5 Pro,baseline,Axis integrity,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Axis integrity,yes
+1,histogram,Gemini 2.5 Pro,standards,Axis integrity,yes
+1,histogram,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+1,histogram,Gemini 2.5 Pro,standards,Chart type suitability,yes
+1,histogram,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+1,histogram,Gemini 2.5 Pro,standards,Code reproducibility,yes
+1,histogram,Gemini 2.5 Pro,baseline,Color redundancy,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Color redundancy,yes
+1,histogram,Gemini 2.5 Pro,standards,Color redundancy,yes
+1,histogram,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Colorblind safety,yes
+1,histogram,Gemini 2.5 Pro,standards,Colorblind safety,yes
+1,histogram,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+1,histogram,Gemini 2.5 Pro,standards,Data faithfulness,yes
+1,histogram,Gemini 2.5 Pro,baseline,Efficiency,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+1,histogram,Gemini 2.5 Pro,standards,Efficiency,yes
+1,histogram,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+1,histogram,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+1,histogram,Gemini 2.5 Pro,baseline,Legend–encoding alignment,N/A
+1,histogram,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,N/A
+1,histogram,Gemini 2.5 Pro,standards,Legend–encoding alignment,N/A
+1,histogram,Gemini 2.5 Pro,baseline,Legibility,no
+1,histogram,Gemini 2.5 Pro,selfcheck,Legibility,yes
+1,histogram,Gemini 2.5 Pro,standards,Legibility,no
+1,histogram,Gemini 2.5 Pro,baseline,Text clarity,yes
+1,histogram,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+1,histogram,Gemini 2.5 Pro,standards,Text clarity,yes
+1,histogram,Grok,baseline,Aligned scales,yes
+1,histogram,Grok,selfcheck,Aligned scales,yes
+1,histogram,Grok,standards,Aligned scales,yes
+1,histogram,Grok,baseline,Appropriate visual encoding,yes
+1,histogram,Grok,selfcheck,Appropriate visual encoding,yes
+1,histogram,Grok,standards,Appropriate visual encoding,yes
+1,histogram,Grok,baseline,Axis integrity,no
+1,histogram,Grok,selfcheck,Axis integrity,no
+1,histogram,Grok,standards,Axis integrity,no
+1,histogram,Grok,baseline,Chart type suitability,yes
+1,histogram,Grok,selfcheck,Chart type suitability,yes
+1,histogram,Grok,standards,Chart type suitability,yes
+1,histogram,Grok,baseline,Code reproducibility,yes
+1,histogram,Grok,selfcheck,Code reproducibility,yes
+1,histogram,Grok,standards,Code reproducibility,yes
+1,histogram,Grok,baseline,Color redundancy,yes
+1,histogram,Grok,selfcheck,Color redundancy,yes
+1,histogram,Grok,standards,Color redundancy,yes
+1,histogram,Grok,baseline,Colorblind safety,yes
+1,histogram,Grok,selfcheck,Colorblind safety,yes
+1,histogram,Grok,standards,Colorblind safety,yes
+1,histogram,Grok,baseline,Data faithfulness,yes
+1,histogram,Grok,selfcheck,Data faithfulness,yes
+1,histogram,Grok,standards,Data faithfulness,yes
+1,histogram,Grok,baseline,Efficiency,yes
+1,histogram,Grok,selfcheck,Efficiency,yes
+1,histogram,Grok,standards,Efficiency,yes
+1,histogram,Grok,baseline,Holistic interpretation,yes
+1,histogram,Grok,selfcheck,Holistic interpretation,yes
+1,histogram,Grok,standards,Holistic interpretation,yes
+1,histogram,Grok,baseline,Legend–encoding alignment,N/A
+1,histogram,Grok,selfcheck,Legend–encoding alignment,N/A
+1,histogram,Grok,standards,Legend–encoding alignment,N/A
+1,histogram,Grok,baseline,Legibility,no
+1,histogram,Grok,selfcheck,Legibility,yes
+1,histogram,Grok,standards,Legibility,yes
+1,histogram,Grok,baseline,Text clarity,yes
+1,histogram,Grok,selfcheck,Text clarity,yes
+1,histogram,Grok,standards,Text clarity,yes
+1,line gaps,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+1,line gaps,ChatGPT 5 Thinking,standards,Aligned scales,yes
+1,line gaps,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+1,line gaps,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+1,line gaps,ChatGPT 5 Thinking,baseline,Axis integrity,no
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+1,line gaps,ChatGPT 5 Thinking,standards,Axis integrity,no
+1,line gaps,ChatGPT 5 Thinking,baseline,Chart type suitability,no
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Chart type suitability,no
+1,line gaps,ChatGPT 5 Thinking,standards,Chart type suitability,no
+1,line gaps,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+1,line gaps,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+1,line gaps,ChatGPT 5 Thinking,baseline,Color redundancy,no
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Color redundancy,yes
+1,line gaps,ChatGPT 5 Thinking,standards,Color redundancy,no
+1,line gaps,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+1,line gaps,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+1,line gaps,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+1,line gaps,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+1,line gaps,ChatGPT 5 Thinking,baseline,Efficiency,yes
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Efficiency,yes
+1,line gaps,ChatGPT 5 Thinking,standards,Efficiency,no
+1,line gaps,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+1,line gaps,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+1,line gaps,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,N/A
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,N/A
+1,line gaps,ChatGPT 5 Thinking,standards,Legend–encoding alignment,N/A
+1,line gaps,ChatGPT 5 Thinking,baseline,Legibility,yes
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+1,line gaps,ChatGPT 5 Thinking,standards,Legibility,yes
+1,line gaps,ChatGPT 5 Thinking,baseline,Text clarity,yes
+1,line gaps,ChatGPT 5 Thinking,selfcheck,Text clarity,no
+1,line gaps,ChatGPT 5 Thinking,standards,Text clarity,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Aligned scales,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+1,line gaps,Gemini 2.5 Pro,standards,Aligned scales,no
+1,line gaps,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+1,line gaps,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Axis integrity,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Axis integrity,yes
+1,line gaps,Gemini 2.5 Pro,standards,Axis integrity,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+1,line gaps,Gemini 2.5 Pro,standards,Chart type suitability,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+1,line gaps,Gemini 2.5 Pro,standards,Code reproducibility,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Color redundancy,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Color redundancy,yes
+1,line gaps,Gemini 2.5 Pro,standards,Color redundancy,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Colorblind safety,yes
+1,line gaps,Gemini 2.5 Pro,standards,Colorblind safety,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+1,line gaps,Gemini 2.5 Pro,standards,Data faithfulness,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Efficiency,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+1,line gaps,Gemini 2.5 Pro,standards,Efficiency,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+1,line gaps,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Legend–encoding alignment,N/A
+1,line gaps,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,N/A
+1,line gaps,Gemini 2.5 Pro,standards,Legend–encoding alignment,N/A
+1,line gaps,Gemini 2.5 Pro,baseline,Legibility,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Legibility,yes
+1,line gaps,Gemini 2.5 Pro,standards,Legibility,yes
+1,line gaps,Gemini 2.5 Pro,baseline,Text clarity,yes
+1,line gaps,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+1,line gaps,Gemini 2.5 Pro,standards,Text clarity,yes
+1,line gaps,Grok,baseline,Aligned scales,no
+1,line gaps,Grok,selfcheck,Aligned scales,no
+1,line gaps,Grok,standards,Aligned scales,yes
+1,line gaps,Grok,baseline,Appropriate visual encoding,yes
+1,line gaps,Grok,selfcheck,Appropriate visual encoding,yes
+1,line gaps,Grok,standards,Appropriate visual encoding,yes
+1,line gaps,Grok,baseline,Axis integrity,yes
+1,line gaps,Grok,selfcheck,Axis integrity,no
+1,line gaps,Grok,standards,Axis integrity,no
+1,line gaps,Grok,baseline,Chart type suitability,yes
+1,line gaps,Grok,selfcheck,Chart type suitability,yes
+1,line gaps,Grok,standards,Chart type suitability,yes
+1,line gaps,Grok,baseline,Code reproducibility,yes
+1,line gaps,Grok,selfcheck,Code reproducibility,yes
+1,line gaps,Grok,standards,Code reproducibility,yes
+1,line gaps,Grok,baseline,Color redundancy,yes
+1,line gaps,Grok,selfcheck,Color redundancy,yes
+1,line gaps,Grok,standards,Color redundancy,yes
+1,line gaps,Grok,baseline,Colorblind safety,yes
+1,line gaps,Grok,selfcheck,Colorblind safety,yes
+1,line gaps,Grok,standards,Colorblind safety,yes
+1,line gaps,Grok,baseline,Data faithfulness,yes
+1,line gaps,Grok,selfcheck,Data faithfulness,yes
+1,line gaps,Grok,standards,Data faithfulness,yes
+1,line gaps,Grok,baseline,Efficiency,yes
+1,line gaps,Grok,selfcheck,Efficiency,no
+1,line gaps,Grok,standards,Efficiency,no
+1,line gaps,Grok,baseline,Holistic interpretation,yes
+1,line gaps,Grok,selfcheck,Holistic interpretation,yes
+1,line gaps,Grok,standards,Holistic interpretation,yes
+1,line gaps,Grok,baseline,Legend–encoding alignment,N/A
+1,line gaps,Grok,selfcheck,Legend–encoding alignment,N/A
+1,line gaps,Grok,standards,Legend–encoding alignment,N/A
+1,line gaps,Grok,baseline,Legibility,no
+1,line gaps,Grok,selfcheck,Legibility,no
+1,line gaps,Grok,standards,Legibility,yes
+1,line gaps,Grok,baseline,Text clarity,no
+1,line gaps,Grok,selfcheck,Text clarity,yes
+1,line gaps,Grok,standards,Text clarity,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Aligned scales,no
+1,scatter group,ChatGPT 5 Thinking,standards,Aligned scales,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Axis integrity,no
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+1,scatter group,ChatGPT 5 Thinking,standards,Axis integrity,no
+1,scatter group,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Color redundancy,no
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Color redundancy,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Color redundancy,no
+1,scatter group,ChatGPT 5 Thinking,baseline,Colorblind safety,no
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Efficiency,yes
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Efficiency,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Efficiency,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,yes
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Legend–encoding alignment,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Legibility,yes
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Legibility,yes
+1,scatter group,ChatGPT 5 Thinking,baseline,Text clarity,no
+1,scatter group,ChatGPT 5 Thinking,selfcheck,Text clarity,yes
+1,scatter group,ChatGPT 5 Thinking,standards,Text clarity,no
+1,scatter group,Gemini 2.5 Pro,baseline,Aligned scales,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Aligned scales,no
+1,scatter group,Gemini 2.5 Pro,standards,Aligned scales,yes
+1,scatter group,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+1,scatter group,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+1,scatter group,Gemini 2.5 Pro,baseline,Axis integrity,no
+1,scatter group,Gemini 2.5 Pro,selfcheck,Axis integrity,no
+1,scatter group,Gemini 2.5 Pro,standards,Axis integrity,no
+1,scatter group,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+1,scatter group,Gemini 2.5 Pro,standards,Chart type suitability,yes
+1,scatter group,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+1,scatter group,Gemini 2.5 Pro,standards,Code reproducibility,yes
+1,scatter group,Gemini 2.5 Pro,baseline,Color redundancy,no
+1,scatter group,Gemini 2.5 Pro,selfcheck,Color redundancy,no
+1,scatter group,Gemini 2.5 Pro,standards,Color redundancy,no
+1,scatter group,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Colorblind safety,yes
+1,scatter group,Gemini 2.5 Pro,standards,Colorblind safety,yes
+1,scatter group,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+1,scatter group,Gemini 2.5 Pro,standards,Data faithfulness,yes
+1,scatter group,Gemini 2.5 Pro,baseline,Efficiency,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+1,scatter group,Gemini 2.5 Pro,standards,Efficiency,yes
+1,scatter group,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+1,scatter group,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+1,scatter group,Gemini 2.5 Pro,baseline,Legend–encoding alignment,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,yes
+1,scatter group,Gemini 2.5 Pro,standards,Legend–encoding alignment,yes
+1,scatter group,Gemini 2.5 Pro,baseline,Legibility,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Legibility,yes
+1,scatter group,Gemini 2.5 Pro,standards,Legibility,yes
+1,scatter group,Gemini 2.5 Pro,baseline,Text clarity,yes
+1,scatter group,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+1,scatter group,Gemini 2.5 Pro,standards,Text clarity,yes
+1,scatter group,Grok,baseline,Aligned scales,yes
+1,scatter group,Grok,selfcheck,Aligned scales,yes
+1,scatter group,Grok,standards,Aligned scales,yes
+1,scatter group,Grok,baseline,Appropriate visual encoding,yes
+1,scatter group,Grok,selfcheck,Appropriate visual encoding,yes
+1,scatter group,Grok,standards,Appropriate visual encoding,yes
+1,scatter group,Grok,baseline,Axis integrity,no
+1,scatter group,Grok,selfcheck,Axis integrity,no
+1,scatter group,Grok,standards,Axis integrity,no
+1,scatter group,Grok,baseline,Chart type suitability,yes
+1,scatter group,Grok,selfcheck,Chart type suitability,yes
+1,scatter group,Grok,standards,Chart type suitability,yes
+1,scatter group,Grok,baseline,Code reproducibility,yes
+1,scatter group,Grok,selfcheck,Code reproducibility,yes
+1,scatter group,Grok,standards,Code reproducibility,yes
+1,scatter group,Grok,baseline,Color redundancy,no
+1,scatter group,Grok,selfcheck,Color redundancy,no
+1,scatter group,Grok,standards,Color redundancy,no
+1,scatter group,Grok,baseline,Colorblind safety,yes
+1,scatter group,Grok,selfcheck,Colorblind safety,yes
+1,scatter group,Grok,standards,Colorblind safety,yes
+1,scatter group,Grok,baseline,Data faithfulness,yes
+1,scatter group,Grok,selfcheck,Data faithfulness,yes
+1,scatter group,Grok,standards,Data faithfulness,yes
+1,scatter group,Grok,baseline,Efficiency,yes
+1,scatter group,Grok,selfcheck,Efficiency,yes
+1,scatter group,Grok,standards,Efficiency,yes
+1,scatter group,Grok,baseline,Holistic interpretation,yes
+1,scatter group,Grok,selfcheck,Holistic interpretation,yes
+1,scatter group,Grok,standards,Holistic interpretation,yes
+1,scatter group,Grok,baseline,Legend–encoding alignment,yes
+1,scatter group,Grok,selfcheck,Legend–encoding alignment,yes
+1,scatter group,Grok,standards,Legend–encoding alignment,yes
+1,scatter group,Grok,baseline,Legibility,yes
+1,scatter group,Grok,selfcheck,Legibility,yes
+1,scatter group,Grok,standards,Legibility,yes
+1,scatter group,Grok,baseline,Text clarity,no
+1,scatter group,Grok,selfcheck,Text clarity,yes
+1,scatter group,Grok,standards,Text clarity,yes
+1,small multi,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+1,small multi,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+1,small multi,ChatGPT 5 Thinking,standards,Aligned scales,no
+1,small multi,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+1,small multi,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+1,small multi,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+1,small multi,ChatGPT 5 Thinking,baseline,Axis integrity,no
+1,small multi,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+1,small multi,ChatGPT 5 Thinking,standards,Axis integrity,no
+1,small multi,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+1,small multi,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+1,small multi,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+1,small multi,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+1,small multi,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+1,small multi,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+1,small multi,ChatGPT 5 Thinking,baseline,Color redundancy,no
+1,small multi,ChatGPT 5 Thinking,selfcheck,Color redundancy,no
+1,small multi,ChatGPT 5 Thinking,standards,Color redundancy,no
+1,small multi,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+1,small multi,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+1,small multi,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+1,small multi,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+1,small multi,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+1,small multi,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+1,small multi,ChatGPT 5 Thinking,baseline,Efficiency,no
+1,small multi,ChatGPT 5 Thinking,selfcheck,Efficiency,yes
+1,small multi,ChatGPT 5 Thinking,standards,Efficiency,no
+1,small multi,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+1,small multi,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+1,small multi,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+1,small multi,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,no
+1,small multi,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,yes
+1,small multi,ChatGPT 5 Thinking,standards,Legend–encoding alignment,no
+1,small multi,ChatGPT 5 Thinking,baseline,Legibility,yes
+1,small multi,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+1,small multi,ChatGPT 5 Thinking,standards,Legibility,yes
+1,small multi,ChatGPT 5 Thinking,baseline,Text clarity,yes
+1,small multi,ChatGPT 5 Thinking,selfcheck,Text clarity,yes
+1,small multi,ChatGPT 5 Thinking,standards,Text clarity,yes
+1,small multi,Gemini 2.5 Pro,baseline,Aligned scales,no
+1,small multi,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+1,small multi,Gemini 2.5 Pro,standards,Aligned scales,no
+1,small multi,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+1,small multi,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+1,small multi,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+1,small multi,Gemini 2.5 Pro,baseline,Axis integrity,no
+1,small multi,Gemini 2.5 Pro,selfcheck,Axis integrity,no
+1,small multi,Gemini 2.5 Pro,standards,Axis integrity,no
+1,small multi,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+1,small multi,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+1,small multi,Gemini 2.5 Pro,standards,Chart type suitability,yes
+1,small multi,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+1,small multi,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+1,small multi,Gemini 2.5 Pro,standards,Code reproducibility,yes
+1,small multi,Gemini 2.5 Pro,baseline,Color redundancy,no
+1,small multi,Gemini 2.5 Pro,selfcheck,Color redundancy,no
+1,small multi,Gemini 2.5 Pro,standards,Color redundancy,no
+1,small multi,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+1,small multi,Gemini 2.5 Pro,selfcheck,Colorblind safety,no
+1,small multi,Gemini 2.5 Pro,standards,Colorblind safety,yes
+1,small multi,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+1,small multi,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+1,small multi,Gemini 2.5 Pro,standards,Data faithfulness,yes
+1,small multi,Gemini 2.5 Pro,baseline,Efficiency,yes
+1,small multi,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+1,small multi,Gemini 2.5 Pro,standards,Efficiency,yes
+1,small multi,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+1,small multi,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+1,small multi,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+1,small multi,Gemini 2.5 Pro,baseline,Legend–encoding alignment,yes
+1,small multi,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,yes
+1,small multi,Gemini 2.5 Pro,standards,Legend–encoding alignment,no
+1,small multi,Gemini 2.5 Pro,baseline,Legibility,no
+1,small multi,Gemini 2.5 Pro,selfcheck,Legibility,no
+1,small multi,Gemini 2.5 Pro,standards,Legibility,yes
+1,small multi,Gemini 2.5 Pro,baseline,Text clarity,no
+1,small multi,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+1,small multi,Gemini 2.5 Pro,standards,Text clarity,yes
+1,small multi,Grok,baseline,Aligned scales,N/A
+1,small multi,Grok,selfcheck,Aligned scales,yes
+1,small multi,Grok,standards,Aligned scales,yes
+1,small multi,Grok,baseline,Appropriate visual encoding,N/A
+1,small multi,Grok,selfcheck,Appropriate visual encoding,yes
+1,small multi,Grok,standards,Appropriate visual encoding,yes
+1,small multi,Grok,baseline,Axis integrity,N/A
+1,small multi,Grok,selfcheck,Axis integrity,no
+1,small multi,Grok,standards,Axis integrity,no
+1,small multi,Grok,baseline,Chart type suitability,N/A
+1,small multi,Grok,selfcheck,Chart type suitability,yes
+1,small multi,Grok,standards,Chart type suitability,yes
+1,small multi,Grok,baseline,Code reproducibility,no
+1,small multi,Grok,selfcheck,Code reproducibility,yes
+1,small multi,Grok,standards,Code reproducibility,yes
+1,small multi,Grok,baseline,Color redundancy,N/A
+1,small multi,Grok,selfcheck,Color redundancy,no
+1,small multi,Grok,standards,Color redundancy,yes
+1,small multi,Grok,baseline,Colorblind safety,N/A
+1,small multi,Grok,selfcheck,Colorblind safety,yes
+1,small multi,Grok,standards,Colorblind safety,no
+1,small multi,Grok,baseline,Data faithfulness,N/A
+1,small multi,Grok,selfcheck,Data faithfulness,yes
+1,small multi,Grok,standards,Data faithfulness,no
+1,small multi,Grok,baseline,Efficiency,N/A
+1,small multi,Grok,selfcheck,Efficiency,yes
+1,small multi,Grok,standards,Efficiency,no
+1,small multi,Grok,baseline,Holistic interpretation,N/A
+1,small multi,Grok,selfcheck,Holistic interpretation,yes
+1,small multi,Grok,standards,Holistic interpretation,yes
+1,small multi,Grok,baseline,Legend–encoding alignment,N/A
+1,small multi,Grok,selfcheck,Legend–encoding alignment,yes
+1,small multi,Grok,standards,Legend–encoding alignment,yes
+1,small multi,Grok,baseline,Legibility,N/A
+1,small multi,Grok,selfcheck,Legibility,no
+1,small multi,Grok,standards,Legibility,no
+1,small multi,Grok,baseline,Text clarity,N/A
+1,small multi,Grok,selfcheck,Text clarity,no
+1,small multi,Grok,standards,Text clarity,no
+1,stacked bars,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+1,stacked bars,ChatGPT 5 Thinking,standards,Aligned scales,yes
+1,stacked bars,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+1,stacked bars,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+1,stacked bars,ChatGPT 5 Thinking,baseline,Axis integrity,no
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+1,stacked bars,ChatGPT 5 Thinking,standards,Axis integrity,no
+1,stacked bars,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+1,stacked bars,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+1,stacked bars,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+1,stacked bars,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+1,stacked bars,ChatGPT 5 Thinking,baseline,Color redundancy,no
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Color redundancy,no
+1,stacked bars,ChatGPT 5 Thinking,standards,Color redundancy,no
+1,stacked bars,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+1,stacked bars,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+1,stacked bars,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+1,stacked bars,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+1,stacked bars,ChatGPT 5 Thinking,baseline,Efficiency,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Efficiency,yes
+1,stacked bars,ChatGPT 5 Thinking,standards,Efficiency,yes
+1,stacked bars,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+1,stacked bars,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+1,stacked bars,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,no
+1,stacked bars,ChatGPT 5 Thinking,standards,Legend–encoding alignment,yes
+1,stacked bars,ChatGPT 5 Thinking,baseline,Legibility,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+1,stacked bars,ChatGPT 5 Thinking,standards,Legibility,yes
+1,stacked bars,ChatGPT 5 Thinking,baseline,Text clarity,yes
+1,stacked bars,ChatGPT 5 Thinking,selfcheck,Text clarity,yes
+1,stacked bars,ChatGPT 5 Thinking,standards,Text clarity,yes
+1,stacked bars,Gemini 2.5 Pro,baseline,Aligned scales,yes
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+1,stacked bars,Gemini 2.5 Pro,standards,Aligned scales,yes
+1,stacked bars,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+1,stacked bars,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+1,stacked bars,Gemini 2.5 Pro,baseline,Axis integrity,yes
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Axis integrity,yes
+1,stacked bars,Gemini 2.5 Pro,standards,Axis integrity,yes
+1,stacked bars,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+1,stacked bars,Gemini 2.5 Pro,standards,Chart type suitability,yes
+1,stacked bars,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+1,stacked bars,Gemini 2.5 Pro,standards,Code reproducibility,yes
+1,stacked bars,Gemini 2.5 Pro,baseline,Color redundancy,no
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Color redundancy,no
+1,stacked bars,Gemini 2.5 Pro,standards,Color redundancy,no
+1,stacked bars,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Colorblind safety,no
+1,stacked bars,Gemini 2.5 Pro,standards,Colorblind safety,yes
+1,stacked bars,Gemini 2.5 Pro,baseline,Data faithfulness,no
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Data faithfulness,no
+1,stacked bars,Gemini 2.5 Pro,standards,Data faithfulness,no
+1,stacked bars,Gemini 2.5 Pro,baseline,Efficiency,yes
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+1,stacked bars,Gemini 2.5 Pro,standards,Efficiency,yes
+1,stacked bars,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+1,stacked bars,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+1,stacked bars,Gemini 2.5 Pro,baseline,Legend–encoding alignment,no
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,no
+1,stacked bars,Gemini 2.5 Pro,standards,Legend–encoding alignment,no
+1,stacked bars,Gemini 2.5 Pro,baseline,Legibility,no
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Legibility,yes
+1,stacked bars,Gemini 2.5 Pro,standards,Legibility,yes
+1,stacked bars,Gemini 2.5 Pro,baseline,Text clarity,yes
+1,stacked bars,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+1,stacked bars,Gemini 2.5 Pro,standards,Text clarity,yes
+1,stacked bars,Grok,baseline,Aligned scales,yes
+1,stacked bars,Grok,selfcheck,Aligned scales,yes
+1,stacked bars,Grok,standards,Aligned scales,yes
+1,stacked bars,Grok,baseline,Appropriate visual encoding,yes
+1,stacked bars,Grok,selfcheck,Appropriate visual encoding,yes
+1,stacked bars,Grok,standards,Appropriate visual encoding,yes
+1,stacked bars,Grok,baseline,Axis integrity,yes
+1,stacked bars,Grok,selfcheck,Axis integrity,yes
+1,stacked bars,Grok,standards,Axis integrity,yes
+1,stacked bars,Grok,baseline,Chart type suitability,yes
+1,stacked bars,Grok,selfcheck,Chart type suitability,yes
+1,stacked bars,Grok,standards,Chart type suitability,yes
+1,stacked bars,Grok,baseline,Code reproducibility,yes
+1,stacked bars,Grok,selfcheck,Code reproducibility,yes
+1,stacked bars,Grok,standards,Code reproducibility,yes
+1,stacked bars,Grok,baseline,Color redundancy,no
+1,stacked bars,Grok,selfcheck,Color redundancy,no
+1,stacked bars,Grok,standards,Color redundancy,no
+1,stacked bars,Grok,baseline,Colorblind safety,yes
+1,stacked bars,Grok,selfcheck,Colorblind safety,yes
+1,stacked bars,Grok,standards,Colorblind safety,no
+1,stacked bars,Grok,baseline,Data faithfulness,no
+1,stacked bars,Grok,selfcheck,Data faithfulness,no
+1,stacked bars,Grok,standards,Data faithfulness,no
+1,stacked bars,Grok,baseline,Efficiency,yes
+1,stacked bars,Grok,selfcheck,Efficiency,yes
+1,stacked bars,Grok,standards,Efficiency,yes
+1,stacked bars,Grok,baseline,Holistic interpretation,yes
+1,stacked bars,Grok,selfcheck,Holistic interpretation,yes
+1,stacked bars,Grok,standards,Holistic interpretation,yes
+1,stacked bars,Grok,baseline,Legend–encoding alignment,no
+1,stacked bars,Grok,selfcheck,Legend–encoding alignment,no
+1,stacked bars,Grok,standards,Legend–encoding alignment,yes
+1,stacked bars,Grok,baseline,Legibility,no
+1,stacked bars,Grok,selfcheck,Legibility,yes
+1,stacked bars,Grok,standards,Legibility,yes
+1,stacked bars,Grok,baseline,Text clarity,yes
+1,stacked bars,Grok,selfcheck,Text clarity,yes
+1,stacked bars,Grok,standards,Text clarity,yes
+2,Bars,ChatGPT 5 Thinking,baseline,Aligned scales,no
+2,Bars,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+2,Bars,ChatGPT 5 Thinking,standards,Aligned scales,yes
+2,Bars,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+2,Bars,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+2,Bars,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+2,Bars,ChatGPT 5 Thinking,baseline,Axis integrity,yes
+2,Bars,ChatGPT 5 Thinking,selfcheck,Axis integrity,yes
+2,Bars,ChatGPT 5 Thinking,standards,Axis integrity,yes
+2,Bars,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+2,Bars,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+2,Bars,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+2,Bars,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+2,Bars,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+2,Bars,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+2,Bars,ChatGPT 5 Thinking,baseline,Color redundancy,yes
+2,Bars,ChatGPT 5 Thinking,selfcheck,Color redundancy,yes
+2,Bars,ChatGPT 5 Thinking,standards,Color redundancy,yes
+2,Bars,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+2,Bars,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+2,Bars,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+2,Bars,ChatGPT 5 Thinking,baseline,Data faithfulness,no
+2,Bars,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+2,Bars,ChatGPT 5 Thinking,standards,Data faithfulness,no
+2,Bars,ChatGPT 5 Thinking,baseline,Efficiency,yes
+2,Bars,ChatGPT 5 Thinking,selfcheck,Efficiency,no
+2,Bars,ChatGPT 5 Thinking,standards,Efficiency,no
+2,Bars,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+2,Bars,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+2,Bars,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+2,Bars,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,N/A
+2,Bars,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,N/A
+2,Bars,ChatGPT 5 Thinking,standards,Legend–encoding alignment,N/A
+2,Bars,ChatGPT 5 Thinking,baseline,Legibility,yes
+2,Bars,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+2,Bars,ChatGPT 5 Thinking,standards,Legibility,yes
+2,Bars,ChatGPT 5 Thinking,baseline,Text clarity,no
+2,Bars,ChatGPT 5 Thinking,selfcheck,Text clarity,no
+2,Bars,ChatGPT 5 Thinking,standards,Text clarity,yes
+2,Bars,Gemini 2.5 Pro,baseline,Aligned scales,no
+2,Bars,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+2,Bars,Gemini 2.5 Pro,standards,Aligned scales,yes
+2,Bars,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+2,Bars,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+2,Bars,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+2,Bars,Gemini 2.5 Pro,baseline,Axis integrity,yes
+2,Bars,Gemini 2.5 Pro,selfcheck,Axis integrity,yes
+2,Bars,Gemini 2.5 Pro,standards,Axis integrity,yes
+2,Bars,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+2,Bars,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+2,Bars,Gemini 2.5 Pro,standards,Chart type suitability,yes
+2,Bars,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+2,Bars,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+2,Bars,Gemini 2.5 Pro,standards,Code reproducibility,yes
+2,Bars,Gemini 2.5 Pro,baseline,Color redundancy,yes
+2,Bars,Gemini 2.5 Pro,selfcheck,Color redundancy,yes
+2,Bars,Gemini 2.5 Pro,standards,Color redundancy,yes
+2,Bars,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+2,Bars,Gemini 2.5 Pro,selfcheck,Colorblind safety,yes
+2,Bars,Gemini 2.5 Pro,standards,Colorblind safety,yes
+2,Bars,Gemini 2.5 Pro,baseline,Data faithfulness,no
+2,Bars,Gemini 2.5 Pro,selfcheck,Data faithfulness,no
+2,Bars,Gemini 2.5 Pro,standards,Data faithfulness,no
+2,Bars,Gemini 2.5 Pro,baseline,Efficiency,yes
+2,Bars,Gemini 2.5 Pro,selfcheck,Efficiency,no
+2,Bars,Gemini 2.5 Pro,standards,Efficiency,no
+2,Bars,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+2,Bars,Gemini 2.5 Pro,selfcheck,Holistic interpretation,no
+2,Bars,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+2,Bars,Gemini 2.5 Pro,baseline,Legend–encoding alignment,N/A
+2,Bars,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,N/A
+2,Bars,Gemini 2.5 Pro,standards,Legend–encoding alignment,N/A
+2,Bars,Gemini 2.5 Pro,baseline,Legibility,no
+2,Bars,Gemini 2.5 Pro,selfcheck,Legibility,yes
+2,Bars,Gemini 2.5 Pro,standards,Legibility,yes
+2,Bars,Gemini 2.5 Pro,baseline,Text clarity,yes
+2,Bars,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+2,Bars,Gemini 2.5 Pro,standards,Text clarity,yes
+2,Bars,Grok,baseline,Aligned scales,no
+2,Bars,Grok,selfcheck,Aligned scales,no
+2,Bars,Grok,standards,Aligned scales,yes
+2,Bars,Grok,baseline,Appropriate visual encoding,yes
+2,Bars,Grok,selfcheck,Appropriate visual encoding,yes
+2,Bars,Grok,standards,Appropriate visual encoding,yes
+2,Bars,Grok,baseline,Axis integrity,yes
+2,Bars,Grok,selfcheck,Axis integrity,yes
+2,Bars,Grok,standards,Axis integrity,yes
+2,Bars,Grok,baseline,Chart type suitability,yes
+2,Bars,Grok,selfcheck,Chart type suitability,yes
+2,Bars,Grok,standards,Chart type suitability,yes
+2,Bars,Grok,baseline,Code reproducibility,yes
+2,Bars,Grok,selfcheck,Code reproducibility,yes
+2,Bars,Grok,standards,Code reproducibility,yes
+2,Bars,Grok,baseline,Color redundancy,yes
+2,Bars,Grok,selfcheck,Color redundancy,yes
+2,Bars,Grok,standards,Color redundancy,yes
+2,Bars,Grok,baseline,Colorblind safety,yes
+2,Bars,Grok,selfcheck,Colorblind safety,yes
+2,Bars,Grok,standards,Colorblind safety,yes
+2,Bars,Grok,baseline,Data faithfulness,no
+2,Bars,Grok,selfcheck,Data faithfulness,no
+2,Bars,Grok,standards,Data faithfulness,no
+2,Bars,Grok,baseline,Efficiency,yes
+2,Bars,Grok,selfcheck,Efficiency,yes
+2,Bars,Grok,standards,Efficiency,no
+2,Bars,Grok,baseline,Holistic interpretation,yes
+2,Bars,Grok,selfcheck,Holistic interpretation,yes
+2,Bars,Grok,standards,Holistic interpretation,yes
+2,Bars,Grok,baseline,Legend–encoding alignment,N/A
+2,Bars,Grok,selfcheck,Legend–encoding alignment,N/A
+2,Bars,Grok,standards,Legend–encoding alignment,N/A
+2,Bars,Grok,baseline,Legibility,yes
+2,Bars,Grok,selfcheck,Legibility,yes
+2,Bars,Grok,standards,Legibility,yes
+2,Bars,Grok,baseline,Text clarity,yes
+2,Bars,Grok,selfcheck,Text clarity,yes
+2,Bars,Grok,standards,Text clarity,yes
+2,dual axis,ChatGPT 5 Thinking,baseline,Aligned scales,no
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Aligned scales,no
+2,dual axis,ChatGPT 5 Thinking,standards,Aligned scales,no
+2,dual axis,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+2,dual axis,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+2,dual axis,ChatGPT 5 Thinking,baseline,Axis integrity,no
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+2,dual axis,ChatGPT 5 Thinking,standards,Axis integrity,no
+2,dual axis,ChatGPT 5 Thinking,baseline,Chart type suitability,no
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Chart type suitability,no
+2,dual axis,ChatGPT 5 Thinking,standards,Chart type suitability,no
+2,dual axis,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+2,dual axis,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+2,dual axis,ChatGPT 5 Thinking,baseline,Color redundancy,no
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Color redundancy,no
+2,dual axis,ChatGPT 5 Thinking,standards,Color redundancy,no
+2,dual axis,ChatGPT 5 Thinking,baseline,Colorblind safety,no
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Colorblind safety,no
+2,dual axis,ChatGPT 5 Thinking,standards,Colorblind safety,no
+2,dual axis,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+2,dual axis,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+2,dual axis,ChatGPT 5 Thinking,baseline,Efficiency,yes
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Efficiency,no
+2,dual axis,ChatGPT 5 Thinking,standards,Efficiency,no
+2,dual axis,ChatGPT 5 Thinking,baseline,Holistic interpretation,no
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,no
+2,dual axis,ChatGPT 5 Thinking,standards,Holistic interpretation,no
+2,dual axis,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,yes
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,yes
+2,dual axis,ChatGPT 5 Thinking,standards,Legend–encoding alignment,yes
+2,dual axis,ChatGPT 5 Thinking,baseline,Legibility,yes
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+2,dual axis,ChatGPT 5 Thinking,standards,Legibility,yes
+2,dual axis,ChatGPT 5 Thinking,baseline,Text clarity,no
+2,dual axis,ChatGPT 5 Thinking,selfcheck,Text clarity,no
+2,dual axis,ChatGPT 5 Thinking,standards,Text clarity,no
+2,dual axis,Gemini 2.5 Pro,baseline,Aligned scales,no
+2,dual axis,Gemini 2.5 Pro,selfcheck,Aligned scales,no
+2,dual axis,Gemini 2.5 Pro,standards,Aligned scales,no
+2,dual axis,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+2,dual axis,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+2,dual axis,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+2,dual axis,Gemini 2.5 Pro,baseline,Axis integrity,no
+2,dual axis,Gemini 2.5 Pro,selfcheck,Axis integrity,no
+2,dual axis,Gemini 2.5 Pro,standards,Axis integrity,no
+2,dual axis,Gemini 2.5 Pro,baseline,Chart type suitability,no
+2,dual axis,Gemini 2.5 Pro,selfcheck,Chart type suitability,no
+2,dual axis,Gemini 2.5 Pro,standards,Chart type suitability,no
+2,dual axis,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+2,dual axis,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+2,dual axis,Gemini 2.5 Pro,standards,Code reproducibility,yes
+2,dual axis,Gemini 2.5 Pro,baseline,Color redundancy,yes
+2,dual axis,Gemini 2.5 Pro,selfcheck,Color redundancy,yes
+2,dual axis,Gemini 2.5 Pro,standards,Color redundancy,no
+2,dual axis,Gemini 2.5 Pro,baseline,Colorblind safety,no
+2,dual axis,Gemini 2.5 Pro,selfcheck,Colorblind safety,yes
+2,dual axis,Gemini 2.5 Pro,standards,Colorblind safety,no
+2,dual axis,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+2,dual axis,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+2,dual axis,Gemini 2.5 Pro,standards,Data faithfulness,yes
+2,dual axis,Gemini 2.5 Pro,baseline,Efficiency,yes
+2,dual axis,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+2,dual axis,Gemini 2.5 Pro,standards,Efficiency,yes
+2,dual axis,Gemini 2.5 Pro,baseline,Holistic interpretation,no
+2,dual axis,Gemini 2.5 Pro,selfcheck,Holistic interpretation,no
+2,dual axis,Gemini 2.5 Pro,standards,Holistic interpretation,no
+2,dual axis,Gemini 2.5 Pro,baseline,Legend–encoding alignment,N/A
+2,dual axis,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,N/A
+2,dual axis,Gemini 2.5 Pro,standards,Legend–encoding alignment,N/A
+2,dual axis,Gemini 2.5 Pro,baseline,Legibility,yes
+2,dual axis,Gemini 2.5 Pro,selfcheck,Legibility,yes
+2,dual axis,Gemini 2.5 Pro,standards,Legibility,yes
+2,dual axis,Gemini 2.5 Pro,baseline,Text clarity,yes
+2,dual axis,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+2,dual axis,Gemini 2.5 Pro,standards,Text clarity,yes
+2,dual axis,Grok,baseline,Aligned scales,no
+2,dual axis,Grok,selfcheck,Aligned scales,no
+2,dual axis,Grok,standards,Aligned scales,no
+2,dual axis,Grok,baseline,Appropriate visual encoding,yes
+2,dual axis,Grok,selfcheck,Appropriate visual encoding,yes
+2,dual axis,Grok,standards,Appropriate visual encoding,yes
+2,dual axis,Grok,baseline,Axis integrity,no
+2,dual axis,Grok,selfcheck,Axis integrity,no
+2,dual axis,Grok,standards,Axis integrity,no
+2,dual axis,Grok,baseline,Chart type suitability,no
+2,dual axis,Grok,selfcheck,Chart type suitability,no
+2,dual axis,Grok,standards,Chart type suitability,no
+2,dual axis,Grok,baseline,Code reproducibility,yes
+2,dual axis,Grok,selfcheck,Code reproducibility,yes
+2,dual axis,Grok,standards,Code reproducibility,yes
+2,dual axis,Grok,baseline,Color redundancy,yes
+2,dual axis,Grok,selfcheck,Color redundancy,yes
+2,dual axis,Grok,standards,Color redundancy,yes
+2,dual axis,Grok,baseline,Colorblind safety,no
+2,dual axis,Grok,selfcheck,Colorblind safety,no
+2,dual axis,Grok,standards,Colorblind safety,yes
+2,dual axis,Grok,baseline,Data faithfulness,yes
+2,dual axis,Grok,selfcheck,Data faithfulness,yes
+2,dual axis,Grok,standards,Data faithfulness,yes
+2,dual axis,Grok,baseline,Efficiency,yes
+2,dual axis,Grok,selfcheck,Efficiency,no
+2,dual axis,Grok,standards,Efficiency,yes
+2,dual axis,Grok,baseline,Holistic interpretation,no
+2,dual axis,Grok,selfcheck,Holistic interpretation,no
+2,dual axis,Grok,standards,Holistic interpretation,no
+2,dual axis,Grok,baseline,Legend–encoding alignment,N/A
+2,dual axis,Grok,selfcheck,Legend–encoding alignment,no
+2,dual axis,Grok,standards,Legend–encoding alignment,yes
+2,dual axis,Grok,baseline,Legibility,yes
+2,dual axis,Grok,selfcheck,Legibility,yes
+2,dual axis,Grok,standards,Legibility,yes
+2,dual axis,Grok,baseline,Text clarity,yes
+2,dual axis,Grok,selfcheck,Text clarity,yes
+2,dual axis,Grok,standards,Text clarity,yes
+2,heatmap,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+2,heatmap,ChatGPT 5 Thinking,standards,Aligned scales,yes
+2,heatmap,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+2,heatmap,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+2,heatmap,ChatGPT 5 Thinking,baseline,Axis integrity,no
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+2,heatmap,ChatGPT 5 Thinking,standards,Axis integrity,no
+2,heatmap,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+2,heatmap,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+2,heatmap,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+2,heatmap,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+2,heatmap,ChatGPT 5 Thinking,baseline,Color redundancy,no
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Color redundancy,no
+2,heatmap,ChatGPT 5 Thinking,standards,Color redundancy,no
+2,heatmap,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+2,heatmap,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+2,heatmap,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+2,heatmap,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+2,heatmap,ChatGPT 5 Thinking,baseline,Efficiency,no
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Efficiency,no
+2,heatmap,ChatGPT 5 Thinking,standards,Efficiency,no
+2,heatmap,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+2,heatmap,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+2,heatmap,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,yes
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,yes
+2,heatmap,ChatGPT 5 Thinking,standards,Legend–encoding alignment,yes
+2,heatmap,ChatGPT 5 Thinking,baseline,Legibility,yes
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Legibility,no
+2,heatmap,ChatGPT 5 Thinking,standards,Legibility,yes
+2,heatmap,ChatGPT 5 Thinking,baseline,Text clarity,no
+2,heatmap,ChatGPT 5 Thinking,selfcheck,Text clarity,no
+2,heatmap,ChatGPT 5 Thinking,standards,Text clarity,no
+2,heatmap,Gemini 2.5 Pro,baseline,Aligned scales,yes
+2,heatmap,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+2,heatmap,Gemini 2.5 Pro,standards,Aligned scales,yes
+2,heatmap,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+2,heatmap,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,no
+2,heatmap,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+2,heatmap,Gemini 2.5 Pro,baseline,Axis integrity,no
+2,heatmap,Gemini 2.5 Pro,selfcheck,Axis integrity,yes
+2,heatmap,Gemini 2.5 Pro,standards,Axis integrity,yes
+2,heatmap,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+2,heatmap,Gemini 2.5 Pro,selfcheck,Chart type suitability,no
+2,heatmap,Gemini 2.5 Pro,standards,Chart type suitability,yes
+2,heatmap,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+2,heatmap,Gemini 2.5 Pro,selfcheck,Code reproducibility,no
+2,heatmap,Gemini 2.5 Pro,standards,Code reproducibility,yes
+2,heatmap,Gemini 2.5 Pro,baseline,Color redundancy,yes
+2,heatmap,Gemini 2.5 Pro,selfcheck,Color redundancy,N/A
+2,heatmap,Gemini 2.5 Pro,standards,Color redundancy,yes
+2,heatmap,Gemini 2.5 Pro,baseline,Colorblind safety,no
+2,heatmap,Gemini 2.5 Pro,selfcheck,Colorblind safety,no
+2,heatmap,Gemini 2.5 Pro,standards,Colorblind safety,no
+2,heatmap,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+2,heatmap,Gemini 2.5 Pro,selfcheck,Data faithfulness,no
+2,heatmap,Gemini 2.5 Pro,standards,Data faithfulness,yes
+2,heatmap,Gemini 2.5 Pro,baseline,Efficiency,no
+2,heatmap,Gemini 2.5 Pro,selfcheck,Efficiency,no
+2,heatmap,Gemini 2.5 Pro,standards,Efficiency,no
+2,heatmap,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+2,heatmap,Gemini 2.5 Pro,selfcheck,Holistic interpretation,no
+2,heatmap,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+2,heatmap,Gemini 2.5 Pro,baseline,Legend–encoding alignment,yes
+2,heatmap,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,N/A
+2,heatmap,Gemini 2.5 Pro,standards,Legend–encoding alignment,yes
+2,heatmap,Gemini 2.5 Pro,baseline,Legibility,yes
+2,heatmap,Gemini 2.5 Pro,selfcheck,Legibility,yes
+2,heatmap,Gemini 2.5 Pro,standards,Legibility,no
+2,heatmap,Gemini 2.5 Pro,baseline,Text clarity,yes
+2,heatmap,Gemini 2.5 Pro,selfcheck,Text clarity,no
+2,heatmap,Gemini 2.5 Pro,standards,Text clarity,no
+2,heatmap,Grok,baseline,Aligned scales,yes
+2,heatmap,Grok,selfcheck,Aligned scales,yes
+2,heatmap,Grok,standards,Aligned scales,yes
+2,heatmap,Grok,baseline,Appropriate visual encoding,yes
+2,heatmap,Grok,selfcheck,Appropriate visual encoding,yes
+2,heatmap,Grok,standards,Appropriate visual encoding,yes
+2,heatmap,Grok,baseline,Axis integrity,no
+2,heatmap,Grok,selfcheck,Axis integrity,no
+2,heatmap,Grok,standards,Axis integrity,no
+2,heatmap,Grok,baseline,Chart type suitability,yes
+2,heatmap,Grok,selfcheck,Chart type suitability,yes
+2,heatmap,Grok,standards,Chart type suitability,yes
+2,heatmap,Grok,baseline,Code reproducibility,yes
+2,heatmap,Grok,selfcheck,Code reproducibility,yes
+2,heatmap,Grok,standards,Code reproducibility,yes
+2,heatmap,Grok,baseline,Color redundancy,yes
+2,heatmap,Grok,selfcheck,Color redundancy,yes
+2,heatmap,Grok,standards,Color redundancy,yes
+2,heatmap,Grok,baseline,Colorblind safety,no
+2,heatmap,Grok,selfcheck,Colorblind safety,no
+2,heatmap,Grok,standards,Colorblind safety,no
+2,heatmap,Grok,baseline,Data faithfulness,no
+2,heatmap,Grok,selfcheck,Data faithfulness,yes
+2,heatmap,Grok,standards,Data faithfulness,no
+2,heatmap,Grok,baseline,Efficiency,no
+2,heatmap,Grok,selfcheck,Efficiency,yes
+2,heatmap,Grok,standards,Efficiency,no
+2,heatmap,Grok,baseline,Holistic interpretation,yes
+2,heatmap,Grok,selfcheck,Holistic interpretation,yes
+2,heatmap,Grok,standards,Holistic interpretation,yes
+2,heatmap,Grok,baseline,Legend–encoding alignment,yes
+2,heatmap,Grok,selfcheck,Legend–encoding alignment,yes
+2,heatmap,Grok,standards,Legend–encoding alignment,yes
+2,heatmap,Grok,baseline,Legibility,yes
+2,heatmap,Grok,selfcheck,Legibility,no
+2,heatmap,Grok,standards,Legibility,yes
+2,heatmap,Grok,baseline,Text clarity,yes
+2,heatmap,Grok,selfcheck,Text clarity,yes
+2,heatmap,Grok,standards,Text clarity,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+2,histogram,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+2,histogram,ChatGPT 5 Thinking,standards,Aligned scales,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+2,histogram,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+2,histogram,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Axis integrity,no
+2,histogram,ChatGPT 5 Thinking,selfcheck,Axis integrity,yes
+2,histogram,ChatGPT 5 Thinking,standards,Axis integrity,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+2,histogram,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+2,histogram,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+2,histogram,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+2,histogram,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Color redundancy,no
+2,histogram,ChatGPT 5 Thinking,selfcheck,Color redundancy,yes
+2,histogram,ChatGPT 5 Thinking,standards,Color redundancy,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+2,histogram,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+2,histogram,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+2,histogram,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+2,histogram,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Efficiency,no
+2,histogram,ChatGPT 5 Thinking,selfcheck,Efficiency,yes
+2,histogram,ChatGPT 5 Thinking,standards,Efficiency,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+2,histogram,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+2,histogram,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,N/A
+2,histogram,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,N/A
+2,histogram,ChatGPT 5 Thinking,standards,Legend–encoding alignment,N/A
+2,histogram,ChatGPT 5 Thinking,baseline,Legibility,yes
+2,histogram,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+2,histogram,ChatGPT 5 Thinking,standards,Legibility,yes
+2,histogram,ChatGPT 5 Thinking,baseline,Text clarity,yes
+2,histogram,ChatGPT 5 Thinking,selfcheck,Text clarity,yes
+2,histogram,ChatGPT 5 Thinking,standards,Text clarity,yes
+2,histogram,Gemini 2.5 Pro,baseline,Aligned scales,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+2,histogram,Gemini 2.5 Pro,standards,Aligned scales,yes
+2,histogram,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+2,histogram,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+2,histogram,Gemini 2.5 Pro,baseline,Axis integrity,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Axis integrity,yes
+2,histogram,Gemini 2.5 Pro,standards,Axis integrity,yes
+2,histogram,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+2,histogram,Gemini 2.5 Pro,standards,Chart type suitability,yes
+2,histogram,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+2,histogram,Gemini 2.5 Pro,standards,Code reproducibility,yes
+2,histogram,Gemini 2.5 Pro,baseline,Color redundancy,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Color redundancy,yes
+2,histogram,Gemini 2.5 Pro,standards,Color redundancy,yes
+2,histogram,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Colorblind safety,yes
+2,histogram,Gemini 2.5 Pro,standards,Colorblind safety,yes
+2,histogram,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+2,histogram,Gemini 2.5 Pro,standards,Data faithfulness,yes
+2,histogram,Gemini 2.5 Pro,baseline,Efficiency,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+2,histogram,Gemini 2.5 Pro,standards,Efficiency,yes
+2,histogram,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+2,histogram,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+2,histogram,Gemini 2.5 Pro,baseline,Legend–encoding alignment,N/A
+2,histogram,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,N/A
+2,histogram,Gemini 2.5 Pro,standards,Legend–encoding alignment,N/A
+2,histogram,Gemini 2.5 Pro,baseline,Legibility,no
+2,histogram,Gemini 2.5 Pro,selfcheck,Legibility,yes
+2,histogram,Gemini 2.5 Pro,standards,Legibility,no
+2,histogram,Gemini 2.5 Pro,baseline,Text clarity,yes
+2,histogram,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+2,histogram,Gemini 2.5 Pro,standards,Text clarity,yes
+2,histogram,Grok,baseline,Aligned scales,yes
+2,histogram,Grok,selfcheck,Aligned scales,yes
+2,histogram,Grok,standards,Aligned scales,yes
+2,histogram,Grok,baseline,Appropriate visual encoding,yes
+2,histogram,Grok,selfcheck,Appropriate visual encoding,yes
+2,histogram,Grok,standards,Appropriate visual encoding,yes
+2,histogram,Grok,baseline,Axis integrity,no
+2,histogram,Grok,selfcheck,Axis integrity,no
+2,histogram,Grok,standards,Axis integrity,no
+2,histogram,Grok,baseline,Chart type suitability,yes
+2,histogram,Grok,selfcheck,Chart type suitability,yes
+2,histogram,Grok,standards,Chart type suitability,yes
+2,histogram,Grok,baseline,Code reproducibility,yes
+2,histogram,Grok,selfcheck,Code reproducibility,yes
+2,histogram,Grok,standards,Code reproducibility,yes
+2,histogram,Grok,baseline,Color redundancy,yes
+2,histogram,Grok,selfcheck,Color redundancy,yes
+2,histogram,Grok,standards,Color redundancy,yes
+2,histogram,Grok,baseline,Colorblind safety,yes
+2,histogram,Grok,selfcheck,Colorblind safety,yes
+2,histogram,Grok,standards,Colorblind safety,yes
+2,histogram,Grok,baseline,Data faithfulness,yes
+2,histogram,Grok,selfcheck,Data faithfulness,yes
+2,histogram,Grok,standards,Data faithfulness,yes
+2,histogram,Grok,baseline,Efficiency,yes
+2,histogram,Grok,selfcheck,Efficiency,yes
+2,histogram,Grok,standards,Efficiency,yes
+2,histogram,Grok,baseline,Holistic interpretation,yes
+2,histogram,Grok,selfcheck,Holistic interpretation,yes
+2,histogram,Grok,standards,Holistic interpretation,yes
+2,histogram,Grok,baseline,Legend–encoding alignment,N/A
+2,histogram,Grok,selfcheck,Legend–encoding alignment,N/A
+2,histogram,Grok,standards,Legend–encoding alignment,N/A
+2,histogram,Grok,baseline,Legibility,no
+2,histogram,Grok,selfcheck,Legibility,yes
+2,histogram,Grok,standards,Legibility,yes
+2,histogram,Grok,baseline,Text clarity,yes
+2,histogram,Grok,selfcheck,Text clarity,yes
+2,histogram,Grok,standards,Text clarity,yes
+2,line gaps,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+2,line gaps,ChatGPT 5 Thinking,standards,Aligned scales,yes
+2,line gaps,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+2,line gaps,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+2,line gaps,ChatGPT 5 Thinking,baseline,Axis integrity,no
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+2,line gaps,ChatGPT 5 Thinking,standards,Axis integrity,no
+2,line gaps,ChatGPT 5 Thinking,baseline,Chart type suitability,no
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Chart type suitability,no
+2,line gaps,ChatGPT 5 Thinking,standards,Chart type suitability,no
+2,line gaps,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+2,line gaps,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+2,line gaps,ChatGPT 5 Thinking,baseline,Color redundancy,no
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Color redundancy,yes
+2,line gaps,ChatGPT 5 Thinking,standards,Color redundancy,no
+2,line gaps,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+2,line gaps,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+2,line gaps,ChatGPT 5 Thinking,baseline,Data faithfulness,no
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+2,line gaps,ChatGPT 5 Thinking,standards,Data faithfulness,no
+2,line gaps,ChatGPT 5 Thinking,baseline,Efficiency,yes
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Efficiency,yes
+2,line gaps,ChatGPT 5 Thinking,standards,Efficiency,no
+2,line gaps,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+2,line gaps,ChatGPT 5 Thinking,standards,Holistic interpretation,no
+2,line gaps,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,N/A
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,N/A
+2,line gaps,ChatGPT 5 Thinking,standards,Legend–encoding alignment,N/A
+2,line gaps,ChatGPT 5 Thinking,baseline,Legibility,yes
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+2,line gaps,ChatGPT 5 Thinking,standards,Legibility,yes
+2,line gaps,ChatGPT 5 Thinking,baseline,Text clarity,no
+2,line gaps,ChatGPT 5 Thinking,selfcheck,Text clarity,no
+2,line gaps,ChatGPT 5 Thinking,standards,Text clarity,no
+2,line gaps,Gemini 2.5 Pro,baseline,Aligned scales,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+2,line gaps,Gemini 2.5 Pro,standards,Aligned scales,no
+2,line gaps,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+2,line gaps,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+2,line gaps,Gemini 2.5 Pro,baseline,Axis integrity,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Axis integrity,yes
+2,line gaps,Gemini 2.5 Pro,standards,Axis integrity,yes
+2,line gaps,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+2,line gaps,Gemini 2.5 Pro,standards,Chart type suitability,yes
+2,line gaps,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+2,line gaps,Gemini 2.5 Pro,standards,Code reproducibility,yes
+2,line gaps,Gemini 2.5 Pro,baseline,Color redundancy,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Color redundancy,yes
+2,line gaps,Gemini 2.5 Pro,standards,Color redundancy,yes
+2,line gaps,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Colorblind safety,yes
+2,line gaps,Gemini 2.5 Pro,standards,Colorblind safety,yes
+2,line gaps,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+2,line gaps,Gemini 2.5 Pro,standards,Data faithfulness,yes
+2,line gaps,Gemini 2.5 Pro,baseline,Efficiency,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+2,line gaps,Gemini 2.5 Pro,standards,Efficiency,yes
+2,line gaps,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+2,line gaps,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+2,line gaps,Gemini 2.5 Pro,baseline,Legend–encoding alignment,N/A
+2,line gaps,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,N/A
+2,line gaps,Gemini 2.5 Pro,standards,Legend–encoding alignment,N/A
+2,line gaps,Gemini 2.5 Pro,baseline,Legibility,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Legibility,yes
+2,line gaps,Gemini 2.5 Pro,standards,Legibility,yes
+2,line gaps,Gemini 2.5 Pro,baseline,Text clarity,yes
+2,line gaps,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+2,line gaps,Gemini 2.5 Pro,standards,Text clarity,yes
+2,line gaps,Grok,baseline,Aligned scales,no
+2,line gaps,Grok,selfcheck,Aligned scales,no
+2,line gaps,Grok,standards,Aligned scales,yes
+2,line gaps,Grok,baseline,Appropriate visual encoding,yes
+2,line gaps,Grok,selfcheck,Appropriate visual encoding,yes
+2,line gaps,Grok,standards,Appropriate visual encoding,yes
+2,line gaps,Grok,baseline,Axis integrity,yes
+2,line gaps,Grok,selfcheck,Axis integrity,no
+2,line gaps,Grok,standards,Axis integrity,no
+2,line gaps,Grok,baseline,Chart type suitability,yes
+2,line gaps,Grok,selfcheck,Chart type suitability,yes
+2,line gaps,Grok,standards,Chart type suitability,yes
+2,line gaps,Grok,baseline,Code reproducibility,yes
+2,line gaps,Grok,selfcheck,Code reproducibility,yes
+2,line gaps,Grok,standards,Code reproducibility,yes
+2,line gaps,Grok,baseline,Color redundancy,yes
+2,line gaps,Grok,selfcheck,Color redundancy,yes
+2,line gaps,Grok,standards,Color redundancy,yes
+2,line gaps,Grok,baseline,Colorblind safety,yes
+2,line gaps,Grok,selfcheck,Colorblind safety,yes
+2,line gaps,Grok,standards,Colorblind safety,yes
+2,line gaps,Grok,baseline,Data faithfulness,yes
+2,line gaps,Grok,selfcheck,Data faithfulness,yes
+2,line gaps,Grok,standards,Data faithfulness,yes
+2,line gaps,Grok,baseline,Efficiency,yes
+2,line gaps,Grok,selfcheck,Efficiency,no
+2,line gaps,Grok,standards,Efficiency,no
+2,line gaps,Grok,baseline,Holistic interpretation,yes
+2,line gaps,Grok,selfcheck,Holistic interpretation,yes
+2,line gaps,Grok,standards,Holistic interpretation,yes
+2,line gaps,Grok,baseline,Legend–encoding alignment,N/A
+2,line gaps,Grok,selfcheck,Legend–encoding alignment,N/A
+2,line gaps,Grok,standards,Legend–encoding alignment,N/A
+2,line gaps,Grok,baseline,Legibility,no
+2,line gaps,Grok,selfcheck,Legibility,no
+2,line gaps,Grok,standards,Legibility,yes
+2,line gaps,Grok,baseline,Text clarity,no
+2,line gaps,Grok,selfcheck,Text clarity,yes
+2,line gaps,Grok,standards,Text clarity,yes
+2,scatter group,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Aligned scales,no
+2,scatter group,ChatGPT 5 Thinking,standards,Aligned scales,yes
+2,scatter group,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+2,scatter group,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+2,scatter group,ChatGPT 5 Thinking,baseline,Axis integrity,no
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+2,scatter group,ChatGPT 5 Thinking,standards,Axis integrity,no
+2,scatter group,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+2,scatter group,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+2,scatter group,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+2,scatter group,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+2,scatter group,ChatGPT 5 Thinking,baseline,Color redundancy,no
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Color redundancy,yes
+2,scatter group,ChatGPT 5 Thinking,standards,Color redundancy,no
+2,scatter group,ChatGPT 5 Thinking,baseline,Colorblind safety,no
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Colorblind safety,no
+2,scatter group,ChatGPT 5 Thinking,standards,Colorblind safety,no
+2,scatter group,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+2,scatter group,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+2,scatter group,ChatGPT 5 Thinking,baseline,Efficiency,yes
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Efficiency,yes
+2,scatter group,ChatGPT 5 Thinking,standards,Efficiency,yes
+2,scatter group,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+2,scatter group,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+2,scatter group,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,yes
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,yes
+2,scatter group,ChatGPT 5 Thinking,standards,Legend–encoding alignment,yes
+2,scatter group,ChatGPT 5 Thinking,baseline,Legibility,yes
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Legibility,no
+2,scatter group,ChatGPT 5 Thinking,standards,Legibility,yes
+2,scatter group,ChatGPT 5 Thinking,baseline,Text clarity,no
+2,scatter group,ChatGPT 5 Thinking,selfcheck,Text clarity,yes
+2,scatter group,ChatGPT 5 Thinking,standards,Text clarity,no
+2,scatter group,Gemini 2.5 Pro,baseline,Aligned scales,yes
+2,scatter group,Gemini 2.5 Pro,selfcheck,Aligned scales,no
+2,scatter group,Gemini 2.5 Pro,standards,Aligned scales,yes
+2,scatter group,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+2,scatter group,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+2,scatter group,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+2,scatter group,Gemini 2.5 Pro,baseline,Axis integrity,no
+2,scatter group,Gemini 2.5 Pro,selfcheck,Axis integrity,no
+2,scatter group,Gemini 2.5 Pro,standards,Axis integrity,no
+2,scatter group,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+2,scatter group,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+2,scatter group,Gemini 2.5 Pro,standards,Chart type suitability,yes
+2,scatter group,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+2,scatter group,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+2,scatter group,Gemini 2.5 Pro,standards,Code reproducibility,yes
+2,scatter group,Gemini 2.5 Pro,baseline,Color redundancy,no
+2,scatter group,Gemini 2.5 Pro,selfcheck,Color redundancy,no
+2,scatter group,Gemini 2.5 Pro,standards,Color redundancy,no
+2,scatter group,Gemini 2.5 Pro,baseline,Colorblind safety,no
+2,scatter group,Gemini 2.5 Pro,selfcheck,Colorblind safety,no
+2,scatter group,Gemini 2.5 Pro,standards,Colorblind safety,no
+2,scatter group,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+2,scatter group,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+2,scatter group,Gemini 2.5 Pro,standards,Data faithfulness,yes
+2,scatter group,Gemini 2.5 Pro,baseline,Efficiency,yes
+2,scatter group,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+2,scatter group,Gemini 2.5 Pro,standards,Efficiency,yes
+2,scatter group,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+2,scatter group,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+2,scatter group,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+2,scatter group,Gemini 2.5 Pro,baseline,Legend–encoding alignment,yes
+2,scatter group,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,yes
+2,scatter group,Gemini 2.5 Pro,standards,Legend–encoding alignment,yes
+2,scatter group,Gemini 2.5 Pro,baseline,Legibility,yes
+2,scatter group,Gemini 2.5 Pro,selfcheck,Legibility,no
+2,scatter group,Gemini 2.5 Pro,standards,Legibility,no
+2,scatter group,Gemini 2.5 Pro,baseline,Text clarity,yes
+2,scatter group,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+2,scatter group,Gemini 2.5 Pro,standards,Text clarity,yes
+2,scatter group,Grok,baseline,Aligned scales,yes
+2,scatter group,Grok,selfcheck,Aligned scales,yes
+2,scatter group,Grok,standards,Aligned scales,yes
+2,scatter group,Grok,baseline,Appropriate visual encoding,yes
+2,scatter group,Grok,selfcheck,Appropriate visual encoding,yes
+2,scatter group,Grok,standards,Appropriate visual encoding,yes
+2,scatter group,Grok,baseline,Axis integrity,no
+2,scatter group,Grok,selfcheck,Axis integrity,no
+2,scatter group,Grok,standards,Axis integrity,no
+2,scatter group,Grok,baseline,Chart type suitability,yes
+2,scatter group,Grok,selfcheck,Chart type suitability,yes
+2,scatter group,Grok,standards,Chart type suitability,yes
+2,scatter group,Grok,baseline,Code reproducibility,yes
+2,scatter group,Grok,selfcheck,Code reproducibility,yes
+2,scatter group,Grok,standards,Code reproducibility,yes
+2,scatter group,Grok,baseline,Color redundancy,no
+2,scatter group,Grok,selfcheck,Color redundancy,no
+2,scatter group,Grok,standards,Color redundancy,no
+2,scatter group,Grok,baseline,Colorblind safety,yes
+2,scatter group,Grok,selfcheck,Colorblind safety,yes
+2,scatter group,Grok,standards,Colorblind safety,yes
+2,scatter group,Grok,baseline,Data faithfulness,yes
+2,scatter group,Grok,selfcheck,Data faithfulness,yes
+2,scatter group,Grok,standards,Data faithfulness,yes
+2,scatter group,Grok,baseline,Efficiency,yes
+2,scatter group,Grok,selfcheck,Efficiency,yes
+2,scatter group,Grok,standards,Efficiency,yes
+2,scatter group,Grok,baseline,Holistic interpretation,yes
+2,scatter group,Grok,selfcheck,Holistic interpretation,yes
+2,scatter group,Grok,standards,Holistic interpretation,yes
+2,scatter group,Grok,baseline,Legend–encoding alignment,yes
+2,scatter group,Grok,selfcheck,Legend–encoding alignment,yes
+2,scatter group,Grok,standards,Legend–encoding alignment,yes
+2,scatter group,Grok,baseline,Legibility,yes
+2,scatter group,Grok,selfcheck,Legibility,yes
+2,scatter group,Grok,standards,Legibility,yes
+2,scatter group,Grok,baseline,Text clarity,no
+2,scatter group,Grok,selfcheck,Text clarity,yes
+2,scatter group,Grok,standards,Text clarity,yes
+2,small multi,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+2,small multi,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+2,small multi,ChatGPT 5 Thinking,standards,Aligned scales,no
+2,small multi,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+2,small multi,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+2,small multi,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+2,small multi,ChatGPT 5 Thinking,baseline,Axis integrity,no
+2,small multi,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+2,small multi,ChatGPT 5 Thinking,standards,Axis integrity,no
+2,small multi,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+2,small multi,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+2,small multi,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+2,small multi,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+2,small multi,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+2,small multi,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+2,small multi,ChatGPT 5 Thinking,baseline,Color redundancy,yes
+2,small multi,ChatGPT 5 Thinking,selfcheck,Color redundancy,yes
+2,small multi,ChatGPT 5 Thinking,standards,Color redundancy,yes
+2,small multi,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+2,small multi,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+2,small multi,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+2,small multi,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+2,small multi,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+2,small multi,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+2,small multi,ChatGPT 5 Thinking,baseline,Efficiency,no
+2,small multi,ChatGPT 5 Thinking,selfcheck,Efficiency,yes
+2,small multi,ChatGPT 5 Thinking,standards,Efficiency,no
+2,small multi,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+2,small multi,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+2,small multi,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+2,small multi,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,no
+2,small multi,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,yes
+2,small multi,ChatGPT 5 Thinking,standards,Legend–encoding alignment,no
+2,small multi,ChatGPT 5 Thinking,baseline,Legibility,yes
+2,small multi,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+2,small multi,ChatGPT 5 Thinking,standards,Legibility,yes
+2,small multi,ChatGPT 5 Thinking,baseline,Text clarity,yes
+2,small multi,ChatGPT 5 Thinking,selfcheck,Text clarity,yes
+2,small multi,ChatGPT 5 Thinking,standards,Text clarity,yes
+2,small multi,Gemini 2.5 Pro,baseline,Aligned scales,no
+2,small multi,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+2,small multi,Gemini 2.5 Pro,standards,Aligned scales,no
+2,small multi,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+2,small multi,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+2,small multi,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+2,small multi,Gemini 2.5 Pro,baseline,Axis integrity,no
+2,small multi,Gemini 2.5 Pro,selfcheck,Axis integrity,no
+2,small multi,Gemini 2.5 Pro,standards,Axis integrity,no
+2,small multi,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+2,small multi,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+2,small multi,Gemini 2.5 Pro,standards,Chart type suitability,yes
+2,small multi,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+2,small multi,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+2,small multi,Gemini 2.5 Pro,standards,Code reproducibility,yes
+2,small multi,Gemini 2.5 Pro,baseline,Color redundancy,yes
+2,small multi,Gemini 2.5 Pro,selfcheck,Color redundancy,yes
+2,small multi,Gemini 2.5 Pro,standards,Color redundancy,yes
+2,small multi,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+2,small multi,Gemini 2.5 Pro,selfcheck,Colorblind safety,no
+2,small multi,Gemini 2.5 Pro,standards,Colorblind safety,yes
+2,small multi,Gemini 2.5 Pro,baseline,Data faithfulness,yes
+2,small multi,Gemini 2.5 Pro,selfcheck,Data faithfulness,yes
+2,small multi,Gemini 2.5 Pro,standards,Data faithfulness,yes
+2,small multi,Gemini 2.5 Pro,baseline,Efficiency,yes
+2,small multi,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+2,small multi,Gemini 2.5 Pro,standards,Efficiency,yes
+2,small multi,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+2,small multi,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+2,small multi,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+2,small multi,Gemini 2.5 Pro,baseline,Legend–encoding alignment,yes
+2,small multi,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,yes
+2,small multi,Gemini 2.5 Pro,standards,Legend–encoding alignment,no
+2,small multi,Gemini 2.5 Pro,baseline,Legibility,no
+2,small multi,Gemini 2.5 Pro,selfcheck,Legibility,no
+2,small multi,Gemini 2.5 Pro,standards,Legibility,yes
+2,small multi,Gemini 2.5 Pro,baseline,Text clarity,no
+2,small multi,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+2,small multi,Gemini 2.5 Pro,standards,Text clarity,yes
+2,small multi,Grok,baseline,Aligned scales,N/A
+2,small multi,Grok,selfcheck,Aligned scales,yes
+2,small multi,Grok,standards,Aligned scales,yes
+2,small multi,Grok,baseline,Appropriate visual encoding,N/A
+2,small multi,Grok,selfcheck,Appropriate visual encoding,yes
+2,small multi,Grok,standards,Appropriate visual encoding,yes
+2,small multi,Grok,baseline,Axis integrity,N/A
+2,small multi,Grok,selfcheck,Axis integrity,no
+2,small multi,Grok,standards,Axis integrity,no
+2,small multi,Grok,baseline,Chart type suitability,N/A
+2,small multi,Grok,selfcheck,Chart type suitability,yes
+2,small multi,Grok,standards,Chart type suitability,yes
+2,small multi,Grok,baseline,Code reproducibility,no
+2,small multi,Grok,selfcheck,Code reproducibility,yes
+2,small multi,Grok,standards,Code reproducibility,yes
+2,small multi,Grok,baseline,Color redundancy,N/A
+2,small multi,Grok,selfcheck,Color redundancy,no
+2,small multi,Grok,standards,Color redundancy,yes
+2,small multi,Grok,baseline,Colorblind safety,N/A
+2,small multi,Grok,selfcheck,Colorblind safety,yes
+2,small multi,Grok,standards,Colorblind safety,no
+2,small multi,Grok,baseline,Data faithfulness,N/A
+2,small multi,Grok,selfcheck,Data faithfulness,yes
+2,small multi,Grok,standards,Data faithfulness,no
+2,small multi,Grok,baseline,Efficiency,N/A
+2,small multi,Grok,selfcheck,Efficiency,yes
+2,small multi,Grok,standards,Efficiency,no
+2,small multi,Grok,baseline,Holistic interpretation,N/A
+2,small multi,Grok,selfcheck,Holistic interpretation,yes
+2,small multi,Grok,standards,Holistic interpretation,yes
+2,small multi,Grok,baseline,Legend–encoding alignment,N/A
+2,small multi,Grok,selfcheck,Legend–encoding alignment,yes
+2,small multi,Grok,standards,Legend–encoding alignment,yes
+2,small multi,Grok,baseline,Legibility,N/A
+2,small multi,Grok,selfcheck,Legibility,no
+2,small multi,Grok,standards,Legibility,no
+2,small multi,Grok,baseline,Text clarity,N/A
+2,small multi,Grok,selfcheck,Text clarity,no
+2,small multi,Grok,standards,Text clarity,no
+2,stacked bars,ChatGPT 5 Thinking,baseline,Aligned scales,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Aligned scales,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Aligned scales,yes
+2,stacked bars,ChatGPT 5 Thinking,baseline,Appropriate visual encoding,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Appropriate visual encoding,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Appropriate visual encoding,yes
+2,stacked bars,ChatGPT 5 Thinking,baseline,Axis integrity,no
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Axis integrity,no
+2,stacked bars,ChatGPT 5 Thinking,standards,Axis integrity,no
+2,stacked bars,ChatGPT 5 Thinking,baseline,Chart type suitability,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Chart type suitability,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Chart type suitability,yes
+2,stacked bars,ChatGPT 5 Thinking,baseline,Code reproducibility,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Code reproducibility,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Code reproducibility,yes
+2,stacked bars,ChatGPT 5 Thinking,baseline,Color redundancy,no
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Color redundancy,no
+2,stacked bars,ChatGPT 5 Thinking,standards,Color redundancy,no
+2,stacked bars,ChatGPT 5 Thinking,baseline,Colorblind safety,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Colorblind safety,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Colorblind safety,yes
+2,stacked bars,ChatGPT 5 Thinking,baseline,Data faithfulness,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Data faithfulness,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Data faithfulness,yes
+2,stacked bars,ChatGPT 5 Thinking,baseline,Efficiency,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Efficiency,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Efficiency,yes
+2,stacked bars,ChatGPT 5 Thinking,baseline,Holistic interpretation,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Holistic interpretation,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Holistic interpretation,yes
+2,stacked bars,ChatGPT 5 Thinking,baseline,Legend–encoding alignment,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Legend–encoding alignment,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Legend–encoding alignment,yes
+2,stacked bars,ChatGPT 5 Thinking,baseline,Legibility,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Legibility,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Legibility,yes
+2,stacked bars,ChatGPT 5 Thinking,baseline,Text clarity,yes
+2,stacked bars,ChatGPT 5 Thinking,selfcheck,Text clarity,yes
+2,stacked bars,ChatGPT 5 Thinking,standards,Text clarity,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Aligned scales,yes
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Aligned scales,yes
+2,stacked bars,Gemini 2.5 Pro,standards,Aligned scales,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Appropriate visual encoding,yes
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Appropriate visual encoding,yes
+2,stacked bars,Gemini 2.5 Pro,standards,Appropriate visual encoding,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Axis integrity,yes
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Axis integrity,yes
+2,stacked bars,Gemini 2.5 Pro,standards,Axis integrity,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Chart type suitability,yes
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Chart type suitability,yes
+2,stacked bars,Gemini 2.5 Pro,standards,Chart type suitability,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Code reproducibility,yes
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Code reproducibility,yes
+2,stacked bars,Gemini 2.5 Pro,standards,Code reproducibility,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Color redundancy,no
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Color redundancy,no
+2,stacked bars,Gemini 2.5 Pro,standards,Color redundancy,no
+2,stacked bars,Gemini 2.5 Pro,baseline,Colorblind safety,yes
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Colorblind safety,no
+2,stacked bars,Gemini 2.5 Pro,standards,Colorblind safety,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Data faithfulness,no
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Data faithfulness,no
+2,stacked bars,Gemini 2.5 Pro,standards,Data faithfulness,no
+2,stacked bars,Gemini 2.5 Pro,baseline,Efficiency,yes
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Efficiency,yes
+2,stacked bars,Gemini 2.5 Pro,standards,Efficiency,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Holistic interpretation,yes
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Holistic interpretation,yes
+2,stacked bars,Gemini 2.5 Pro,standards,Holistic interpretation,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Legend–encoding alignment,yes
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Legend–encoding alignment,yes
+2,stacked bars,Gemini 2.5 Pro,standards,Legend–encoding alignment,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Legibility,no
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Legibility,yes
+2,stacked bars,Gemini 2.5 Pro,standards,Legibility,yes
+2,stacked bars,Gemini 2.5 Pro,baseline,Text clarity,yes
+2,stacked bars,Gemini 2.5 Pro,selfcheck,Text clarity,yes
+2,stacked bars,Gemini 2.5 Pro,standards,Text clarity,yes
+2,stacked bars,Grok,baseline,Aligned scales,yes
+2,stacked bars,Grok,selfcheck,Aligned scales,yes
+2,stacked bars,Grok,standards,Aligned scales,yes
+2,stacked bars,Grok,baseline,Appropriate visual encoding,yes
+2,stacked bars,Grok,selfcheck,Appropriate visual encoding,yes
+2,stacked bars,Grok,standards,Appropriate visual encoding,yes
+2,stacked bars,Grok,baseline,Axis integrity,yes
+2,stacked bars,Grok,selfcheck,Axis integrity,yes
+2,stacked bars,Grok,standards,Axis integrity,yes
+2,stacked bars,Grok,baseline,Chart type suitability,yes
+2,stacked bars,Grok,selfcheck,Chart type suitability,yes
+2,stacked bars,Grok,standards,Chart type suitability,yes
+2,stacked bars,Grok,baseline,Code reproducibility,yes
+2,stacked bars,Grok,selfcheck,Code reproducibility,yes
+2,stacked bars,Grok,standards,Code reproducibility,yes
+2,stacked bars,Grok,baseline,Color redundancy,no
+2,stacked bars,Grok,selfcheck,Color redundancy,no
+2,stacked bars,Grok,standards,Color redundancy,no
+2,stacked bars,Grok,baseline,Colorblind safety,yes
+2,stacked bars,Grok,selfcheck,Colorblind safety,yes
+2,stacked bars,Grok,standards,Colorblind safety,yes
+2,stacked bars,Grok,baseline,Data faithfulness,no
+2,stacked bars,Grok,selfcheck,Data faithfulness,no
+2,stacked bars,Grok,standards,Data faithfulness,no
+2,stacked bars,Grok,baseline,Efficiency,yes
+2,stacked bars,Grok,selfcheck,Efficiency,yes
+2,stacked bars,Grok,standards,Efficiency,yes
+2,stacked bars,Grok,baseline,Holistic interpretation,yes
+2,stacked bars,Grok,selfcheck,Holistic interpretation,yes
+2,stacked bars,Grok,standards,Holistic interpretation,yes
+2,stacked bars,Grok,baseline,Legend–encoding alignment,yes
+2,stacked bars,Grok,selfcheck,Legend–encoding alignment,yes
+2,stacked bars,Grok,standards,Legend–encoding alignment,yes
+2,stacked bars,Grok,baseline,Legibility,no
+2,stacked bars,Grok,selfcheck,Legibility,yes
+2,stacked bars,Grok,standards,Legibility,yes
+2,stacked bars,Grok,baseline,Text clarity,yes
+2,stacked bars,Grok,selfcheck,Text clarity,yes
+2,stacked bars,Grok,standards,Text clarity,yes
