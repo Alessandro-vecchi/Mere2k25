@@ -82,7 +82,10 @@ runs/t01_bars/gpt5thinking/baseline/s1/
    This produces `chart.png`, `stdout.txt`, `stderr.txt`, and `run.json`.
 5. **Lint the output**
 
+
+   ```bash
    python src/linter.py   runs/t01_bars/A/gpt5thinking/baseline/s1
+   ```
 
    This produces `lint.json`.
 
