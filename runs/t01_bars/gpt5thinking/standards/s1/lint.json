@@ -1,7 +1,7 @@
 [
   {
     "rule": "chart_type",
-    "value": "unknown"
+    "value": "barh"
   },
   {
     "rule": "labels_present",
@@ -27,6 +27,11 @@
     "rule": "seaborn_usage",
     "status": "info",
     "detail": "not used"
+  },
+  {
+    "rule": "baseline_zero_bar",
+    "status": "warn",
+    "detail": "no explicit baseline enforcement"
   },
   {
     "rule": "contrast_text",

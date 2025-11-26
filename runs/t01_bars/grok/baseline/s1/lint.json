@@ -14,6 +14,18 @@
     "detail": "no legend() call"
   },
   {
+    "rule": "baseline_zero_bar",
+    "status": "warn",
+    "detail": "no explicit baseline enforcement"
+  },
+  {
+    "rule": "contrast_text",
+    "status": "pass",
+    "ratio": 4.82,
+    "threshold_text": 4.5,
+    "threshold_graphics": 3.0
+  },
+  {
     "rule": "dual_axes",
     "status": "pass",
     "detail": "not detected"
@@ -27,17 +39,5 @@
     "rule": "seaborn_usage",
     "status": "info",
     "detail": "not used"
-  },
-  {
-    "rule": "baseline_zero_bar",
-    "status": "warn",
-    "detail": "no explicit baseline enforcement"
-  },
-  {
-    "rule": "contrast_text",
-    "status": "pass",
-    "ratio": 4.82,
-    "threshold_text": 4.5,
-    "threshold_graphics": 3.0
   }
 ]

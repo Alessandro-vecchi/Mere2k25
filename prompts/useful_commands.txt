@@ -1,14 +1,50 @@
-python src/linter.py runs/t08_stacked_bars/gemini25pro/baseline/s1
-python src/linter.py runs/t08_stacked_bars/gemini25pro/standards/s1
-python src/linter.py runs/t08_stacked_bars/gemini25pro/selfcheck/s1
+python src/linter.py runs/t04_heatmap_corr/gemini25pro/baseline/s1
+python src/linter.py runs/t04_heatmap_corr/gemini25pro/standards/s1
+python src/linter.py runs/t04_heatmap_corr/gemini25pro/selfcheck/s1
 
-python src/linter.py runs/t08_stacked_bars/gpt5thinking/baseline/s1
-python src/linter.py runs/t08_stacked_bars/gpt5thinking/standards/s1
-python src/linter.py runs/t08_stacked_bars/gpt5thinking/selfcheck/s1
+python src/linter.py runs/t04_heatmap_corr/gpt5thinking/baseline/s1
+python src/linter.py runs/t04_heatmap_corr/gpt5thinking/standards/s1
+python src/linter.py runs/t04_heatmap_corr/gpt5thinking/selfcheck/s1
 
-python src/linter.py runs/t08_stacked_bars/grok/baseline/s1
-python src/linter.py runs/t08_stacked_bars/grok/standards/s1
-python src/linter.py runs/t08_stacked_bars/grok/selfcheck/s1
+python src/linter.py runs/t04_heatmap_corr/grok/baseline/s1
+python src/linter.py runs/t04_heatmap_corr/grok/standards/s1
+python src/linter.py runs/t04_heatmap_corr/grok/selfcheck/s1
+
+python src/linter.py runs/t03_scatter_group/gemini25pro/baseline/s1
+python src/linter.py runs/t03_scatter_group/gemini25pro/standards/s1
+python src/linter.py runs/t03_scatter_group/gemini25pro/selfcheck/s1
+
+python src/linter.py runs/t03_scatter_group/gpt5thinking/baseline/s1
+python src/linter.py runs/t03_scatter_group/gpt5thinking/standards/s1
+python src/linter.py runs/t03_scatter_group/gpt5thinking/selfcheck/s1
+
+python src/linter.py runs/t03_scatter_group/grok/baseline/s1
+python src/linter.py runs/t03_scatter_group/grok/standards/s1
+python src/linter.py runs/t03_scatter_group/grok/selfcheck/s1
+
+python src/linter.py runs/t02_line_gaps/gemini25pro/baseline/s1
+python src/linter.py runs/t02_line_gaps/gemini25pro/standards/s1
+python src/linter.py runs/t02_line_gaps/gemini25pro/selfcheck/s1
+
+python src/linter.py runs/t02_line_gaps/gpt5thinking/baseline/s1
+python src/linter.py runs/t02_line_gaps/gpt5thinking/standards/s1
+python src/linter.py runs/t02_line_gaps/gpt5thinking/selfcheck/s1
+
+python src/linter.py runs/t02_line_gaps/grok/baseline/s1
+python src/linter.py runs/t02_line_gaps/grok/standards/s1
+python src/linter.py runs/t02_line_gaps/grok/selfcheck/s1
+
+python src/linter.py runs/t01_bars/gemini25pro/baseline/s1
+python src/linter.py runs/t01_bars/gemini25pro/standards/s1
+python src/linter.py runs/t01_bars/gemini25pro/selfcheck/s1
+
+python src/linter.py runs/t01_bars/gpt5thinking/baseline/s1
+python src/linter.py runs/t01_bars/gpt5thinking/standards/s1
+python src/linter.py runs/t01_bars/gpt5thinking/selfcheck/s1
+
+python src/linter.py runs/t01_bars/grok/baseline/s1
+python src/linter.py runs/t01_bars/grok/standards/s1
+python src/linter.py runs/t01_bars/grok/selfcheck/s1
 
 cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gemini25pro/baseline/s1/data.csv
 cp data/tasks/t08_stacked_bars/instances/A.csv runs/t08_stacked_bars/gemini25pro/standards/s1/data.csv

@@ -30,8 +30,8 @@
   },
   {
     "rule": "baseline_zero_bar",
-    "status": "warn",
-    "detail": "no explicit baseline enforcement"
+    "status": "pass",
+    "detail": "baseline at 0 hinted"
   },
   {
     "rule": "contrast_text",

@@ -1,7 +1,7 @@
 [
   {
     "rule": "chart_type",
-    "value": "unknown"
+    "value": "histogram"
   },
   {
     "rule": "labels_present",
@@ -27,6 +27,11 @@
     "rule": "seaborn_usage",
     "status": "info",
     "detail": "not used"
+  },
+  {
+    "rule": "baseline_zero_bar",
+    "status": "pass",
+    "detail": "baseline at 0 hinted"
   },
   {
     "rule": "contrast_text",

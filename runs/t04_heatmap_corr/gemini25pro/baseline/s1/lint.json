@@ -10,8 +10,18 @@
   },
   {
     "rule": "legend_call",
+    "status": "info",
+    "detail": "legend() not required for heatmap"
+  },
+  {
+    "rule": "colorbar_present",
+    "status": "pass",
+    "detail": "colorbar() detected"
+  },
+  {
+    "rule": "colorbar_label",
     "status": "warn",
-    "detail": "no legend() call"
+    "detail": "no explicit colorbar label"
   },
   {
     "rule": "dual_axes",

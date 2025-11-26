@@ -31,7 +31,7 @@
   {
     "rule": "baseline_zero_bar",
     "status": "pass",
-    "detail": "set_ylim for baseline detected"
+    "detail": "baseline at 0 hinted"
   },
   {
     "rule": "contrast_text",
